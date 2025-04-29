@@ -1,0 +1,594 @@
+2025-04-27 19:56:02.132097: E tensorflow/stream_executor/cuda/cuda_driver.cc:271] failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+Some layers from the model checkpoint at indobenchmark/indobert-lite-base-p1 were not used when initializing TFAlbertForSequenceClassification: ['sop_classifier']
+- This IS expected if you are initializing TFAlbertForSequenceClassification from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing TFAlbertForSequenceClassification from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Some layers of TFAlbertForSequenceClassification were not initialized from the model checkpoint at indobenchmark/indobert-lite-base-p1 and are newly initialized: ['classifier']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Some layers from the model checkpoint at indobenchmark/indobert-lite-base-p1 were not used when initializing TFAlbertForSequenceClassification: ['sop_classifier']
+- This IS expected if you are initializing TFAlbertForSequenceClassification from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing TFAlbertForSequenceClassification from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Some layers of TFAlbertForSequenceClassification were not initialized from the model checkpoint at indobenchmark/indobert-lite-base-p1 and are newly initialized: ['classifier']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Some layers from the model checkpoint at indobenchmark/indobert-lite-base-p1 were not used when initializing TFAlbertForSequenceClassification: ['sop_classifier']
+- This IS expected if you are initializing TFAlbertForSequenceClassification from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing TFAlbertForSequenceClassification from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Some layers of TFAlbertForSequenceClassification were not initialized from the model checkpoint at indobenchmark/indobert-lite-base-p1 and are newly initialized: ['classifier']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Some layers from the model checkpoint at indobenchmark/indobert-lite-base-p1 were not used when initializing TFAlbertForSequenceClassification: ['sop_classifier']
+- This IS expected if you are initializing TFAlbertForSequenceClassification from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing TFAlbertForSequenceClassification from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Some layers of TFAlbertForSequenceClassification were not initialized from the model checkpoint at indobenchmark/indobert-lite-base-p1 and are newly initialized: ['classifier']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Some layers from the model checkpoint at indobenchmark/indobert-lite-base-p1 were not used when initializing TFAlbertForSequenceClassification: ['sop_classifier']
+- This IS expected if you are initializing TFAlbertForSequenceClassification from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing TFAlbertForSequenceClassification from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Some layers of TFAlbertForSequenceClassification were not initialized from the model checkpoint at indobenchmark/indobert-lite-base-p1 and are newly initialized: ['classifier']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Some layers from the model checkpoint at indobenchmark/indobert-lite-base-p1 were not used when initializing TFAlbertForSequenceClassification: ['sop_classifier']
+- This IS expected if you are initializing TFAlbertForSequenceClassification from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing TFAlbertForSequenceClassification from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Some layers of TFAlbertForSequenceClassification were not initialized from the model checkpoint at indobenchmark/indobert-lite-base-p1 and are newly initialized: ['classifier']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Some layers from the model checkpoint at indobenchmark/indobert-lite-base-p1 were not used when initializing TFAlbertForSequenceClassification: ['sop_classifier']
+- This IS expected if you are initializing TFAlbertForSequenceClassification from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing TFAlbertForSequenceClassification from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Some layers of TFAlbertForSequenceClassification were not initialized from the model checkpoint at indobenchmark/indobert-lite-base-p1 and are newly initialized: ['classifier']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Some layers from the model checkpoint at indobenchmark/indobert-lite-base-p1 were not used when initializing TFAlbertForSequenceClassification: ['sop_classifier']
+- This IS expected if you are initializing TFAlbertForSequenceClassification from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing TFAlbertForSequenceClassification from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Some layers of TFAlbertForSequenceClassification were not initialized from the model checkpoint at indobenchmark/indobert-lite-base-p1 and are newly initialized: ['classifier']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Some layers from the model checkpoint at indobenchmark/indobert-lite-base-p1 were not used when initializing TFAlbertForSequenceClassification: ['sop_classifier']
+- This IS expected if you are initializing TFAlbertForSequenceClassification from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing TFAlbertForSequenceClassification from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Some layers of TFAlbertForSequenceClassification were not initialized from the model checkpoint at indobenchmark/indobert-lite-base-p1 and are newly initialized: ['classifier']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Some layers from the model checkpoint at indobenchmark/indobert-lite-base-p1 were not used when initializing TFAlbertForSequenceClassification: ['sop_classifier']
+- This IS expected if you are initializing TFAlbertForSequenceClassification from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing TFAlbertForSequenceClassification from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Some layers of TFAlbertForSequenceClassification were not initialized from the model checkpoint at indobenchmark/indobert-lite-base-p1 and are newly initialized: ['classifier']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Some layers from the model checkpoint at indobenchmark/indobert-lite-base-p1 were not used when initializing TFAlbertForSequenceClassification: ['sop_classifier']
+- This IS expected if you are initializing TFAlbertForSequenceClassification from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing TFAlbertForSequenceClassification from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Some layers of TFAlbertForSequenceClassification were not initialized from the model checkpoint at indobenchmark/indobert-lite-base-p1 and are newly initialized: ['classifier']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Some layers from the model checkpoint at indobenchmark/indobert-lite-base-p1 were not used when initializing TFAlbertForSequenceClassification: ['sop_classifier']
+- This IS expected if you are initializing TFAlbertForSequenceClassification from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing TFAlbertForSequenceClassification from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Some layers of TFAlbertForSequenceClassification were not initialized from the model checkpoint at indobenchmark/indobert-lite-base-p1 and are newly initialized: ['classifier']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Some layers from the model checkpoint at indobenchmark/indobert-lite-base-p1 were not used when initializing TFAlbertForSequenceClassification: ['sop_classifier']
+- This IS expected if you are initializing TFAlbertForSequenceClassification from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing TFAlbertForSequenceClassification from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Some layers of TFAlbertForSequenceClassification were not initialized from the model checkpoint at indobenchmark/indobert-lite-base-p1 and are newly initialized: ['classifier']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Some layers from the model checkpoint at indobenchmark/indobert-lite-base-p1 were not used when initializing TFAlbertForSequenceClassification: ['sop_classifier']
+- This IS expected if you are initializing TFAlbertForSequenceClassification from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing TFAlbertForSequenceClassification from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Some layers of TFAlbertForSequenceClassification were not initialized from the model checkpoint at indobenchmark/indobert-lite-base-p1 and are newly initialized: ['classifier']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Some layers from the model checkpoint at indobenchmark/indobert-lite-base-p1 were not used when initializing TFAlbertForSequenceClassification: ['sop_classifier']
+- This IS expected if you are initializing TFAlbertForSequenceClassification from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing TFAlbertForSequenceClassification from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Some layers of TFAlbertForSequenceClassification were not initialized from the model checkpoint at indobenchmark/indobert-lite-base-p1 and are newly initialized: ['classifier']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Some layers from the model checkpoint at indobenchmark/indobert-lite-base-p1 were not used when initializing TFAlbertForSequenceClassification: ['sop_classifier']
+- This IS expected if you are initializing TFAlbertForSequenceClassification from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing TFAlbertForSequenceClassification from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Some layers of TFAlbertForSequenceClassification were not initialized from the model checkpoint at indobenchmark/indobert-lite-base-p1 and are newly initialized: ['classifier']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Some layers from the model checkpoint at indobenchmark/indobert-lite-base-p1 were not used when initializing TFAlbertForSequenceClassification: ['sop_classifier']
+- This IS expected if you are initializing TFAlbertForSequenceClassification from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing TFAlbertForSequenceClassification from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Some layers of TFAlbertForSequenceClassification were not initialized from the model checkpoint at indobenchmark/indobert-lite-base-p1 and are newly initialized: ['classifier']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Some layers from the model checkpoint at indobenchmark/indobert-lite-base-p1 were not used when initializing TFAlbertForSequenceClassification: ['sop_classifier']
+- This IS expected if you are initializing TFAlbertForSequenceClassification from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing TFAlbertForSequenceClassification from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Some layers of TFAlbertForSequenceClassification were not initialized from the model checkpoint at indobenchmark/indobert-lite-base-p1 and are newly initialized: ['classifier']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Some layers from the model checkpoint at indobenchmark/indobert-lite-base-p1 were not used when initializing TFAlbertForSequenceClassification: ['sop_classifier']
+- This IS expected if you are initializing TFAlbertForSequenceClassification from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing TFAlbertForSequenceClassification from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Some layers of TFAlbertForSequenceClassification were not initialized from the model checkpoint at indobenchmark/indobert-lite-base-p1 and are newly initialized: ['classifier']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Some layers from the model checkpoint at indobenchmark/indobert-lite-base-p1 were not used when initializing TFAlbertForSequenceClassification: ['sop_classifier']
+- This IS expected if you are initializing TFAlbertForSequenceClassification from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing TFAlbertForSequenceClassification from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Some layers of TFAlbertForSequenceClassification were not initialized from the model checkpoint at indobenchmark/indobert-lite-base-p1 and are newly initialized: ['classifier']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+⚠️ GPU not found. Training will run on CPU.
+
+Running experiment with batch_size=16, learning_rate=5e-05, epochs=2
+
+Epoch 1/2
+Train Loss: 0.7362 | Val Loss: 0.7059 | Time: 464.50s
+Train Loss: 0.7194 | Val Loss: 0.7088 | Time: 922.36s
+Train Loss: 0.7176 | Val Loss: 0.6975 | Time: 1393.45s
+Train Loss: 0.7194 | Val Loss: 0.6943 | Time: 1875.73s
+Train Loss: 0.7133 | Val Loss: 0.6908 | Time: 2339.21s
+Train Loss: 0.7157 | Val Loss: 0.6849 | Time: 2817.87s
+Train Loss: 0.7105 | Val Loss: 0.6878 | Time: 3293.17s
+Train Loss: 0.7070 | Val Loss: 0.6832 | Time: 3741.50s
+Train Loss: 0.7045 | Val Loss: 0.6843 | Time: 4173.64s
+Train Loss: 0.7017 | Val Loss: 0.6861 | Time: 4575.61s
+Train Loss: 0.7007 | Val Loss: 0.6932 | Time: 4974.68s
+Early stopping...
+
+Epoch 2/2
+Train Loss: 0.7222 | Val Loss: 0.6933 | Time: 400.67s
+Early stopping...
+
+Running experiment with batch_size=16, learning_rate=5e-05, epochs=3
+
+Epoch 1/3
+Train Loss: 0.6770 | Val Loss: 0.7158 | Time: 401.32s
+Train Loss: 0.7188 | Val Loss: 0.7038 | Time: 770.93s
+Train Loss: 0.7377 | Val Loss: 0.6920 | Time: 1172.25s
+Train Loss: 0.7197 | Val Loss: 0.6941 | Time: 1543.50s
+Train Loss: 0.7176 | Val Loss: 0.6928 | Time: 1921.76s
+Train Loss: 0.7112 | Val Loss: 0.6922 | Time: 2309.09s
+Early stopping...
+
+Epoch 2/3
+Train Loss: 0.6724 | Val Loss: 0.6958 | Time: 457.48s
+Early stopping...
+
+Epoch 3/3
+Train Loss: 0.7208 | Val Loss: 0.6933 | Time: 474.63s
+Early stopping...
+
+Running experiment with batch_size=16, learning_rate=5e-05, epochs=4
+
+Epoch 1/4
+Train Loss: 0.6906 | Val Loss: 0.7041 | Time: 476.94s
+Train Loss: 0.7017 | Val Loss: 0.7066 | Time: 941.16s
+Train Loss: 0.6992 | Val Loss: 0.7003 | Time: 1478.39s
+Train Loss: 0.7008 | Val Loss: 0.6980 | Time: 1964.77s
+Train Loss: 0.6931 | Val Loss: 0.6988 | Time: 2445.06s
+Train Loss: 0.6932 | Val Loss: 0.6959 | Time: 2900.53s
+Train Loss: 0.7105 | Val Loss: 0.7000 | Time: 3377.61s
+Train Loss: 0.7128 | Val Loss: 0.6978 | Time: 3856.29s
+Train Loss: 0.7063 | Val Loss: 0.6986 | Time: 4323.82s
+Early stopping...
+
+Epoch 2/4
+Train Loss: 0.6679 | Val Loss: 0.6976 | Time: 478.07s
+Early stopping...
+
+Epoch 3/4
+Train Loss: 0.6792 | Val Loss: 0.6987 | Time: 476.79s
+Early stopping...
+
+Epoch 4/4
+Train Loss: 0.7454 | Val Loss: 0.6977 | Time: 467.49s
+Early stopping...
+
+Running experiment with batch_size=16, learning_rate=3e-05, epochs=2
+
+Epoch 1/2
+Train Loss: 0.6918 | Val Loss: 0.7022 | Time: 466.94s
+Train Loss: 0.7291 | Val Loss: 0.6972 | Time: 944.76s
+Train Loss: 0.7251 | Val Loss: 0.6930 | Time: 1413.86s
+Train Loss: 0.6929 | Val Loss: 0.6956 | Time: 1887.24s
+Train Loss: 0.6902 | Val Loss: 0.6971 | Time: 2351.35s
+Train Loss: 0.7057 | Val Loss: 0.6956 | Time: 2808.15s
+Early stopping...
+
+Epoch 2/2
+Train Loss: 0.7198 | Val Loss: 0.6958 | Time: 454.29s
+Early stopping...
+
+Running experiment with batch_size=16, learning_rate=3e-05, epochs=3
+
+Epoch 1/3
+Train Loss: 0.7078 | Val Loss: 0.7173 | Time: 453.89s
+Train Loss: 0.7165 | Val Loss: 0.7228 | Time: 923.86s
+Train Loss: 0.6943 | Val Loss: 0.7121 | Time: 1384.60s
+Train Loss: 0.6948 | Val Loss: 0.7125 | Time: 1839.60s
+Train Loss: 0.6958 | Val Loss: 0.7080 | Time: 2296.17s
+Train Loss: 0.6862 | Val Loss: 0.7040 | Time: 2767.25s
+Train Loss: 0.6893 | Val Loss: 0.7014 | Time: 3238.50s
+Train Loss: 0.6927 | Val Loss: 0.7002 | Time: 3713.65s
+Train Loss: 0.6914 | Val Loss: 0.6979 | Time: 4172.58s
+Train Loss: 0.6851 | Val Loss: 0.6983 | Time: 4632.63s
+Train Loss: 0.6872 | Val Loss: 0.6961 | Time: 5096.68s
+Train Loss: 0.6833 | Val Loss: 0.6957 | Time: 5564.26s
+Train Loss: 0.6840 | Val Loss: 0.6980 | Time: 6018.02s
+Train Loss: 0.6835 | Val Loss: 0.6990 | Time: 6481.33s
+Train Loss: 0.6862 | Val Loss: 0.6990 | Time: 6955.67s
+Early stopping...
+
+Epoch 2/3
+Train Loss: 0.6387 | Val Loss: 0.6979 | Time: 444.19s
+Early stopping...
+
+Epoch 3/3
+Train Loss: 0.7451 | Val Loss: 0.6975 | Time: 468.87s
+Early stopping...
+
+Running experiment with batch_size=16, learning_rate=3e-05, epochs=4
+
+Epoch 1/4
+Train Loss: 0.8094 | Val Loss: 0.7031 | Time: 475.84s
+Train Loss: 0.7719 | Val Loss: 0.6910 | Time: 950.50s
+Train Loss: 0.7429 | Val Loss: 0.6952 | Time: 1417.12s
+Train Loss: 0.7176 | Val Loss: 0.6960 | Time: 1873.20s
+Train Loss: 0.7291 | Val Loss: 0.6897 | Time: 2255.52s
+Train Loss: 0.7193 | Val Loss: 0.6841 | Time: 2620.92s
+Train Loss: 0.7163 | Val Loss: 0.6799 | Time: 2988.16s
+Train Loss: 0.7112 | Val Loss: 0.6762 | Time: 3354.72s
+Train Loss: 0.7051 | Val Loss: 0.6713 | Time: 3721.10s
+Train Loss: 0.6964 | Val Loss: 0.6703 | Time: 4114.14s
+Train Loss: 0.7009 | Val Loss: 0.6722 | Time: 4508.01s
+Train Loss: 0.6968 | Val Loss: 0.6682 | Time: 4873.50s
+Train Loss: 0.6951 | Val Loss: 0.6660 | Time: 5221.77s
+Train Loss: 0.6928 | Val Loss: 0.6630 | Time: 5568.37s
+Train Loss: 0.6923 | Val Loss: 0.6619 | Time: 5942.01s
+Train Loss: 0.6888 | Val Loss: 0.6638 | Time: 6340.29s
+Train Loss: 0.6859 | Val Loss: 0.6615 | Time: 6737.28s
+Train Loss: 0.6786 | Val Loss: 0.6616 | Time: 7111.14s
+Train Loss: 0.6789 | Val Loss: 0.6591 | Time: 7515.49s
+Train Loss: 0.6717 | Val Loss: 0.6583 | Time: 7911.91s
+Train Loss: 0.6684 | Val Loss: 0.6543 | Time: 8298.28s
+Train Loss: 0.6692 | Val Loss: 0.6569 | Time: 8667.57s
+Train Loss: 0.6695 | Val Loss: 0.6585 | Time: 9039.75s
+Train Loss: 0.6709 | Val Loss: 0.6622 | Time: 9435.02s
+Early stopping...
+
+Epoch 2/4
+Train Loss: 0.6392 | Val Loss: 0.6665 | Time: 371.35s
+Early stopping...
+
+Epoch 3/4
+Train Loss: 0.7011 | Val Loss: 0.6702 | Time: 374.91s
+Early stopping...
+
+Epoch 4/4
+Train Loss: 0.6622 | Val Loss: 0.6722 | Time: 370.46s
+Early stopping...
+
+Running experiment with batch_size=16, learning_rate=2e-05, epochs=2
+
+Epoch 1/2
+Train Loss: 0.7222 | Val Loss: 0.7069 | Time: 397.30s
+Train Loss: 0.7363 | Val Loss: 0.7072 | Time: 752.93s
+Train Loss: 0.7188 | Val Loss: 0.7085 | Time: 1146.85s
+Train Loss: 0.7017 | Val Loss: 0.7065 | Time: 1503.81s
+Train Loss: 0.7166 | Val Loss: 0.7054 | Time: 1835.96s
+Train Loss: 0.7114 | Val Loss: 0.7042 | Time: 2150.01s
+Train Loss: 0.7132 | Val Loss: 0.7035 | Time: 2456.58s
+Train Loss: 0.7229 | Val Loss: 0.7018 | Time: 2842.04s
+Train Loss: 0.7150 | Val Loss: 0.6994 | Time: 3311.26s
+Train Loss: 0.7193 | Val Loss: 0.6985 | Time: 3787.84s
+Train Loss: 0.7139 | Val Loss: 0.6993 | Time: 4240.12s
+Train Loss: 0.7087 | Val Loss: 0.7014 | Time: 4650.39s
+Train Loss: 0.7110 | Val Loss: 0.7015 | Time: 5042.20s
+Early stopping...
+
+Epoch 2/2
+Train Loss: 0.6623 | Val Loss: 0.7005 | Time: 391.23s
+Early stopping...
+
+Running experiment with batch_size=16, learning_rate=2e-05, epochs=3
+
+Epoch 1/3
+Train Loss: 0.6667 | Val Loss: 0.6910 | Time: 376.15s
+Train Loss: 0.6550 | Val Loss: 0.6845 | Time: 754.05s
+Train Loss: 0.6533 | Val Loss: 0.6879 | Time: 1132.94s
+Train Loss: 0.6894 | Val Loss: 0.6867 | Time: 1501.86s
+Train Loss: 0.6860 | Val Loss: 0.6875 | Time: 1869.19s
+Early stopping...
+
+Epoch 2/3
+Train Loss: 0.7175 | Val Loss: 0.6857 | Time: 366.26s
+Early stopping...
+
+Epoch 3/3
+Train Loss: 0.6658 | Val Loss: 0.6840 | Time: 374.34s
+Train Loss: 0.6558 | Val Loss: 0.6820 | Time: 834.45s
+Train Loss: 0.6332 | Val Loss: 0.6789 | Time: 1287.52s
+Train Loss: 0.6452 | Val Loss: 0.6774 | Time: 1736.88s
+Train Loss: 0.6466 | Val Loss: 0.6770 | Time: 2190.77s
+Train Loss: 0.6429 | Val Loss: 0.6775 | Time: 2659.68s
+Train Loss: 0.6436 | Val Loss: 0.6788 | Time: 3168.06s
+Train Loss: 0.6530 | Val Loss: 0.6798 | Time: 3640.52s
+Early stopping...
+
+Running experiment with batch_size=16, learning_rate=2e-05, epochs=4
+
+Epoch 1/4
+Train Loss: 0.7872 | Val Loss: 0.6966 | Time: 465.19s
+Train Loss: 0.7493 | Val Loss: 0.6935 | Time: 933.85s
+Train Loss: 0.7436 | Val Loss: 0.6939 | Time: 1397.12s
+Train Loss: 0.7281 | Val Loss: 0.6931 | Time: 1887.11s
+Train Loss: 0.7266 | Val Loss: 0.6932 | Time: 2358.53s
+Train Loss: 0.7271 | Val Loss: 0.6914 | Time: 2835.05s
+Train Loss: 0.7170 | Val Loss: 0.6897 | Time: 3306.59s
+Train Loss: 0.7169 | Val Loss: 0.6877 | Time: 3794.90s
+Train Loss: 0.7080 | Val Loss: 0.6854 | Time: 4287.63s
+Train Loss: 0.6985 | Val Loss: 0.6822 | Time: 4790.14s
+Train Loss: 0.6990 | Val Loss: 0.6796 | Time: 5269.29s
+Train Loss: 0.6946 | Val Loss: 0.6783 | Time: 5751.77s
+Train Loss: 0.6914 | Val Loss: 0.6777 | Time: 6212.10s
+Train Loss: 0.6843 | Val Loss: 0.6819 | Time: 6670.77s
+Train Loss: 0.6865 | Val Loss: 0.6810 | Time: 7196.42s
+Train Loss: 0.6808 | Val Loss: 0.6806 | Time: 7676.63s
+Early stopping...
+
+Epoch 2/4
+Train Loss: 0.6936 | Val Loss: 0.6803 | Time: 473.70s
+Early stopping...
+
+Epoch 3/4
+Train Loss: 0.6952 | Val Loss: 0.6799 | Time: 492.13s
+Early stopping...
+
+Epoch 4/4
+Train Loss: 0.6536 | Val Loss: 0.6782 | Time: 477.70s
+Early stopping...
+
+Running experiment with batch_size=32, learning_rate=5e-05, epochs=2
+
+Epoch 1/2
+Train Loss: 0.6285 | Val Loss: 0.7256 | Time: 618.66s
+Train Loss: 0.6612 | Val Loss: 0.7060 | Time: 1188.17s
+Train Loss: 0.6689 | Val Loss: 0.6921 | Time: 1778.08s
+Train Loss: 0.6768 | Val Loss: 0.6824 | Time: 2361.25s
+Train Loss: 0.6829 | Val Loss: 0.6782 | Time: 2945.16s
+Train Loss: 0.6841 | Val Loss: 0.6812 | Time: 3574.72s
+Train Loss: 0.6857 | Val Loss: 0.6969 | Time: 4115.59s
+Train Loss: 0.6905 | Val Loss: 0.6892 | Time: 4688.66s
+Early stopping...
+
+Epoch 2/2
+Train Loss: 0.7137 | Val Loss: 0.6961 | Time: 623.70s
+Early stopping...
+
+Running experiment with batch_size=32, learning_rate=5e-05, epochs=3
+
+Epoch 1/3
+Train Loss: 0.7249 | Val Loss: 0.6895 | Time: 548.58s
+Train Loss: 0.7120 | Val Loss: 0.6911 | Time: 1096.93s
+Train Loss: 0.6991 | Val Loss: 0.6869 | Time: 1663.42s
+Train Loss: 0.7038 | Val Loss: 0.6837 | Time: 2225.26s
+Train Loss: 0.7003 | Val Loss: 0.6844 | Time: 2848.60s
+Train Loss: 0.7028 | Val Loss: 0.6902 | Time: 3399.03s
+Train Loss: 0.7011 | Val Loss: 0.6891 | Time: 3947.66s
+Early stopping...
+
+Epoch 2/3
+Train Loss: 0.6873 | Val Loss: 0.6843 | Time: 528.60s
+Early stopping...
+
+Epoch 3/3
+Train Loss: 0.6605 | Val Loss: 0.6863 | Time: 551.19s
+Early stopping...
+
+Running experiment with batch_size=32, learning_rate=5e-05, epochs=4
+
+Epoch 1/4
+Train Loss: 0.7059 | Val Loss: 0.6916 | Time: 557.93s
+Train Loss: 0.7038 | Val Loss: 0.6895 | Time: 1147.47s
+Train Loss: 0.7074 | Val Loss: 0.6848 | Time: 1714.20s
+Train Loss: 0.7038 | Val Loss: 0.6798 | Time: 2285.22s
+Train Loss: 0.7014 | Val Loss: 0.6770 | Time: 2755.11s
+Train Loss: 0.7009 | Val Loss: 0.6763 | Time: 3218.18s
+Train Loss: 0.7021 | Val Loss: 0.6749 | Time: 3650.96s
+Train Loss: 0.6989 | Val Loss: 0.6769 | Time: 4103.18s
+Train Loss: 0.6984 | Val Loss: 0.6724 | Time: 4533.35s
+Train Loss: 0.6961 | Val Loss: 0.6672 | Time: 4968.09s
+Train Loss: 0.6928 | Val Loss: 0.6599 | Time: 5404.89s
+Train Loss: 0.6894 | Val Loss: 0.6546 | Time: 5870.78s
+Train Loss: 0.6867 | Val Loss: 0.6515 | Time: 6338.81s
+Train Loss: 0.6840 | Val Loss: 0.6547 | Time: 6782.34s
+Train Loss: 0.6825 | Val Loss: 0.6562 | Time: 7220.06s
+Train Loss: 0.6826 | Val Loss: 0.6579 | Time: 7687.67s
+Early stopping...
+
+Epoch 2/4
+Train Loss: 0.6407 | Val Loss: 0.6620 | Time: 434.87s
+Early stopping...
+
+Epoch 3/4
+Train Loss: 0.6945 | Val Loss: 0.6606 | Time: 444.36s
+Early stopping...
+
+Epoch 4/4
+Train Loss: 0.6395 | Val Loss: 0.6596 | Time: 454.04s
+Early stopping...
+
+Running experiment with batch_size=32, learning_rate=3e-05, epochs=2
+
+Epoch 1/2
+Train Loss: 0.7059 | Val Loss: 0.7016 | Time: 436.34s
+Train Loss: 0.7050 | Val Loss: 0.6990 | Time: 902.12s
+Train Loss: 0.7055 | Val Loss: 0.6876 | Time: 1342.88s
+Train Loss: 0.7009 | Val Loss: 0.6849 | Time: 1776.40s
+Train Loss: 0.6875 | Val Loss: 0.6888 | Time: 2224.96s
+Train Loss: 0.6878 | Val Loss: 0.6874 | Time: 2690.40s
+Train Loss: 0.6881 | Val Loss: 0.6879 | Time: 3163.42s
+Early stopping...
+
+Epoch 2/2
+Train Loss: 0.7124 | Val Loss: 0.6835 | Time: 314.45s
+Train Loss: 0.6898 | Val Loss: 0.6829 | Time: 614.05s
+Train Loss: 0.6833 | Val Loss: 0.6818 | Time: 975.33s
+Train Loss: 0.6721 | Val Loss: 0.6838 | Time: 1391.90s
+Train Loss: 0.6760 | Val Loss: 0.6844 | Time: 1851.52s
+Train Loss: 0.6752 | Val Loss: 0.6816 | Time: 2326.29s
+Train Loss: 0.6728 | Val Loss: 0.6765 | Time: 2792.68s
+Train Loss: 0.6731 | Val Loss: 0.6698 | Time: 3261.04s
+Train Loss: 0.6747 | Val Loss: 0.6738 | Time: 3738.70s
+Train Loss: 0.6747 | Val Loss: 0.6798 | Time: 4229.45s
+Train Loss: 0.6732 | Val Loss: 0.6801 | Time: 4784.50s
+Early stopping...
+
+Running experiment with batch_size=32, learning_rate=3e-05, epochs=3
+
+Epoch 1/3
+Train Loss: 0.7055 | Val Loss: 0.6954 | Time: 560.84s
+Train Loss: 0.6944 | Val Loss: 0.6938 | Time: 1104.26s
+Train Loss: 0.6941 | Val Loss: 0.6881 | Time: 1639.98s
+Train Loss: 0.6850 | Val Loss: 0.6888 | Time: 2171.72s
+Train Loss: 0.6854 | Val Loss: 0.6935 | Time: 2699.34s
+Train Loss: 0.6918 | Val Loss: 0.6965 | Time: 3245.44s
+Early stopping...
+
+Epoch 2/3
+Train Loss: 0.7365 | Val Loss: 0.6952 | Time: 549.53s
+Early stopping...
+
+Epoch 3/3
+Train Loss: 0.6940 | Val Loss: 0.6926 | Time: 532.42s
+Early stopping...
+
+Running experiment with batch_size=32, learning_rate=3e-05, epochs=4
+
+Epoch 1/4
+Train Loss: 0.7305 | Val Loss: 0.7315 | Time: 561.64s
+Train Loss: 0.7140 | Val Loss: 0.7110 | Time: 1122.03s
+Train Loss: 0.7377 | Val Loss: 0.7078 | Time: 1673.64s
+Train Loss: 0.7304 | Val Loss: 0.6961 | Time: 2210.91s
+Train Loss: 0.7198 | Val Loss: 0.6869 | Time: 2785.23s
+Train Loss: 0.7136 | Val Loss: 0.6820 | Time: 3344.30s
+Train Loss: 0.7093 | Val Loss: 0.6782 | Time: 3914.06s
+Train Loss: 0.7050 | Val Loss: 0.6748 | Time: 4453.42s
+Train Loss: 0.7041 | Val Loss: 0.6759 | Time: 5016.37s
+Train Loss: 0.7003 | Val Loss: 0.6757 | Time: 5651.69s
+Train Loss: 0.6956 | Val Loss: 0.6774 | Time: 6222.48s
+Early stopping...
+
+Epoch 2/4
+Train Loss: 0.6234 | Val Loss: 0.6822 | Time: 593.09s
+Early stopping...
+
+Epoch 3/4
+Train Loss: 0.6986 | Val Loss: 0.6847 | Time: 569.75s
+Early stopping...
+
+Epoch 4/4
+Train Loss: 0.6502 | Val Loss: 0.6884 | Time: 577.76s
+Early stopping...
+
+Running experiment with batch_size=32, learning_rate=2e-05, epochs=2
+
+Epoch 1/2
+Train Loss: 0.6555 | Val Loss: 0.6867 | Time: 565.68s
+Train Loss: 0.6865 | Val Loss: 0.6870 | Time: 1142.93s
+Train Loss: 0.6694 | Val Loss: 0.6864 | Time: 1707.40s
+Train Loss: 0.6807 | Val Loss: 0.6884 | Time: 2260.17s
+Train Loss: 0.6843 | Val Loss: 0.6894 | Time: 2828.78s
+Train Loss: 0.6872 | Val Loss: 0.6885 | Time: 3385.82s
+Early stopping...
+
+Epoch 2/2
+Train Loss: 0.6371 | Val Loss: 0.6882 | Time: 584.05s
+Early stopping...
+
+Running experiment with batch_size=32, learning_rate=2e-05, epochs=3
+
+Epoch 1/3
+Train Loss: 0.7181 | Val Loss: 0.6959 | Time: 576.30s
+Train Loss: 0.7028 | Val Loss: 0.6956 | Time: 1124.49s
+Train Loss: 0.6954 | Val Loss: 0.6984 | Time: 1698.44s
+Train Loss: 0.6989 | Val Loss: 0.6985 | Time: 2267.55s
+Train Loss: 0.6959 | Val Loss: 0.6962 | Time: 2833.10s
+Early stopping...
+
+Epoch 2/3
+Train Loss: 0.6718 | Val Loss: 0.6967 | Time: 544.17s
+Early stopping...
+
+Epoch 3/3
+Train Loss: 0.6757 | Val Loss: 0.6908 | Time: 557.31s
+Train Loss: 0.6610 | Val Loss: 0.6882 | Time: 1108.11s
+Train Loss: 0.6567 | Val Loss: 0.6847 | Time: 1671.00s
+Train Loss: 0.6654 | Val Loss: 0.6807 | Time: 2233.60s
+Train Loss: 0.6643 | Val Loss: 0.6790 | Time: 2790.23s
+Train Loss: 0.6605 | Val Loss: 0.6769 | Time: 3337.79s
+Train Loss: 0.6623 | Val Loss: 0.6756 | Time: 3862.62s
+Train Loss: 0.6664 | Val Loss: 0.6753 | Time: 4419.72s
+Train Loss: 0.6626 | Val Loss: 0.6769 | Time: 4978.21s
+Train Loss: 0.6633 | Val Loss: 0.6786 | Time: 5598.48s
+Train Loss: 0.6649 | Val Loss: 0.6787 | Time: 6168.60s
+Early stopping...
+
+Running experiment with batch_size=32, learning_rate=2e-05, epochs=4
+
+Epoch 1/4
+Train Loss: 0.6993 | Val Loss: 0.7009 | Time: 548.81s
+Train Loss: 0.6965 | Val Loss: 0.6968 | Time: 1101.10s
+Train Loss: 0.7130 | Val Loss: 0.6897 | Time: 1672.60s
+Train Loss: 0.7005 | Val Loss: 0.6867 | Time: 2238.82s
+Train Loss: 0.6988 | Val Loss: 0.6870 | Time: 2788.72s
+Train Loss: 0.6963 | Val Loss: 0.6869 | Time: 3424.57s
+Train Loss: 0.6966 | Val Loss: 0.6854 | Time: 3963.39s
+Train Loss: 0.6930 | Val Loss: 0.6814 | Time: 4527.59s
+Train Loss: 0.6891 | Val Loss: 0.6788 | Time: 4990.34s
+Train Loss: 0.6852 | Val Loss: 0.6773 | Time: 5435.52s
+Train Loss: 0.6820 | Val Loss: 0.6747 | Time: 5874.05s
+Train Loss: 0.6763 | Val Loss: 0.6734 | Time: 6315.91s
+Train Loss: 0.6826 | Val Loss: 0.6702 | Time: 6758.44s
+Train Loss: 0.6769 | Val Loss: 0.6689 | Time: 7208.95s
+Train Loss: 0.6754 | Val Loss: 0.6676 | Time: 7689.25s
+Train Loss: 0.6766 | Val Loss: 0.6694 | Time: 8161.12s
+Train Loss: 0.6746 | Val Loss: 0.6689 | Time: 8635.29s
+Train Loss: 0.6753 | Val Loss: 0.6677 | Time: 9089.69s
+Early stopping...
+
+Epoch 2/4
+Train Loss: 0.6309 | Val Loss: 0.6661 | Time: 471.72s
+Train Loss: 0.6150 | Val Loss: 0.6642 | Time: 923.54s
+Train Loss: 0.6344 | Val Loss: 0.6606 | Time: 1382.60s
+Train Loss: 0.6242 | Val Loss: 0.6567 | Time: 1846.74s
+Train Loss: 0.6296 | Val Loss: 0.6540 | Time: 2320.15s
+Train Loss: 0.6321 | Val Loss: 0.6518 | Time: 2775.20s
+Train Loss: 0.6339 | Val Loss: 0.6500 | Time: 3246.89s
+Train Loss: 0.6315 | Val Loss: 0.6470 | Time: 3687.64s
+Train Loss: 0.6300 | Val Loss: 0.6429 | Time: 4061.39s
+Train Loss: 0.6295 | Val Loss: 0.6408 | Time: 4436.48s
+Train Loss: 0.6250 | Val Loss: 0.6416 | Time: 4786.23s
+Train Loss: 0.6285 | Val Loss: 0.6400 | Time: 5160.07s
+Train Loss: 0.6276 | Val Loss: 0.6376 | Time: 5517.54s
+Train Loss: 0.6268 | Val Loss: 0.6364 | Time: 5877.42s
+Train Loss: 0.6231 | Val Loss: 0.6351 | Time: 6231.32s
+Train Loss: 0.6211 | Val Loss: 0.6326 | Time: 6605.70s
+Train Loss: 0.6177 | Val Loss: 0.6305 | Time: 7035.28s
+Train Loss: 0.6191 | Val Loss: 0.6282 | Time: 7507.44s
+Train Loss: 0.6168 | Val Loss: 0.6266 | Time: 8000.31s
+Train Loss: 0.6153 | Val Loss: 0.6273 | Time: 8541.03s
+Train Loss: 0.6158 | Val Loss: 0.6281 | Time: 9094.15s
+Train Loss: 0.6159 | Val Loss: 0.6285 | Time: 9641.73s
+Early stopping...
+
+Epoch 3/4
+Train Loss: 0.6028 | Val Loss: 0.6274 | Time: 538.85s
+Early stopping...
+
+Epoch 4/4
+Train Loss: 0.5625 | Val Loss: 0.6266 | Time: 553.30s
+Early stopping...
+
+Best Params: batch=32, lr=2e-05, epochs=4
+
+Epoch 1/4
+Train Loss: 0.6673 | Val Loss: 0.6615
+
+Epoch 2/4
+Train Loss: 0.6052 | Val Loss: 0.6150
+
+Epoch 3/4
+Train Loss: 0.5485 | Val Loss: 0.6055
+
+Epoch 4/4
+Train Loss: 0.4685 | Val Loss: 0.5998
+
+Final Evaluation
+Accuracy: 0.6986 | Precision: 0.6972 | Recall: 0.6972
+F1 Score: 0.6972
+Confusion Matrix:
+[[77 33]
+ [33 76]]

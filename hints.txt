@@ -1,0 +1,23 @@
+ECHO is on.
+# Create env
+"C:\Users\walkervalentinus\AppData\Local\Programs\Python\Python38\python.exe" -m venv env
+
+# Activate env
+env\Scripts\activate.bat
+
+# Deactivate env
+deactivate
+
+# TF and Transformers issue
+pip uninstall keras tensorflow
+pip install tensorflow-cpu==2.16.1
+pip install tf-keras==2.16.0 --no-dependencies
+
+# run
+nohup python IB-WE-OLID.py > result-ib-we-olid.txt &
+nohup python IB-WE-TwEv.py > result-ib-we-twev.txt &
+nohup python IB-WE-Sushil.py > result-ib-we-sushil.txt &
+
+nohup python IB-ED-OLID.py > result-ib-ed-olid.txt &
+nohup python IB-ED-TwEv.py > result-ib-ed-twev.txt &
+nohup python IB-ED-Sushil.py > result-ib-ed-sushil.txt &
