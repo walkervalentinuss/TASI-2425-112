@@ -21,3 +21,12 @@ nohup python IB-WE-Sushil.py > result-ib-we-sushil.txt &
 nohup python IB-ED-OLID.py > result-ib-ed-olid.txt &
 nohup python IB-ED-TwEv.py > result-ib-ed-twev.txt &
 nohup python IB-ED-Sushil.py > result-ib-ed-sushil.txt &
+
+# run
+nohup python MB-WE-OLID.py > result-mb-we-olid_mbert.txt &
+nohup python MB-WE-TwEv.py > result-mb-we-twev_mbert.txt &
+nohup python MB-WE-Sushil.py > result-mb-we-sushil_mbert.txt &
+
+nohup python MB-ED-OLID.py > result-mb-ed-olid_mbert.txt &
+nohup python MB-ED-TwEv.py > result-mb-ed-twev_mbert.txt &
+nohup python MB-ED-Sushil.py > result-mb-ed-sushil_mbert.txt &
