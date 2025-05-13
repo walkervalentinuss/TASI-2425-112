@@ -1,0 +1,13 @@
+Dataset,Model,Accuracy,Precision,Recall,F1-Score
+OLID,IB-WE,0.69,0.75,0.57,0.65
+OLID,IB-ED,0.59,0.63,0.41,0.5
+OLID,MB-WE,0.77,0.94,0.58,0.71
+OLID,MB-ED,0.79,0.94,0.61,0.74
+TweetEval,IB-WE,0.58,0.57,0.7,0.63
+TweetEval,IB-ED,0.55,0.53,0.82,0.65
+TweetEval,MB-WE,0.57,0.69,0.26,0.38
+TweetEval,MB-ED,0.58,0.87,0.2,0.33
+Sushil,IB-WE,0.68,0.76,0.54,0.63
+Sushil,IB-ED,0.69,0.77,0.5,0.6
+Sushil,MB-WE,0.82,0.87,0.76,0.81
+Sushil,MB-ED,0.83,0.86,0.78,0.82
