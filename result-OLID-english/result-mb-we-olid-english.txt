@@ -1,0 +1,608 @@
+2025-05-08 13:21:00.361128: E tensorflow/stream_executor/cuda/cuda_driver.cc:271] failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+All PyTorch model weights were used when initializing TFBertForSequenceClassification.
+
+Some weights or buffers of the TF 2.0 model TFBertForSequenceClassification were not initialized from the PyTorch model and are newly initialized: ['classifier.weight', 'classifier.bias']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+All PyTorch model weights were used when initializing TFBertForSequenceClassification.
+
+Some weights or buffers of the TF 2.0 model TFBertForSequenceClassification were not initialized from the PyTorch model and are newly initialized: ['classifier.weight', 'classifier.bias']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+All PyTorch model weights were used when initializing TFBertForSequenceClassification.
+
+Some weights or buffers of the TF 2.0 model TFBertForSequenceClassification were not initialized from the PyTorch model and are newly initialized: ['classifier.weight', 'classifier.bias']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+All PyTorch model weights were used when initializing TFBertForSequenceClassification.
+
+Some weights or buffers of the TF 2.0 model TFBertForSequenceClassification were not initialized from the PyTorch model and are newly initialized: ['classifier.weight', 'classifier.bias']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+All PyTorch model weights were used when initializing TFBertForSequenceClassification.
+
+Some weights or buffers of the TF 2.0 model TFBertForSequenceClassification were not initialized from the PyTorch model and are newly initialized: ['classifier.weight', 'classifier.bias']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+All PyTorch model weights were used when initializing TFBertForSequenceClassification.
+
+Some weights or buffers of the TF 2.0 model TFBertForSequenceClassification were not initialized from the PyTorch model and are newly initialized: ['classifier.weight', 'classifier.bias']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+All PyTorch model weights were used when initializing TFBertForSequenceClassification.
+
+Some weights or buffers of the TF 2.0 model TFBertForSequenceClassification were not initialized from the PyTorch model and are newly initialized: ['classifier.weight', 'classifier.bias']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+All PyTorch model weights were used when initializing TFBertForSequenceClassification.
+
+Some weights or buffers of the TF 2.0 model TFBertForSequenceClassification were not initialized from the PyTorch model and are newly initialized: ['classifier.weight', 'classifier.bias']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+All PyTorch model weights were used when initializing TFBertForSequenceClassification.
+
+Some weights or buffers of the TF 2.0 model TFBertForSequenceClassification were not initialized from the PyTorch model and are newly initialized: ['classifier.weight', 'classifier.bias']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+All PyTorch model weights were used when initializing TFBertForSequenceClassification.
+
+Some weights or buffers of the TF 2.0 model TFBertForSequenceClassification were not initialized from the PyTorch model and are newly initialized: ['classifier.weight', 'classifier.bias']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+All PyTorch model weights were used when initializing TFBertForSequenceClassification.
+
+Some weights or buffers of the TF 2.0 model TFBertForSequenceClassification were not initialized from the PyTorch model and are newly initialized: ['classifier.weight', 'classifier.bias']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+All PyTorch model weights were used when initializing TFBertForSequenceClassification.
+
+Some weights or buffers of the TF 2.0 model TFBertForSequenceClassification were not initialized from the PyTorch model and are newly initialized: ['classifier.weight', 'classifier.bias']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+⚠️ GPU not found. Training will run on CPU.
+
+Running experiment with batch_size=16, learning_rate=5e-05, epochs=2
+
+Epoch 1/2
+Train Loss: 0.6648 | Val Loss: 0.7031 | Time: 17.89s
+Train Loss: 0.6944 | Val Loss: 0.7011 | Time: 36.13s
+Train Loss: 0.6933 | Val Loss: 0.6959 | Time: 53.94s
+Train Loss: 0.7037 | Val Loss: 0.6959 | Time: 71.53s
+Train Loss: 0.7049 | Val Loss: 0.6964 | Time: 89.66s
+Train Loss: 0.7085 | Val Loss: 0.6956 | Time: 107.25s
+Train Loss: 0.7035 | Val Loss: 0.6943 | Time: 124.55s
+Train Loss: 0.7063 | Val Loss: 0.6899 | Time: 142.51s
+Train Loss: 0.7057 | Val Loss: 0.6930 | Time: 160.94s
+Train Loss: 0.7047 | Val Loss: 0.7014 | Time: 179.28s
+Train Loss: 0.7102 | Val Loss: 0.7031 | Time: 196.57s
+Early stopping...
+
+Epoch 2/2
+Train Loss: 0.7251 | Val Loss: 0.7008 | Time: 16.88s
+Early stopping...
+
+Running experiment with batch_size=16, learning_rate=5e-05, epochs=3
+
+Epoch 1/3
+Train Loss: 0.7053 | Val Loss: 0.7070 | Time: 18.44s
+Train Loss: 0.7104 | Val Loss: 0.7101 | Time: 37.53s
+Train Loss: 0.7144 | Val Loss: 0.7091 | Time: 57.00s
+Train Loss: 0.7186 | Val Loss: 0.7001 | Time: 76.92s
+Train Loss: 0.7110 | Val Loss: 0.6967 | Time: 96.51s
+Train Loss: 0.7066 | Val Loss: 0.6910 | Time: 115.42s
+Train Loss: 0.7009 | Val Loss: 0.7031 | Time: 134.98s
+Train Loss: 0.6975 | Val Loss: 0.7211 | Time: 154.19s
+Train Loss: 0.6887 | Val Loss: 0.7461 | Time: 173.59s
+Early stopping...
+
+Epoch 2/3
+Train Loss: 0.8302 | Val Loss: 0.7550 | Time: 18.51s
+Early stopping...
+
+Epoch 3/3
+Train Loss: 0.8878 | Val Loss: 0.7353 | Time: 18.96s
+Early stopping...
+
+Running experiment with batch_size=16, learning_rate=5e-05, epochs=4
+
+Epoch 1/4
+Train Loss: 0.7071 | Val Loss: 0.7004 | Time: 18.29s
+Train Loss: 0.7148 | Val Loss: 0.7044 | Time: 37.02s
+Train Loss: 0.7083 | Val Loss: 0.7013 | Time: 56.12s
+Train Loss: 0.7001 | Val Loss: 0.7014 | Time: 75.87s
+Early stopping...
+
+Epoch 2/4
+Train Loss: 0.6955 | Val Loss: 0.7009 | Time: 19.09s
+Early stopping...
+
+Epoch 3/4
+Train Loss: 0.7277 | Val Loss: 0.6939 | Time: 18.07s
+Train Loss: 0.6987 | Val Loss: 0.6882 | Time: 37.00s
+Train Loss: 0.7127 | Val Loss: 0.6798 | Time: 56.26s
+Train Loss: 0.7080 | Val Loss: 0.6783 | Time: 75.46s
+Train Loss: 0.7014 | Val Loss: 0.6824 | Time: 94.53s
+Train Loss: 0.6935 | Val Loss: 0.6813 | Time: 113.97s
+Train Loss: 0.6908 | Val Loss: 0.6753 | Time: 134.22s
+Train Loss: 0.6908 | Val Loss: 0.6674 | Time: 153.99s
+Train Loss: 0.6838 | Val Loss: 0.6641 | Time: 173.16s
+Train Loss: 0.6802 | Val Loss: 0.6665 | Time: 191.36s
+Train Loss: 0.6817 | Val Loss: 0.6711 | Time: 210.51s
+Train Loss: 0.6846 | Val Loss: 0.6647 | Time: 229.91s
+Early stopping...
+
+Epoch 4/4
+Train Loss: 0.6450 | Val Loss: 0.6556 | Time: 18.83s
+Train Loss: 0.6528 | Val Loss: 0.6487 | Time: 37.30s
+Train Loss: 0.6743 | Val Loss: 0.6488 | Time: 56.50s
+Train Loss: 0.6754 | Val Loss: 0.6679 | Time: 74.81s
+Train Loss: 0.6667 | Val Loss: 0.7098 | Time: 94.28s
+Early stopping...
+
+Running experiment with batch_size=16, learning_rate=3e-05, epochs=2
+
+Epoch 1/2
+Train Loss: 0.7285 | Val Loss: 0.6954 | Time: 17.97s
+Train Loss: 0.7078 | Val Loss: 0.7017 | Time: 37.17s
+Train Loss: 0.7051 | Val Loss: 0.7040 | Time: 56.70s
+Train Loss: 0.7093 | Val Loss: 0.7043 | Time: 76.12s
+Early stopping...
+
+Epoch 2/2
+Train Loss: 0.7223 | Val Loss: 0.7008 | Time: 18.43s
+Early stopping...
+
+Running experiment with batch_size=16, learning_rate=3e-05, epochs=3
+
+Epoch 1/3
+Train Loss: 0.6791 | Val Loss: 0.6998 | Time: 18.43s
+Train Loss: 0.6744 | Val Loss: 0.7007 | Time: 38.29s
+Train Loss: 0.6870 | Val Loss: 0.7024 | Time: 57.40s
+Train Loss: 0.6993 | Val Loss: 0.6985 | Time: 76.65s
+Train Loss: 0.6964 | Val Loss: 0.6952 | Time: 95.43s
+Train Loss: 0.6902 | Val Loss: 0.6939 | Time: 114.76s
+Train Loss: 0.6867 | Val Loss: 0.6953 | Time: 133.95s
+Train Loss: 0.6884 | Val Loss: 0.6975 | Time: 151.97s
+Train Loss: 0.6899 | Val Loss: 0.6970 | Time: 171.13s
+Early stopping...
+
+Epoch 2/3
+Train Loss: 0.7008 | Val Loss: 0.6954 | Time: 19.37s
+Early stopping...
+
+Epoch 3/3
+Train Loss: 0.6981 | Val Loss: 0.6916 | Time: 19.12s
+Train Loss: 0.7004 | Val Loss: 0.6858 | Time: 37.42s
+Train Loss: 0.6991 | Val Loss: 0.6816 | Time: 55.63s
+Train Loss: 0.7010 | Val Loss: 0.6787 | Time: 74.15s
+Train Loss: 0.7010 | Val Loss: 0.6778 | Time: 93.78s
+Train Loss: 0.7039 | Val Loss: 0.6764 | Time: 112.19s
+Train Loss: 0.6998 | Val Loss: 0.6757 | Time: 131.11s
+Train Loss: 0.6974 | Val Loss: 0.6758 | Time: 149.84s
+Train Loss: 0.6921 | Val Loss: 0.6764 | Time: 169.51s
+Train Loss: 0.6915 | Val Loss: 0.6780 | Time: 188.01s
+Early stopping...
+
+Running experiment with batch_size=16, learning_rate=3e-05, epochs=4
+
+Epoch 1/4
+Train Loss: 0.6905 | Val Loss: 0.6925 | Time: 17.52s
+Train Loss: 0.6866 | Val Loss: 0.6912 | Time: 36.83s
+Train Loss: 0.6881 | Val Loss: 0.6930 | Time: 56.14s
+Train Loss: 0.6823 | Val Loss: 0.6957 | Time: 74.36s
+Train Loss: 0.6910 | Val Loss: 0.6939 | Time: 92.56s
+Early stopping...
+
+Epoch 2/4
+Train Loss: 0.7108 | Val Loss: 0.6931 | Time: 18.11s
+Early stopping...
+
+Epoch 3/4
+Train Loss: 0.6809 | Val Loss: 0.6938 | Time: 19.50s
+Early stopping...
+
+Epoch 4/4
+Train Loss: 0.6742 | Val Loss: 0.6973 | Time: 18.71s
+Early stopping...
+
+Running experiment with batch_size=16, learning_rate=2e-05, epochs=2
+
+Epoch 1/2
+Train Loss: 0.6788 | Val Loss: 0.6989 | Time: 18.03s
+Train Loss: 0.7000 | Val Loss: 0.7013 | Time: 37.41s
+Train Loss: 0.6978 | Val Loss: 0.7036 | Time: 56.40s
+Train Loss: 0.6966 | Val Loss: 0.7033 | Time: 74.76s
+Early stopping...
+
+Epoch 2/2
+Train Loss: 0.7031 | Val Loss: 0.7033 | Time: 18.77s
+Early stopping...
+
+Running experiment with batch_size=16, learning_rate=2e-05, epochs=3
+
+Epoch 1/3
+Train Loss: 0.7274 | Val Loss: 0.7018 | Time: 17.83s
+Train Loss: 0.7067 | Val Loss: 0.7050 | Time: 36.54s
+Train Loss: 0.6942 | Val Loss: 0.7128 | Time: 55.77s
+Train Loss: 0.6959 | Val Loss: 0.7165 | Time: 74.74s
+Early stopping...
+
+Epoch 2/3
+Train Loss: 0.7299 | Val Loss: 0.7166 | Time: 17.72s
+Early stopping...
+
+Epoch 3/3
+Train Loss: 0.7534 | Val Loss: 0.7121 | Time: 19.12s
+Early stopping...
+
+Running experiment with batch_size=16, learning_rate=2e-05, epochs=4
+
+Epoch 1/4
+Train Loss: 0.7231 | Val Loss: 0.6938 | Time: 17.93s
+Train Loss: 0.6924 | Val Loss: 0.6932 | Time: 36.88s
+Train Loss: 0.6976 | Val Loss: 0.6923 | Time: 55.73s
+Train Loss: 0.6974 | Val Loss: 0.6921 | Time: 73.92s
+Train Loss: 0.6974 | Val Loss: 0.6905 | Time: 93.39s
+Train Loss: 0.6921 | Val Loss: 0.6894 | Time: 112.47s
+Train Loss: 0.6924 | Val Loss: 0.6884 | Time: 130.75s
+Train Loss: 0.6921 | Val Loss: 0.6880 | Time: 148.79s
+Train Loss: 0.6861 | Val Loss: 0.6892 | Time: 166.97s
+Train Loss: 0.6876 | Val Loss: 0.6912 | Time: 185.89s
+Train Loss: 0.6888 | Val Loss: 0.6925 | Time: 203.93s
+Early stopping...
+
+Epoch 2/4
+Train Loss: 0.7339 | Val Loss: 0.6929 | Time: 18.89s
+Early stopping...
+
+Epoch 3/4
+Train Loss: 0.6983 | Val Loss: 0.6931 | Time: 19.16s
+Early stopping...
+
+Epoch 4/4
+Train Loss: 0.7268 | Val Loss: 0.6908 | Time: 18.23s
+Early stopping...
+
+Running experiment with batch_size=32, learning_rate=5e-05, epochs=2
+
+Epoch 1/2
+Train Loss: 0.7082 | Val Loss: 0.6934 | Time: 19.48s
+Train Loss: 0.6945 | Val Loss: 0.6932 | Time: 37.97s
+Train Loss: 0.6866 | Val Loss: 0.6918 | Time: 55.33s
+Train Loss: 0.6755 | Val Loss: 0.6981 | Time: 73.17s
+Train Loss: 0.6733 | Val Loss: 0.6985 | Time: 90.21s
+Train Loss: 0.6816 | Val Loss: 0.6780 | Time: 107.75s
+Train Loss: 0.6849 | Val Loss: 0.6561 | Time: 125.67s
+Train Loss: 0.6901 | Val Loss: 0.6698 | Time: 143.67s
+Train Loss: 0.6862 | Val Loss: 0.7100 | Time: 161.83s
+Train Loss: 0.6872 | Val Loss: 0.7345 | Time: 179.63s
+Early stopping...
+
+Epoch 2/2
+Train Loss: 0.7210 | Val Loss: 0.7403 | Time: 17.49s
+Early stopping...
+
+Running experiment with batch_size=32, learning_rate=5e-05, epochs=3
+
+Epoch 1/3
+Train Loss: 0.7036 | Val Loss: 0.6924 | Time: 17.69s
+Train Loss: 0.7066 | Val Loss: 0.6877 | Time: 35.52s
+Train Loss: 0.7005 | Val Loss: 0.6865 | Time: 52.88s
+Train Loss: 0.7016 | Val Loss: 0.6860 | Time: 69.57s
+Train Loss: 0.7005 | Val Loss: 0.6884 | Time: 86.33s
+Train Loss: 0.6931 | Val Loss: 0.6954 | Time: 103.37s
+Train Loss: 0.6902 | Val Loss: 0.7026 | Time: 120.62s
+Early stopping...
+
+Epoch 2/3
+Train Loss: 0.7111 | Val Loss: 0.6947 | Time: 17.27sAll PyTorch model weights were used when initializing TFBertForSequenceClassification.
+
+Some weights or buffers of the TF 2.0 model TFBertForSequenceClassification were not initialized from the PyTorch model and are newly initialized: ['classifier.weight', 'classifier.bias']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+All PyTorch model weights were used when initializing TFBertForSequenceClassification.
+
+Some weights or buffers of the TF 2.0 model TFBertForSequenceClassification were not initialized from the PyTorch model and are newly initialized: ['classifier.weight', 'classifier.bias']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+All PyTorch model weights were used when initializing TFBertForSequenceClassification.
+
+Some weights or buffers of the TF 2.0 model TFBertForSequenceClassification were not initialized from the PyTorch model and are newly initialized: ['classifier.weight', 'classifier.bias']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+All PyTorch model weights were used when initializing TFBertForSequenceClassification.
+
+Some weights or buffers of the TF 2.0 model TFBertForSequenceClassification were not initialized from the PyTorch model and are newly initialized: ['classifier.weight', 'classifier.bias']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+All PyTorch model weights were used when initializing TFBertForSequenceClassification.
+
+Some weights or buffers of the TF 2.0 model TFBertForSequenceClassification were not initialized from the PyTorch model and are newly initialized: ['classifier.weight', 'classifier.bias']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+All PyTorch model weights were used when initializing TFBertForSequenceClassification.
+
+Some weights or buffers of the TF 2.0 model TFBertForSequenceClassification were not initialized from the PyTorch model and are newly initialized: ['classifier.weight', 'classifier.bias']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+
+Early stopping...
+
+Epoch 3/3
+Train Loss: 0.6621 | Val Loss: 0.6892 | Time: 17.20s
+Early stopping...
+
+Running experiment with batch_size=32, learning_rate=5e-05, epochs=4
+
+Epoch 1/4
+Train Loss: 0.6851 | Val Loss: 0.6974 | Time: 17.43s
+Train Loss: 0.6885 | Val Loss: 0.6873 | Time: 34.67s
+Train Loss: 0.6838 | Val Loss: 0.6853 | Time: 52.15s
+Train Loss: 0.6903 | Val Loss: 0.6803 | Time: 69.50s
+Train Loss: 0.6865 | Val Loss: 0.6860 | Time: 86.81s
+Train Loss: 0.6876 | Val Loss: 0.7057 | Time: 104.10s
+Train Loss: 0.6976 | Val Loss: 0.6991 | Time: 121.39s
+Early stopping...
+
+Epoch 2/4
+Train Loss: 0.6921 | Val Loss: 0.6950 | Time: 17.42s
+Early stopping...
+
+Epoch 3/4
+Train Loss: 0.6613 | Val Loss: 0.6933 | Time: 16.88s
+Early stopping...
+
+Epoch 4/4
+Train Loss: 0.6428 | Val Loss: 0.6981 | Time: 17.33s
+Early stopping...
+
+Running experiment with batch_size=32, learning_rate=3e-05, epochs=2
+
+Epoch 1/2
+Train Loss: 0.6850 | Val Loss: 0.6897 | Time: 17.07s
+Train Loss: 0.6928 | Val Loss: 0.6894 | Time: 34.30s
+Train Loss: 0.6996 | Val Loss: 0.6880 | Time: 51.61s
+Train Loss: 0.6949 | Val Loss: 0.6861 | Time: 69.39s
+Train Loss: 0.6924 | Val Loss: 0.6834 | Time: 86.59s
+Train Loss: 0.6870 | Val Loss: 0.6819 | Time: 104.41s
+Train Loss: 0.6864 | Val Loss: 0.6829 | Time: 122.13s
+Train Loss: 0.6874 | Val Loss: 0.6806 | Time: 139.50s
+Train Loss: 0.6857 | Val Loss: 0.6797 | Time: 156.91s
+Train Loss: 0.6849 | Val Loss: 0.6813 | Time: 174.08s
+Train Loss: 0.6838 | Val Loss: 0.6869 | Time: 191.71s
+Train Loss: 0.6853 | Val Loss: 0.6911 | Time: 208.72s
+Early stopping...
+
+Epoch 2/2
+Train Loss: 0.7417 | Val Loss: 0.6890 | Time: 17.90s
+Early stopping...
+
+Running experiment with batch_size=32, learning_rate=3e-05, epochs=3
+
+Epoch 1/3
+Train Loss: 0.6908 | Val Loss: 0.6892 | Time: 17.14s
+Train Loss: 0.7014 | Val Loss: 0.6835 | Time: 34.58s
+Train Loss: 0.6964 | Val Loss: 0.6822 | Time: 52.03s
+Train Loss: 0.6959 | Val Loss: 0.6799 | Time: 69.53s
+Train Loss: 0.6996 | Val Loss: 0.6785 | Time: 87.26s
+Train Loss: 0.6936 | Val Loss: 0.6795 | Time: 105.28s
+Train Loss: 0.6929 | Val Loss: 0.6774 | Time: 122.87s
+Train Loss: 0.6914 | Val Loss: 0.6764 | Time: 140.32s
+Train Loss: 0.6895 | Val Loss: 0.6746 | Time: 157.64s
+Train Loss: 0.6918 | Val Loss: 0.6735 | Time: 174.88s
+Train Loss: 0.6936 | Val Loss: 0.6721 | Time: 192.24s
+Train Loss: 0.6949 | Val Loss: 0.6700 | Time: 210.03s
+Train Loss: 0.6949 | Val Loss: 0.6677 | Time: 227.18s
+Train Loss: 0.6933 | Val Loss: 0.6647 | Time: 244.69s
+Train Loss: 0.6915 | Val Loss: 0.6617 | Time: 261.21s
+Train Loss: 0.6890 | Val Loss: 0.6591 | Time: 278.31s
+Train Loss: 0.6888 | Val Loss: 0.6560 | Time: 295.55s
+Train Loss: 0.6858 | Val Loss: 0.6526 | Time: 313.01s
+Train Loss: 0.6858 | Val Loss: 0.6498 | Time: 330.08s
+Train Loss: 0.6861 | Val Loss: 0.6482 | Time: 347.67s
+Train Loss: 0.6860 | Val Loss: 0.6471 | Time: 364.74s
+Train Loss: 0.6831 | Val Loss: 0.6443 | Time: 381.45s
+Train Loss: 0.6836 | Val Loss: 0.6424 | Time: 398.35s
+Train Loss: 0.6831 | Val Loss: 0.6385 | Time: 415.09s
+Train Loss: 0.6826 | Val Loss: 0.6341 | Time: 432.30s
+Train Loss: 0.6832 | Val Loss: 0.6318 | Time: 449.75s
+Train Loss: 0.6802 | Val Loss: 0.6276 | Time: 466.96s
+Train Loss: 0.6811 | Val Loss: 0.6271 | Time: 483.85s
+Train Loss: 0.6803 | Val Loss: 0.6386 | Time: 501.06s
+Train Loss: 0.6781 | Val Loss: 0.6546 | Time: 518.54s
+Train Loss: 0.6751 | Val Loss: 0.6734 | Time: 535.99s
+Early stopping...
+
+Epoch 2/3
+Train Loss: 0.5976 | Val Loss: 0.6954 | Time: 17.72s
+Early stopping...
+
+Epoch 3/3
+Train Loss: 0.6217 | Val Loss: 0.7055 | Time: 17.80s
+Early stopping...
+
+Running experiment with batch_size=32, learning_rate=3e-05, epochs=4
+
+Epoch 1/4
+Train Loss: 0.6833 | Val Loss: 0.6883 | Time: 16.68s
+Train Loss: 0.6869 | Val Loss: 0.6862 | Time: 33.94s
+Train Loss: 0.6898 | Val Loss: 0.6844 | Time: 51.29s
+Train Loss: 0.6937 | Val Loss: 0.6794 | Time: 68.96s
+Train Loss: 0.6916 | Val Loss: 0.6753 | Time: 86.80s
+Train Loss: 0.6869 | Val Loss: 0.6737 | Time: 104.80s
+Train Loss: 0.6877 | Val Loss: 0.6765 | Time: 122.92s
+Train Loss: 0.6904 | Val Loss: 0.6788 | Time: 140.97s
+Train Loss: 0.6912 | Val Loss: 0.6810 | Time: 157.56s
+Early stopping...
+
+Epoch 2/4
+Train Loss: 0.6796 | Val Loss: 0.6882 | Time: 16.91s
+Early stopping...
+
+Epoch 3/4
+Train Loss: 0.6900 | Val Loss: 0.6915 | Time: 16.68s
+Early stopping...
+
+Epoch 4/4
+Train Loss: 0.6691 | Val Loss: 0.6928 | Time: 16.79s
+Early stopping...
+
+Running experiment with batch_size=32, learning_rate=2e-05, epochs=2
+
+Epoch 1/2
+Train Loss: 0.7107 | Val Loss: 0.7008 | Time: 17.56s
+Train Loss: 0.7076 | Val Loss: 0.7014 | Time: 35.41s
+Train Loss: 0.7072 | Val Loss: 0.6999 | Time: 52.81s
+Train Loss: 0.7064 | Val Loss: 0.6980 | Time: 69.90s
+Train Loss: 0.7030 | Val Loss: 0.6953 | Time: 87.34s
+Train Loss: 0.6940 | Val Loss: 0.6931 | Time: 104.45s
+Train Loss: 0.6954 | Val Loss: 0.6893 | Time: 122.53s
+Train Loss: 0.6939 | Val Loss: 0.6864 | Time: 140.40s
+Train Loss: 0.6926 | Val Loss: 0.6838 | Time: 158.26s
+Train Loss: 0.6915 | Val Loss: 0.6818 | Time: 176.04s
+Train Loss: 0.6906 | Val Loss: 0.6799 | Time: 193.31s
+Train Loss: 0.6901 | Val Loss: 0.6794 | Time: 210.08s
+Train Loss: 0.6912 | Val Loss: 0.6786 | Time: 227.16s
+Train Loss: 0.6896 | Val Loss: 0.6774 | Time: 244.96s
+Train Loss: 0.6890 | Val Loss: 0.6762 | Time: 262.65s
+Train Loss: 0.6893 | Val Loss: 0.6731 | Time: 279.96s
+Train Loss: 0.6875 | Val Loss: 0.6707 | Time: 297.08s
+Train Loss: 0.6870 | Val Loss: 0.6685 | Time: 313.86s
+Train Loss: 0.6851 | Val Loss: 0.6659 | Time: 330.84s
+Train Loss: 0.6851 | Val Loss: 0.6628 | Time: 347.78s
+Train Loss: 0.6836 | Val Loss: 0.6600 | Time: 364.70s
+Train Loss: 0.6833 | Val Loss: 0.6574 | Time: 381.93s
+Train Loss: 0.6823 | Val Loss: 0.6550 | Time: 399.84s
+Train Loss: 0.6810 | Val Loss: 0.6526 | Time: 417.61s
+Train Loss: 0.6803 | Val Loss: 0.6507 | Time: 435.53s
+Train Loss: 0.6788 | Val Loss: 0.6490 | Time: 452.99s
+Train Loss: 0.6780 | Val Loss: 0.6476 | Time: 470.14s
+Train Loss: 0.6780 | Val Loss: 0.6468 | Time: 487.07s
+Train Loss: 0.6788 | Val Loss: 0.6460 | Time: 503.75s
+Train Loss: 0.6777 | Val Loss: 0.6451 | Time: 520.92s
+Train Loss: 0.6764 | Val Loss: 0.6446 | Time: 537.78s
+Train Loss: 0.6754 | Val Loss: 0.6459 | Time: 554.66s
+Train Loss: 0.6742 | Val Loss: 0.6462 | Time: 572.12s
+Train Loss: 0.6730 | Val Loss: 0.6446 | Time: 589.14s
+Early stopping...
+
+Epoch 2/2
+Train Loss: 0.6824 | Val Loss: 0.6452 | Time: 17.93s
+Early stopping...
+
+Running experiment with batch_size=32, learning_rate=2e-05, epochs=3
+
+Epoch 1/3
+Train Loss: 0.6954 | Val Loss: 0.6881 | Time: 17.87s
+Train Loss: 0.6973 | Val Loss: 0.6857 | Time: 35.01s
+Train Loss: 0.7003 | Val Loss: 0.6835 | Time: 52.73s
+Train Loss: 0.6969 | Val Loss: 0.6803 | Time: 69.86s
+Train Loss: 0.6997 | Val Loss: 0.6769 | Time: 87.79s
+Train Loss: 0.6981 | Val Loss: 0.6752 | Time: 105.65s
+Train Loss: 0.6952 | Val Loss: 0.6747 | Time: 123.19s
+Train Loss: 0.6973 | Val Loss: 0.6737 | Time: 141.16s
+Train Loss: 0.6933 | Val Loss: 0.6719 | Time: 158.95s
+Train Loss: 0.6938 | Val Loss: 0.6702 | Time: 176.37s
+Train Loss: 0.6922 | Val Loss: 0.6684 | Time: 193.99s
+Train Loss: 0.6917 | Val Loss: 0.6655 | Time: 211.55s
+Train Loss: 0.6917 | Val Loss: 0.6632 | Time: 228.76s
+Train Loss: 0.6918 | Val Loss: 0.6610 | Time: 245.92s
+Train Loss: 0.6913 | Val Loss: 0.6585 | Time: 264.00s
+Train Loss: 0.6910 | Val Loss: 0.6568 | Time: 281.03s
+Train Loss: 0.6884 | Val Loss: 0.6550 | Time: 297.92s
+Train Loss: 0.6882 | Val Loss: 0.6535 | Time: 315.38s
+Train Loss: 0.6872 | Val Loss: 0.6523 | Time: 332.95s
+Train Loss: 0.6873 | Val Loss: 0.6513 | Time: 350.63s
+Train Loss: 0.6868 | Val Loss: 0.6493 | Time: 367.75s
+Train Loss: 0.6847 | Val Loss: 0.6464 | Time: 384.27s
+Train Loss: 0.6821 | Val Loss: 0.6439 | Time: 401.11s
+Train Loss: 0.6824 | Val Loss: 0.6407 | Time: 417.38s
+Train Loss: 0.6824 | Val Loss: 0.6377 | Time: 434.99s
+Train Loss: 0.6825 | Val Loss: 0.6349 | Time: 452.18s
+Train Loss: 0.6819 | Val Loss: 0.6328 | Time: 470.30s
+Train Loss: 0.6803 | Val Loss: 0.6311 | Time: 487.70s
+Train Loss: 0.6795 | Val Loss: 0.6294 | Time: 504.88s
+Train Loss: 0.6788 | Val Loss: 0.6276 | Time: 522.99s
+Train Loss: 0.6799 | Val Loss: 0.6278 | Time: 540.50s
+Train Loss: 0.6785 | Val Loss: 0.6288 | Time: 558.18sAll PyTorch model weights were used when initializing TFBertForSequenceClassification.
+
+Some weights or buffers of the TF 2.0 model TFBertForSequenceClassification were not initialized from the PyTorch model and are newly initialized: ['classifier.weight', 'classifier.bias']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+All PyTorch model weights were used when initializing TFBertForSequenceClassification.
+
+Some weights or buffers of the TF 2.0 model TFBertForSequenceClassification were not initialized from the PyTorch model and are newly initialized: ['classifier.weight', 'classifier.bias']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+
+Train Loss: 0.6784 | Val Loss: 0.6289 | Time: 575.53s
+Early stopping...
+
+Epoch 2/3
+Train Loss: 0.5942 | Val Loss: 0.6284 | Time: 18.00s
+Early stopping...
+
+Epoch 3/3
+Train Loss: 0.6163 | Val Loss: 0.6296 | Time: 17.22s
+Early stopping...
+
+Running experiment with batch_size=32, learning_rate=2e-05, epochs=4
+
+Epoch 1/4
+Train Loss: 0.6802 | Val Loss: 0.6923 | Time: 16.76s
+Train Loss: 0.6801 | Val Loss: 0.6899 | Time: 34.70s
+Train Loss: 0.6770 | Val Loss: 0.6861 | Time: 52.28s
+Train Loss: 0.6827 | Val Loss: 0.6825 | Time: 69.91s
+Train Loss: 0.6873 | Val Loss: 0.6802 | Time: 87.38s
+Train Loss: 0.6875 | Val Loss: 0.6787 | Time: 105.12s
+Train Loss: 0.6870 | Val Loss: 0.6775 | Time: 121.92s
+Train Loss: 0.6879 | Val Loss: 0.6769 | Time: 138.95s
+Train Loss: 0.6882 | Val Loss: 0.6755 | Time: 155.99s
+Train Loss: 0.6876 | Val Loss: 0.6753 | Time: 173.90s
+Train Loss: 0.6906 | Val Loss: 0.6725 | Time: 191.57s
+Train Loss: 0.6903 | Val Loss: 0.6683 | Time: 209.48s
+Train Loss: 0.6887 | Val Loss: 0.6649 | Time: 227.61s
+Train Loss: 0.6851 | Val Loss: 0.6614 | Time: 244.39s
+Train Loss: 0.6845 | Val Loss: 0.6596 | Time: 261.67s
+Train Loss: 0.6847 | Val Loss: 0.6570 | Time: 279.50s
+Train Loss: 0.6835 | Val Loss: 0.6544 | Time: 296.99s
+Train Loss: 0.6841 | Val Loss: 0.6503 | Time: 314.58s
+Train Loss: 0.6825 | Val Loss: 0.6469 | Time: 332.52s
+Train Loss: 0.6825 | Val Loss: 0.6437 | Time: 349.61s
+Train Loss: 0.6828 | Val Loss: 0.6413 | Time: 366.88s
+Train Loss: 0.6815 | Val Loss: 0.6409 | Time: 384.09s
+Train Loss: 0.6811 | Val Loss: 0.6418 | Time: 401.26s
+Train Loss: 0.6793 | Val Loss: 0.6407 | Time: 418.38s
+Train Loss: 0.6785 | Val Loss: 0.6404 | Time: 436.25s
+Train Loss: 0.6774 | Val Loss: 0.6369 | Time: 454.34s
+Train Loss: 0.6766 | Val Loss: 0.6301 | Time: 471.30s
+Train Loss: 0.6753 | Val Loss: 0.6244 | Time: 488.31s
+Train Loss: 0.6753 | Val Loss: 0.6212 | Time: 505.41s
+Train Loss: 0.6737 | Val Loss: 0.6188 | Time: 522.08s
+Train Loss: 0.6745 | Val Loss: 0.6166 | Time: 539.04s
+Train Loss: 0.6737 | Val Loss: 0.6166 | Time: 556.70s
+Train Loss: 0.6736 | Val Loss: 0.6189 | Time: 574.03s
+Train Loss: 0.6734 | Val Loss: 0.6204 | Time: 591.88s
+Early stopping...
+
+Epoch 2/4
+Train Loss: 0.6509 | Val Loss: 0.6209 | Time: 18.41s
+Early stopping...
+
+Epoch 3/4
+Train Loss: 0.6052 | Val Loss: 0.6189 | Time: 16.82s
+Early stopping...
+
+Epoch 4/4
+Train Loss: 0.6743 | Val Loss: 0.6137 | Time: 16.94s
+Train Loss: 0.6652 | Val Loss: 0.6079 | Time: 33.75s
+Train Loss: 0.6585 | Val Loss: 0.6047 | Time: 50.34s
+Train Loss: 0.6410 | Val Loss: 0.6018 | Time: 67.87s
+Train Loss: 0.6311 | Val Loss: 0.6009 | Time: 85.38s
+Train Loss: 0.6330 | Val Loss: 0.5981 | Time: 103.12s
+Train Loss: 0.6406 | Val Loss: 0.5971 | Time: 121.40s
+Train Loss: 0.6430 | Val Loss: 0.5978 | Time: 138.84s
+Train Loss: 0.6403 | Val Loss: 0.5994 | Time: 156.35s
+Train Loss: 0.6383 | Val Loss: 0.6002 | Time: 173.35s
+Early stopping...
+
+Best Params: batch=32, lr=2e-05, epochs=4
+
+Epoch 1/4
+Train Loss: 0.6564 | Val Loss: 0.5752
+
+Epoch 2/4
+Train Loss: 0.5264 | Val Loss: 0.4975
+
+Epoch 3/4
+Train Loss: 0.4652 | Val Loss: 0.4936
+
+Epoch 4/4
+Train Loss: 0.4198 | Val Loss: 0.4758
+
+Final Evaluation
+Accuracy: 0.7727 | Precision: 0.9412 | Recall: 0.5818
+F1 Score: 0.7191
+Confusion Matrix:
+[[106   4]
+ [ 46  64]]

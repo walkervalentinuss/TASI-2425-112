@@ -1,0 +1,507 @@
+config.json: 100%
+ 1.54k/1.54k [00:00<00:00, 164kB/s]
+tf_model.h5: 100%
+ 63.1M/63.1M [00:00<00:00, 205MB/s]
+Some layers from the model checkpoint at indobenchmark/indobert-lite-base-p1 were not used when initializing TFAlbertForSequenceClassification: ['sop_classifier']
+- This IS expected if you are initializing TFAlbertForSequenceClassification from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing TFAlbertForSequenceClassification from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Some layers of TFAlbertForSequenceClassification were not initialized from the model checkpoint at indobenchmark/indobert-lite-base-p1 and are newly initialized: ['classifier']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+
+Running experiment with batch_size=16, learning_rate=5e-05, epochs=2
+Some layers from the model checkpoint at indobenchmark/indobert-lite-base-p1 were not used when initializing TFAlbertForSequenceClassification: ['sop_classifier']
+- This IS expected if you are initializing TFAlbertForSequenceClassification from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing TFAlbertForSequenceClassification from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Some layers of TFAlbertForSequenceClassification were not initialized from the model checkpoint at indobenchmark/indobert-lite-base-p1 and are newly initialized: ['classifier']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+
+Epoch 1/2
+Train Loss: 0.6972 | Val Loss: 0.7821 | Time: 5.94s
+Train Loss: 0.6873 | Val Loss: 0.7860 | Time: 7.49s
+Train Loss: 0.6928 | Val Loss: 0.7449 | Time: 9.02s
+Train Loss: 0.6764 | Val Loss: 0.7374 | Time: 10.56s
+Train Loss: 0.6961 | Val Loss: 0.7269 | Time: 12.11s
+Train Loss: 0.7037 | Val Loss: 0.6841 | Time: 13.68s
+Train Loss: 0.7049 | Val Loss: 0.6689 | Time: 15.23s
+Train Loss: 0.7065 | Val Loss: 0.7010 | Time: 16.75s
+Train Loss: 0.7076 | Val Loss: 0.6823 | Time: 18.32s
+Train Loss: 0.7072 | Val Loss: 0.6688 | Time: 19.85s
+Early stopping...
+
+Epoch 2/2
+Train Loss: 0.7264 | Val Loss: 0.6704 | Time: 1.60s
+Early stopping...
+
+Running experiment with batch_size=16, learning_rate=5e-05, epochs=3
+Some layers from the model checkpoint at indobenchmark/indobert-lite-base-p1 were not used when initializing TFAlbertForSequenceClassification: ['sop_classifier']
+- This IS expected if you are initializing TFAlbertForSequenceClassification from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing TFAlbertForSequenceClassification from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Some layers of TFAlbertForSequenceClassification were not initialized from the model checkpoint at indobenchmark/indobert-lite-base-p1 and are newly initialized: ['classifier']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+
+Epoch 1/3
+Train Loss: 0.7695 | Val Loss: 0.7068 | Time: 1.65s
+Train Loss: 0.7302 | Val Loss: 0.7339 | Time: 3.20s
+Train Loss: 0.7193 | Val Loss: 0.7428 | Time: 4.74s
+Train Loss: 0.6894 | Val Loss: 0.7674 | Time: 6.26s
+Early stopping...
+
+Epoch 2/3
+Train Loss: 0.6582 | Val Loss: 0.7989 | Time: 1.56s
+Early stopping...
+
+Epoch 3/3
+Train Loss: 0.6105 | Val Loss: 0.8398 | Time: 1.57s
+Early stopping...
+
+Running experiment with batch_size=16, learning_rate=5e-05, epochs=4
+Some layers from the model checkpoint at indobenchmark/indobert-lite-base-p1 were not used when initializing TFAlbertForSequenceClassification: ['sop_classifier']
+- This IS expected if you are initializing TFAlbertForSequenceClassification from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing TFAlbertForSequenceClassification from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Some layers of TFAlbertForSequenceClassification were not initialized from the model checkpoint at indobenchmark/indobert-lite-base-p1 and are newly initialized: ['classifier']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+
+Epoch 1/4
+Train Loss: 0.7216 | Val Loss: 0.7020 | Time: 1.65s
+Train Loss: 0.7130 | Val Loss: 0.7131 | Time: 3.21s
+Train Loss: 0.7180 | Val Loss: 0.6876 | Time: 4.77s
+Train Loss: 0.7137 | Val Loss: 0.7127 | Time: 6.31s
+Train Loss: 0.7131 | Val Loss: 0.7035 | Time: 7.85s
+Train Loss: 0.7188 | Val Loss: 0.6912 | Time: 9.43s
+Early stopping...
+
+Epoch 2/4
+Train Loss: 0.6568 | Val Loss: 0.6844 | Time: 1.54s
+Train Loss: 0.6559 | Val Loss: 0.6892 | Time: 3.10s
+Train Loss: 0.6820 | Val Loss: 0.6937 | Time: 4.65s
+Train Loss: 0.6836 | Val Loss: 0.7096 | Time: 6.21s
+Early stopping...
+
+Epoch 3/4
+Train Loss: 0.7067 | Val Loss: 0.7158 | Time: 1.54s
+Early stopping...
+
+Epoch 4/4
+Some layers from the model checkpoint at indobenchmark/indobert-lite-base-p1 were not used when initializing TFAlbertForSequenceClassification: ['sop_classifier']
+- This IS expected if you are initializing TFAlbertForSequenceClassification from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing TFAlbertForSequenceClassification from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Some layers of TFAlbertForSequenceClassification were not initialized from the model checkpoint at indobenchmark/indobert-lite-base-p1 and are newly initialized: ['classifier']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Train Loss: 0.7362 | Val Loss: 0.6991 | Time: 1.56s
+Early stopping...
+
+Running experiment with batch_size=16, learning_rate=3e-05, epochs=2
+
+Epoch 1/2
+Train Loss: 0.7242 | Val Loss: 0.6751 | Time: 1.65s
+Train Loss: 0.7096 | Val Loss: 0.6785 | Time: 3.32s
+Train Loss: 0.7098 | Val Loss: 0.6762 | Time: 4.86s
+Train Loss: 0.7026 | Val Loss: 0.6733 | Time: 6.38s
+Train Loss: 0.6997 | Val Loss: 0.6741 | Time: 7.91s
+Train Loss: 0.6983 | Val Loss: 0.6762 | Time: 9.45s
+Train Loss: 0.6931 | Val Loss: 0.6701 | Time: 10.98s
+Train Loss: 0.6915 | Val Loss: 0.6673 | Time: 12.49s
+Train Loss: 0.6883 | Val Loss: 0.6662 | Time: 14.04s
+Train Loss: 0.6971 | Val Loss: 0.6694 | Time: 15.57s
+Train Loss: 0.7097 | Val Loss: 0.6713 | Time: 17.11s
+Train Loss: 0.7121 | Val Loss: 0.6727 | Time: 18.64s
+Early stopping...
+
+Epoch 2/2
+Some layers from the model checkpoint at indobenchmark/indobert-lite-base-p1 were not used when initializing TFAlbertForSequenceClassification: ['sop_classifier']
+- This IS expected if you are initializing TFAlbertForSequenceClassification from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing TFAlbertForSequenceClassification from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Some layers of TFAlbertForSequenceClassification were not initialized from the model checkpoint at indobenchmark/indobert-lite-base-p1 and are newly initialized: ['classifier']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Train Loss: 0.6460 | Val Loss: 0.6758 | Time: 1.53s
+Early stopping...
+
+Running experiment with batch_size=16, learning_rate=3e-05, epochs=3
+
+Epoch 1/3
+Train Loss: 0.6323 | Val Loss: 0.7781 | Time: 1.61s
+Train Loss: 0.6754 | Val Loss: 0.7678 | Time: 3.17s
+Train Loss: 0.6855 | Val Loss: 0.7338 | Time: 4.68s
+Train Loss: 0.6908 | Val Loss: 0.7167 | Time: 6.21s
+Train Loss: 0.6908 | Val Loss: 0.7085 | Time: 7.71s
+Train Loss: 0.6980 | Val Loss: 0.6941 | Time: 9.23s
+Train Loss: 0.7006 | Val Loss: 0.6965 | Time: 10.75s
+Train Loss: 0.7042 | Val Loss: 0.6891 | Time: 12.28s
+Train Loss: 0.7082 | Val Loss: 0.7003 | Time: 13.91s
+Train Loss: 0.7101 | Val Loss: 0.6933 | Time: 15.46s
+Train Loss: 0.7140 | Val Loss: 0.6891 | Time: 17.00s
+Early stopping...
+
+Epoch 2/3
+Train Loss: 0.6857 | Val Loss: 0.6819 | Time: 1.54s
+Train Loss: 0.6997 | Val Loss: 0.6774 | Time: 3.07s
+Train Loss: 0.7022 | Val Loss: 0.6766 | Time: 4.60s
+Train Loss: 0.6979 | Val Loss: 0.6769 | Time: 6.17s
+Train Loss: 0.7003 | Val Loss: 0.6763 | Time: 7.68s
+Train Loss: 0.6955 | Val Loss: 0.6730 | Time: 9.21s
+Train Loss: 0.6986 | Val Loss: 0.6727 | Time: 10.72s
+Train Loss: 0.6992 | Val Loss: 0.6762 | Time: 12.24s
+Train Loss: 0.6936 | Val Loss: 0.6823 | Time: 13.76s
+Train Loss: 0.6960 | Val Loss: 0.6897 | Time: 15.27s
+Early stopping...
+
+Epoch 3/3
+Train Loss: 0.6445 | Val Loss: 0.6917 | Time: 1.56s
+Early stopping...
+
+Running experiment with batch_size=16, learning_rate=3e-05, epochs=4
+Some layers from the model checkpoint at indobenchmark/indobert-lite-base-p1 were not used when initializing TFAlbertForSequenceClassification: ['sop_classifier']
+- This IS expected if you are initializing TFAlbertForSequenceClassification from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing TFAlbertForSequenceClassification from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Some layers of TFAlbertForSequenceClassification were not initialized from the model checkpoint at indobenchmark/indobert-lite-base-p1 and are newly initialized: ['classifier']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+
+Epoch 1/4
+Train Loss: 0.7098 | Val Loss: 0.7417 | Time: 1.61s
+Train Loss: 0.7192 | Val Loss: 0.7079 | Time: 3.13s
+Train Loss: 0.7161 | Val Loss: 0.7015 | Time: 4.66s
+Train Loss: 0.6994 | Val Loss: 0.7041 | Time: 6.17s
+Train Loss: 0.6966 | Val Loss: 0.7038 | Time: 7.68s
+Train Loss: 0.6932 | Val Loss: 0.7074 | Time: 9.20s
+Early stopping...
+
+Epoch 2/4
+Train Loss: 0.6638 | Val Loss: 0.7045 | Time: 1.59s
+Early stopping...
+
+Epoch 3/4
+Train Loss: 0.6590 | Val Loss: 0.7097 | Time: 1.56s
+Early stopping...
+
+Epoch 4/4
+Train Loss: 0.6536 | Val Loss: 0.7168 | Time: 1.51s
+Early stopping...
+
+Running experiment with batch_size=16, learning_rate=2e-05, epochs=2
+Some layers from the model checkpoint at indobenchmark/indobert-lite-base-p1 were not used when initializing TFAlbertForSequenceClassification: ['sop_classifier']
+- This IS expected if you are initializing TFAlbertForSequenceClassification from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing TFAlbertForSequenceClassification from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Some layers of TFAlbertForSequenceClassification were not initialized from the model checkpoint at indobenchmark/indobert-lite-base-p1 and are newly initialized: ['classifier']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+
+Epoch 1/2
+Train Loss: 0.7150 | Val Loss: 0.7029 | Time: 1.62s
+Train Loss: 0.6949 | Val Loss: 0.7106 | Time: 3.15s
+Train Loss: 0.6740 | Val Loss: 0.7143 | Time: 4.70s
+Train Loss: 0.6938 | Val Loss: 0.7309 | Time: 6.25s
+Early stopping...
+
+Epoch 2/2
+Train Loss: 0.6574 | Val Loss: 0.7668 | Time: 1.53s
+Early stopping...
+
+Running experiment with batch_size=16, learning_rate=2e-05, epochs=3
+Some layers from the model checkpoint at indobenchmark/indobert-lite-base-p1 were not used when initializing TFAlbertForSequenceClassification: ['sop_classifier']
+- This IS expected if you are initializing TFAlbertForSequenceClassification from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing TFAlbertForSequenceClassification from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Some layers of TFAlbertForSequenceClassification were not initialized from the model checkpoint at indobenchmark/indobert-lite-base-p1 and are newly initialized: ['classifier']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+
+Epoch 1/3
+Train Loss: 0.6915 | Val Loss: 0.6823 | Time: 1.60s
+Train Loss: 0.7021 | Val Loss: 0.6838 | Time: 3.13s
+Train Loss: 0.6980 | Val Loss: 0.6955 | Time: 4.67s
+Train Loss: 0.6955 | Val Loss: 0.6908 | Time: 6.20s
+Early stopping...
+
+Epoch 2/3
+Train Loss: 0.7247 | Val Loss: 0.6926 | Time: 1.62s
+Early stopping...
+
+Epoch 3/3
+Some layers from the model checkpoint at indobenchmark/indobert-lite-base-p1 were not used when initializing TFAlbertForSequenceClassification: ['sop_classifier']
+- This IS expected if you are initializing TFAlbertForSequenceClassification from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing TFAlbertForSequenceClassification from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Some layers of TFAlbertForSequenceClassification were not initialized from the model checkpoint at indobenchmark/indobert-lite-base-p1 and are newly initialized: ['classifier']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Train Loss: 0.6989 | Val Loss: 0.6930 | Time: 1.54s
+Early stopping...
+
+Running experiment with batch_size=16, learning_rate=2e-05, epochs=4
+
+Epoch 1/4
+Train Loss: 0.7332 | Val Loss: 0.6693 | Time: 1.65s
+Train Loss: 0.6847 | Val Loss: 0.6640 | Time: 3.15s
+Train Loss: 0.6735 | Val Loss: 0.6818 | Time: 4.69s
+Train Loss: 0.6874 | Val Loss: 0.6953 | Time: 6.22s
+Train Loss: 0.6808 | Val Loss: 0.6937 | Time: 7.81s
+Early stopping...
+
+Epoch 2/4
+Train Loss: 0.7163 | Val Loss: 0.6852 | Time: 1.57s
+Early stopping...
+
+Epoch 3/4
+Train Loss: 0.7151 | Val Loss: 0.6846 | Time: 1.61s
+Early stopping...
+
+Epoch 4/4
+Some layers from the model checkpoint at indobenchmark/indobert-lite-base-p1 were not used when initializing TFAlbertForSequenceClassification: ['sop_classifier']
+- This IS expected if you are initializing TFAlbertForSequenceClassification from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing TFAlbertForSequenceClassification from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Some layers of TFAlbertForSequenceClassification were not initialized from the model checkpoint at indobenchmark/indobert-lite-base-p1 and are newly initialized: ['classifier']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Train Loss: 0.5994 | Val Loss: 0.6854 | Time: 1.57s
+Early stopping...
+
+Running experiment with batch_size=32, learning_rate=5e-05, epochs=2
+
+Epoch 1/2
+Train Loss: 0.7116 | Val Loss: 0.7119 | Time: 1.79s
+Train Loss: 0.7051 | Val Loss: 0.6990 | Time: 3.43s
+Train Loss: 0.7108 | Val Loss: 0.6737 | Time: 5.09s
+Train Loss: 0.6965 | Val Loss: 0.6602 | Time: 6.73s
+Train Loss: 0.6949 | Val Loss: 0.6359 | Time: 8.36s
+Train Loss: 0.7027 | Val Loss: 0.6557 | Time: 10.00s
+Train Loss: 0.7028 | Val Loss: 0.6311 | Time: 11.64s
+Train Loss: 0.7057 | Val Loss: 0.6526 | Time: 13.27s
+Train Loss: 0.7029 | Val Loss: 0.6513 | Time: 14.92s
+Train Loss: 0.7011 | Val Loss: 0.6635 | Time: 16.55s
+Early stopping...
+
+Epoch 2/2
+Some layers from the model checkpoint at indobenchmark/indobert-lite-base-p1 were not used when initializing TFAlbertForSequenceClassification: ['sop_classifier']
+- This IS expected if you are initializing TFAlbertForSequenceClassification from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing TFAlbertForSequenceClassification from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Some layers of TFAlbertForSequenceClassification were not initialized from the model checkpoint at indobenchmark/indobert-lite-base-p1 and are newly initialized: ['classifier']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Train Loss: 0.6764 | Val Loss: 0.6904 | Time: 1.64s
+Early stopping...
+
+Running experiment with batch_size=32, learning_rate=5e-05, epochs=3
+
+Epoch 1/3
+Train Loss: 0.7294 | Val Loss: 0.7143 | Time: 1.72s
+Train Loss: 0.7079 | Val Loss: 0.6671 | Time: 3.36s
+Train Loss: 0.6960 | Val Loss: 0.6258 | Time: 5.00s
+Train Loss: 0.6840 | Val Loss: 0.6432 | Time: 6.66s
+Train Loss: 0.6947 | Val Loss: 0.6517 | Time: 8.31s
+Train Loss: 0.6952 | Val Loss: 0.6588 | Time: 9.95s
+Early stopping...
+
+Epoch 2/3
+Train Loss: 0.7129 | Val Loss: 0.6847 | Time: 1.69s
+Early stopping...
+
+Epoch 3/3
+Some layers from the model checkpoint at indobenchmark/indobert-lite-base-p1 were not used when initializing TFAlbertForSequenceClassification: ['sop_classifier']
+- This IS expected if you are initializing TFAlbertForSequenceClassification from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing TFAlbertForSequenceClassification from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Some layers of TFAlbertForSequenceClassification were not initialized from the model checkpoint at indobenchmark/indobert-lite-base-p1 and are newly initialized: ['classifier']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Train Loss: 0.6495 | Val Loss: 0.7067 | Time: 1.64s
+Early stopping...
+
+Running experiment with batch_size=32, learning_rate=5e-05, epochs=4
+
+Epoch 1/4
+Train Loss: 0.7036 | Val Loss: 0.8018 | Time: 1.73s
+Train Loss: 0.6923 | Val Loss: 0.8155 | Time: 3.39s
+Train Loss: 0.7108 | Val Loss: 0.7873 | Time: 5.04s
+Train Loss: 0.7091 | Val Loss: 0.7751 | Time: 6.69s
+Train Loss: 0.7111 | Val Loss: 0.7335 | Time: 8.34s
+Train Loss: 0.7135 | Val Loss: 0.6750 | Time: 9.99s
+Train Loss: 0.7111 | Val Loss: 0.6542 | Time: 11.64s
+Train Loss: 0.7071 | Val Loss: 0.6552 | Time: 13.31s
+Train Loss: 0.6993 | Val Loss: 0.6587 | Time: 14.97s
+Train Loss: 0.6993 | Val Loss: 0.6467 | Time: 16.62s
+Train Loss: 0.6979 | Val Loss: 0.6541 | Time: 18.28s
+Train Loss: 0.6996 | Val Loss: 0.6709 | Time: 19.95s
+Train Loss: 0.6978 | Val Loss: 0.6692 | Time: 21.61s
+Early stopping...
+
+Epoch 2/4
+Train Loss: 0.6822 | Val Loss: 0.6651 | Time: 1.66s
+Early stopping...
+
+Epoch 3/4
+Train Loss: 0.6681 | Val Loss: 0.6859 | Time: 1.65s
+Early stopping...
+
+Epoch 4/4
+Train Loss: 0.6476 | Val Loss: 0.7024 | Time: 1.65s
+Early stopping...
+
+Running experiment with batch_size=32, learning_rate=3e-05, epochs=2
+Some layers from the model checkpoint at indobenchmark/indobert-lite-base-p1 were not used when initializing TFAlbertForSequenceClassification: ['sop_classifier']
+- This IS expected if you are initializing TFAlbertForSequenceClassification from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing TFAlbertForSequenceClassification from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Some layers of TFAlbertForSequenceClassification were not initialized from the model checkpoint at indobenchmark/indobert-lite-base-p1 and are newly initialized: ['classifier']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+
+Epoch 1/2
+Train Loss: 0.6999 | Val Loss: 0.7343 | Time: 1.78s
+Train Loss: 0.7148 | Val Loss: 0.6850 | Time: 3.44s
+Train Loss: 0.7075 | Val Loss: 0.7265 | Time: 5.09s
+Train Loss: 0.7116 | Val Loss: 0.7398 | Time: 6.78s
+Train Loss: 0.7080 | Val Loss: 0.7614 | Time: 8.43s
+Early stopping...
+
+Epoch 2/2
+Train Loss: 0.6957 | Val Loss: 0.7165 | Time: 1.65s
+Early stopping...
+
+Running experiment with batch_size=32, learning_rate=3e-05, epochs=3
+Some layers from the model checkpoint at indobenchmark/indobert-lite-base-p1 were not used when initializing TFAlbertForSequenceClassification: ['sop_classifier']
+- This IS expected if you are initializing TFAlbertForSequenceClassification from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing TFAlbertForSequenceClassification from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Some layers of TFAlbertForSequenceClassification were not initialized from the model checkpoint at indobenchmark/indobert-lite-base-p1 and are newly initialized: ['classifier']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+
+Epoch 1/3
+Train Loss: 0.7468 | Val Loss: 0.7094 | Time: 1.74s
+Train Loss: 0.7326 | Val Loss: 0.7306 | Time: 3.40s
+Train Loss: 0.7248 | Val Loss: 0.7241 | Time: 5.05s
+Train Loss: 0.7259 | Val Loss: 0.6868 | Time: 6.70s
+Train Loss: 0.7251 | Val Loss: 0.6680 | Time: 8.34s
+Train Loss: 0.7233 | Val Loss: 0.6743 | Time: 9.99s
+Train Loss: 0.7209 | Val Loss: 0.6901 | Time: 11.64s
+Train Loss: 0.7171 | Val Loss: 0.7088 | Time: 13.29s
+Early stopping...
+
+Epoch 2/3
+Train Loss: 0.6747 | Val Loss: 0.7000 | Time: 1.65s
+Early stopping...
+
+Epoch 3/3
+Train Loss: 0.6741 | Val Loss: 0.6946 | Time: 1.64s
+Early stopping...
+
+Running experiment with batch_size=32, learning_rate=3e-05, epochs=4
+Some layers from the model checkpoint at indobenchmark/indobert-lite-base-p1 were not used when initializing TFAlbertForSequenceClassification: ['sop_classifier']
+- This IS expected if you are initializing TFAlbertForSequenceClassification from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing TFAlbertForSequenceClassification from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Some layers of TFAlbertForSequenceClassification were not initialized from the model checkpoint at indobenchmark/indobert-lite-base-p1 and are newly initialized: ['classifier']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+
+Epoch 1/4
+Train Loss: 0.7008 | Val Loss: 0.7151 | Time: 1.72s
+Train Loss: 0.6837 | Val Loss: 0.7046 | Time: 3.36s
+Train Loss: 0.6951 | Val Loss: 0.6895 | Time: 5.01s
+Train Loss: 0.6913 | Val Loss: 0.6898 | Time: 6.67s
+Train Loss: 0.6836 | Val Loss: 0.6935 | Time: 8.33s
+Train Loss: 0.6864 | Val Loss: 0.7140 | Time: 9.98s
+Early stopping...
+
+Epoch 2/4
+Train Loss: 0.6776 | Val Loss: 0.7134 | Time: 1.65s
+Early stopping...
+
+Epoch 3/4
+Train Loss: 0.6904 | Val Loss: 0.6951 | Time: 1.65s
+Early stopping...
+
+Epoch 4/4
+Train Loss: 0.6859 | Val Loss: 0.6781 | Time: 1.64s
+Train Loss: 0.6698 | Val Loss: 0.6739 | Time: 3.29s
+Train Loss: 0.6694 | Val Loss: 0.6795 | Time: 4.94s
+Train Loss: 0.6561 | Val Loss: 0.6763 | Time: 6.59s
+Some layers from the model checkpoint at indobenchmark/indobert-lite-base-p1 were not used when initializing TFAlbertForSequenceClassification: ['sop_classifier']
+- This IS expected if you are initializing TFAlbertForSequenceClassification from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing TFAlbertForSequenceClassification from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Some layers of TFAlbertForSequenceClassification were not initialized from the model checkpoint at indobenchmark/indobert-lite-base-p1 and are newly initialized: ['classifier']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Train Loss: 0.6531 | Val Loss: 0.6814 | Time: 8.23s
+Early stopping...
+
+Running experiment with batch_size=32, learning_rate=2e-05, epochs=2
+
+Epoch 1/2
+Train Loss: 0.7616 | Val Loss: 0.6476 | Time: 1.72s
+Train Loss: 0.7297 | Val Loss: 0.6873 | Time: 3.38s
+Train Loss: 0.7261 | Val Loss: 0.7119 | Time: 5.03s
+Train Loss: 0.7181 | Val Loss: 0.7181 | Time: 6.70s
+Early stopping...
+
+Epoch 2/2
+Some layers from the model checkpoint at indobenchmark/indobert-lite-base-p1 were not used when initializing TFAlbertForSequenceClassification: ['sop_classifier']
+- This IS expected if you are initializing TFAlbertForSequenceClassification from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing TFAlbertForSequenceClassification from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Some layers of TFAlbertForSequenceClassification were not initialized from the model checkpoint at indobenchmark/indobert-lite-base-p1 and are newly initialized: ['classifier']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Train Loss: 0.6488 | Val Loss: 0.7318 | Time: 1.66s
+Early stopping...
+
+Running experiment with batch_size=32, learning_rate=2e-05, epochs=3
+
+Epoch 1/3
+Train Loss: 0.6757 | Val Loss: 0.6865 | Time: 1.73s
+Train Loss: 0.7006 | Val Loss: 0.6792 | Time: 3.38s
+Train Loss: 0.7019 | Val Loss: 0.6871 | Time: 5.03s
+Train Loss: 0.6966 | Val Loss: 0.7004 | Time: 6.69s
+Train Loss: 0.6961 | Val Loss: 0.7011 | Time: 8.38s
+Early stopping...
+
+Epoch 2/3
+Train Loss: 0.6938 | Val Loss: 0.6989 | Time: 1.66s
+Early stopping...
+
+Epoch 3/3
+Some layers from the model checkpoint at indobenchmark/indobert-lite-base-p1 were not used when initializing TFAlbertForSequenceClassification: ['sop_classifier']
+- This IS expected if you are initializing TFAlbertForSequenceClassification from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing TFAlbertForSequenceClassification from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Some layers of TFAlbertForSequenceClassification were not initialized from the model checkpoint at indobenchmark/indobert-lite-base-p1 and are newly initialized: ['classifier']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Train Loss: 0.6783 | Val Loss: 0.6890 | Time: 1.65s
+Early stopping...
+
+Running experiment with batch_size=32, learning_rate=2e-05, epochs=4
+
+Epoch 1/4
+Train Loss: 0.7028 | Val Loss: 0.7321 | Time: 1.73s
+Train Loss: 0.7176 | Val Loss: 0.7372 | Time: 3.38s
+Train Loss: 0.7186 | Val Loss: 0.7552 | Time: 5.03s
+Train Loss: 0.7228 | Val Loss: 0.7334 | Time: 6.72s
+Early stopping...
+
+Epoch 2/4
+Train Loss: 0.6769 | Val Loss: 0.7149 | Time: 1.70s
+Train Loss: 0.6773 | Val Loss: 0.7032 | Time: 3.37s
+Train Loss: 0.6806 | Val Loss: 0.6846 | Time: 5.04s
+Train Loss: 0.6810 | Val Loss: 0.6789 | Time: 6.71s
+Train Loss: 0.6823 | Val Loss: 0.6775 | Time: 8.37s
+Train Loss: 0.6850 | Val Loss: 0.6822 | Time: 10.07s
+Train Loss: 0.6814 | Val Loss: 0.6832 | Time: 11.76s
+Train Loss: 0.6864 | Val Loss: 0.6829 | Time: 13.69s
+Early stopping...
+
+Epoch 3/4
+Train Loss: 0.6991 | Val Loss: 0.6744 | Time: 1.67s
+Train Loss: 0.6876 | Val Loss: 0.6654 | Time: 3.34s
+Train Loss: 0.6920 | Val Loss: 0.6648 | Time: 5.00s
+Train Loss: 0.6939 | Val Loss: 0.6704 | Time: 6.67s
+Train Loss: 0.6925 | Val Loss: 0.6716 | Time: 8.37s
+Train Loss: 0.6906 | Val Loss: 0.6710 | Time: 10.05s
+Early stopping...
+
+Epoch 4/4
+Train Loss: 0.6878 | Val Loss: 0.6719 | Time: 1.67s
+Early stopping...
+
+Best Params: batch=32, lr=5e-05, epochs=3
+Some layers from the model checkpoint at indobenchmark/indobert-lite-base-p1 were not used when initializing TFAlbertForSequenceClassification: ['sop_classifier']
+- This IS expected if you are initializing TFAlbertForSequenceClassification from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing TFAlbertForSequenceClassification from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Some layers of TFAlbertForSequenceClassification were not initialized from the model checkpoint at indobenchmark/indobert-lite-base-p1 and are newly initialized: ['classifier']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+
+Epoch 1/3
+Train Loss: 0.6913 | Val Loss: 0.6872
+
+Epoch 2/3
+Train Loss: 0.6705 | Val Loss: 0.6288
+
+Epoch 3/3
+Train Loss: 0.6524 | Val Loss: 0.7203
+
+Final Evaluation
+Accuracy: 0.5588 | Precision: 0.5385 | Recall: 0.8235
+F1 Score: 0.6512
+Confusion Matrix:
+[[10 24]
+ [ 6 28]]
