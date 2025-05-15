@@ -1,7 +1,7 @@
 # Sushil Classification with IndoBERT-lite-base-p1 (Token already saved)
 
 import os
-os.environ["CUDA_VISIBLE_DEVICES"] = "-1"
+os.environ["CUDA_VISIBLE_DEVICES"] = "1"
 
 ## Import Libraries
 import pandas as pd
@@ -19,14 +19,14 @@ from transformers import TFAutoModelForSequenceClassification
 
 ## Check for GPU
 if tf.config.list_physical_devices('GPU'):
-    print("✅ GPU detected. Training will use GPU.")
+    print("GPU detected. Training will use GPU.")
 else:
-    print("⚠️ GPU not found. Training will run on CPU.")
+    print("GPU not found. Training will run on CPU.")
 
 ## Load Tokenized Data
-train_df = pd.read_csv("dataset/Sushil/TTVED/with_emoji_train.csv")
-val_df = pd.read_csv("dataset/Sushil/TTVED/with_emoji_val.csv")
-test_df = pd.read_csv("dataset/Sushil/TTVED/with_emoji_test.csv")
+train_df = pd.read_csv("dataset-english/Sushil/TTVED/with_emoji_train.csv")
+val_df = pd.read_csv("dataset-english/Sushil/TTVED/with_emoji_val.csv")
+test_df = pd.read_csv("dataset-english/Sushil/TTVED/with_emoji_test.csv")
 
 X_train = train_df.drop(columns=["label"]).values
 y_train = train_df["label"].values
@@ -146,7 +146,7 @@ for (batch_size, lr, epochs), losses in loss_history.items():
         })
 
 loss_df = pd.DataFrame(loss_df)
-loss_df.to_csv("model/Sushil_indobert_loss_history.csv", index=False)
+loss_df.to_csv("model/Sushil_indobert_indo_loss_history.csv", index=False)
 
 ## Final Training with Best Parameters
 batch_size, lr, epochs = best_params
@@ -197,7 +197,8 @@ for epoch in range(epochs):
             break
 
 ## Save Trained Model
-model.save_pretrained("model/sushil_indobert_no_emoji")
+model.save_pretrained("model/sushil_indobert_with_emoji")
+model.save("model/full_indobert_model.h5")
 
 ## Evaluation on Test Set
 from sklearn.metrics import f1_score

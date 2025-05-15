@@ -1,4 +1,7 @@
-# OLID Classification with mBERT-lite-base-p1 (Token already saved)
+# Sushil Classification with mBERT (Token already saved)
+
+import os
+os.environ["CUDA_VISIBLE_DEVICES"] = "0"
 
 ## Import Libraries
 import pandas as pd
@@ -16,9 +19,9 @@ from transformers import TFBertForSequenceClassification
 
 ## Check for GPU
 if tf.config.list_physical_devices('GPU'):
-    print("✅ GPU detected. Training will use GPU.")
+    print("GPU detected. Training will use GPU.")
 else:
-    print("⚠️ GPU not found. Training will run on CPU.")
+    print("GPU not found. Training will run on CPU.")
 
 ## Load Tokenized Data
 train_df = pd.read_csv("dataset/Sushil/TTVED/with_emoji_train_mbert.csv")
@@ -194,7 +197,8 @@ for epoch in range(epochs):
             break
 
 ## Save Trained Model
-model.save_pretrained("model/sushil_mbert_no_emoji")
+model.save_pretrained("model/sushil_mbert_with_emoji")
+model.save("model/full_mbert_model.h5")
 
 ## Evaluation on Test Set
 from sklearn.metrics import f1_score

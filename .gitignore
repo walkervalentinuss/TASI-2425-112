@@ -2,3 +2,7 @@ env/
 dataset/
 dataset-english/
 dump/
+playground/
+sushil_indobert_with_emoji/
+sushil_mbert_with_emoji/
+testing/
