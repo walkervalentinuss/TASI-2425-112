@@ -1,7 +1,4 @@
-# TweetEval Classification with IndoBERT-lite-base-p1 (Token already saved)
-
-import os
-os.environ["CUDA_VISIBLE_DEVICES"] = "-1"
+# TweetEval Classification with IndoBERT-lite-base-p1 (Token already saved) with Emoji Description
 
 ## Import Libraries
 import pandas as pd
@@ -19,9 +16,9 @@ from transformers import TFAutoModelForSequenceClassification
 
 ## Check for GPU
 if tf.config.list_physical_devices('GPU'):
-    print("✅ GPU detected. Training will use GPU.")
+    print("GPU detected. Training will use GPU.")
 else:
-    print("⚠️ GPU not found. Training will run on CPU.")
+    print("GPU not found. Training will run on CPU.")
 
 ## Load Tokenized Data
 train_df = pd.read_csv("dataset/TwEv/TTVED/with_emoji_train.csv")

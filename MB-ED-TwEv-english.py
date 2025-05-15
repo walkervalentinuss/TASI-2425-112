@@ -1,4 +1,4 @@
-# OLID Classification with mBERT-lite-base-p1 (Token already saved)
+# TweetEval Classification with mBERT (Token already saved) with Emoji Description in English
 
 ## Import Libraries
 import pandas as pd
@@ -16,14 +16,14 @@ from transformers import TFBertForSequenceClassification
 
 ## Check for GPU
 if tf.config.list_physical_devices('GPU'):
-    print("✅ GPU detected. Training will use GPU.")
+    print("GPU detected. Training will use GPU.")
 else:
-    print("⚠️ GPU not found. Training will run on CPU.")
+    print("GPU not found. Training will run on CPU.")
 
 ## Load Tokenized Data
-train_df = pd.read_csv("dataset/TwEv/TTVED/with_emoji_train_mbert.csv")
-val_df = pd.read_csv("dataset/TwEv/TTVED/with_emoji_val_mbert.csv")
-test_df = pd.read_csv("dataset/TwEv/TTVED/with_emoji_test_mbert.csv")
+train_df = pd.read_csv("dataset-english/TwEv/TTVED/with_emoji_train_mbert.csv")
+val_df = pd.read_csv("dataset-english/TwEv/TTVED/with_emoji_val_mbert.csv")
+test_df = pd.read_csv("dataset-english/TwEv/TTVED/with_emoji_test_mbert.csv")
 
 X_train = train_df.drop(columns=["label"]).values
 y_train = train_df["label"].values

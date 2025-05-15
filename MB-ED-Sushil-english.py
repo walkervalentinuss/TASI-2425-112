@@ -1,4 +1,4 @@
-# Sushil Classification with mBERT (Token already saved)
+# Sushil Classification with mBERT (Token already saved) with Emoji Description in English
 
 import os
 os.environ["CUDA_VISIBLE_DEVICES"] = "0"
@@ -24,9 +24,9 @@ else:
     print("GPU not found. Training will run on CPU.")
 
 ## Load Tokenized Data
-train_df = pd.read_csv("dataset/Sushil/TTVED/with_emoji_train_mbert.csv")
-val_df = pd.read_csv("dataset/Sushil/TTVED/with_emoji_val_mbert.csv")
-test_df = pd.read_csv("dataset/Sushil/TTVED/with_emoji_test_mbert.csv")
+train_df = pd.read_csv("dataset-english/Sushil/TTVED/with_emoji_train_mbert.csv")
+val_df = pd.read_csv("dataset-english/Sushil/TTVED/with_emoji_val_mbert.csv")
+test_df = pd.read_csv("dataset-english/Sushil/TTVED/with_emoji_test_mbert.csv")
 
 X_train = train_df.drop(columns=["label"]).values
 y_train = train_df["label"].values
@@ -198,7 +198,7 @@ for epoch in range(epochs):
 
 ## Save Trained Model
 model.save_pretrained("model/sushil_mbert_with_emoji")
-model.save("model/full_mbert_model.h5")
+model.save("model/full_mbert_model", save_format="tf")
 
 ## Evaluation on Test Set
 from sklearn.metrics import f1_score

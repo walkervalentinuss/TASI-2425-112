@@ -1,4 +1,4 @@
-# OLID Classification with IndoBERT-lite-base-p1 (Token already saved)
+# Sushil Classification with IndoBERT-lite-base-p1 (Token already saved) no Emoji Description in English
 
 ## Import Libraries
 import pandas as pd
@@ -16,14 +16,14 @@ from transformers import TFAutoModelForSequenceClassification
 
 ## Check for GPU
 if tf.config.list_physical_devices('GPU'):
-    print("✅ GPU detected. Training will use GPU.")
+    print("GPU detected. Training will use GPU.")
 else:
-    print("⚠️ GPU not found. Training will run on CPU.")
+    print("GPU not found. Training will run on CPU.")
 
 ## Load Tokenized Data
-train_df = pd.read_csv("dataset/Sushil/TTVWE/no_emoji_train.csv")
-val_df = pd.read_csv("dataset/Sushil/TTVWE/no_emoji_val.csv")
-test_df = pd.read_csv("dataset/Sushil/TTVWE/no_emoji_test.csv")
+train_df = pd.read_csv("dataset-english/Sushil/TTVWE/no_emoji_train.csv")
+val_df = pd.read_csv("dataset-english/Sushil/TTVWE/no_emoji_val.csv")
+test_df = pd.read_csv("dataset-english/Sushil/TTVWE/no_emoji_test.csv")
 
 X_train = train_df.drop(columns=["label"]).values
 y_train = train_df["label"].values
