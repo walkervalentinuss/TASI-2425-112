@@ -1,5 +1,8 @@
 # OLID Classification with IndoBERT-lite-base-p1 (Token already saved) with Emoji Description in English
 
+import os
+os.environ["CUDA_VISIBLE_DEVICES"] = "1"
+
 ## Import Libraries
 import pandas as pd
 import numpy as np
@@ -194,7 +197,7 @@ for epoch in range(epochs):
             break
 
 ## Save Trained Model
-model.save_pretrained("model/olid_mbert_no_emoji")
+model.save_pretrained("model/olid_mbert_with_emoji")
 
 ## Evaluation on Test Set
 from sklearn.metrics import f1_score

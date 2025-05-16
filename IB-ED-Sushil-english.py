@@ -194,7 +194,7 @@ for epoch in range(epochs):
             break
 
 ## Save Trained Model
-model.save_pretrained("model/sushil_indobert_no_emoji")
+model.save_pretrained("model/sushil_indobert_with_emoji")
 
 ## Evaluation on Test Set
 from sklearn.metrics import f1_score

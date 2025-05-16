@@ -1,4 +1,3 @@
-2025-05-06 13:08:00.609839: E tensorflow/stream_executor/cuda/cuda_driver.cc:271] failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
 All PyTorch model weights were used when initializing TFBertForSequenceClassification.
 
 Some weights or buffers of the TF 2.0 model TFBertForSequenceClassification were not initialized from the PyTorch model and are newly initialized: ['classifier.weight', 'classifier.bias']
@@ -39,651 +38,805 @@ All PyTorch model weights were used when initializing TFBertForSequenceClassific
 
 Some weights or buffers of the TF 2.0 model TFBertForSequenceClassification were not initialized from the PyTorch model and are newly initialized: ['classifier.weight', 'classifier.bias']
 You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
-⚠️ GPU not found. Training will run on CPU.
+All PyTorch model weights were used when initializing TFBertForSequenceClassification.
+
+Some weights or buffers of the TF 2.0 model TFBertForSequenceClassification were not initialized from the PyTorch model and are newly initialized: ['classifier.weight', 'classifier.bias']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+All PyTorch model weights were used when initializing TFBertForSequenceClassification.
+
+Some weights or buffers of the TF 2.0 model TFBertForSequenceClassification were not initialized from the PyTorch model and are newly initialized: ['classifier.weight', 'classifier.bias']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+All PyTorch model weights were used when initializing TFBertForSequenceClassification.
+
+Some weights or buffers of the TF 2.0 model TFBertForSequenceClassification were not initialized from the PyTorch model and are newly initialized: ['classifier.weight', 'classifier.bias']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+All PyTorch model weights were used when initializing TFBertForSequenceClassification.
+
+Some weights or buffers of the TF 2.0 model TFBertForSequenceClassification were not initialized from the PyTorch model and are newly initialized: ['classifier.weight', 'classifier.bias']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+All PyTorch model weights were used when initializing TFBertForSequenceClassification.
+
+Some weights or buffers of the TF 2.0 model TFBertForSequenceClassification were not initialized from the PyTorch model and are newly initialized: ['classifier.weight', 'classifier.bias']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+All PyTorch model weights were used when initializing TFBertForSequenceClassification.
+
+Some weights or buffers of the TF 2.0 model TFBertForSequenceClassification were not initialized from the PyTorch model and are newly initialized: ['classifier.weight', 'classifier.bias']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+All PyTorch model weights were used when initializing TFBertForSequenceClassification.
+
+Some weights or buffers of the TF 2.0 model TFBertForSequenceClassification were not initialized from the PyTorch model and are newly initialized: ['classifier.weight', 'classifier.bias']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+All PyTorch model weights were used when initializing TFBertForSequenceClassification.
+
+Some weights or buffers of the TF 2.0 model TFBertForSequenceClassification were not initialized from the PyTorch model and are newly initialized: ['classifier.weight', 'classifier.bias']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+All PyTorch model weights were used when initializing TFBertForSequenceClassification.
+
+Some weights or buffers of the TF 2.0 model TFBertForSequenceClassification were not initialized from the PyTorch model and are newly initialized: ['classifier.weight', 'classifier.bias']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+All PyTorch model weights were used when initializing TFBertForSequenceClassification.
+
+Some weights or buffers of the TF 2.0 model TFBertForSequenceClassification were not initialized from the PyTorch model and are newly initialized: ['classifier.weight', 'classifier.bias']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+2025-05-16 04:54:24.683493: W tensorflow/python/util/util.cc:368] Sets are not currently considered sequences, but this may change in the future, so consider avoiding using them.
+WARNING:absl:Found untraced functions such as serving, embeddings_layer_call_fn, embeddings_layer_call_and_return_conditional_losses, encoder_layer_call_fn, encoder_layer_call_and_return_conditional_losses while saving (showing 5 of 421). These functions will not be directly callable after loading.
+GPU detected. Training will use GPU.
 
 Running experiment with batch_size=16, learning_rate=5e-05, epochs=2
 
 Epoch 1/2
-Train Loss: 0.7074 | Val Loss: 0.7010 | Time: 188.53s
-Train Loss: 0.7133 | Val Loss: 0.6916 | Time: 376.85s
-Train Loss: 0.7366 | Val Loss: 0.6821 | Time: 566.37s
-Train Loss: 0.7293 | Val Loss: 0.6879 | Time: 755.70s
-Train Loss: 0.7166 | Val Loss: 0.7183 | Time: 945.31s
-Train Loss: 0.7241 | Val Loss: 0.7409 | Time: 1134.45s
+Train Loss: 0.7300 | Val Loss: 0.7009 | Time: 67.29s
+Train Loss: 0.7358 | Val Loss: 0.6929 | Time: 133.35s
+Train Loss: 0.7164 | Val Loss: 0.6876 | Time: 199.39s
+Train Loss: 0.7015 | Val Loss: 0.6828 | Time: 265.02s
+Train Loss: 0.6938 | Val Loss: 0.6788 | Time: 330.79s
+Train Loss: 0.6894 | Val Loss: 0.6750 | Time: 396.79s
+Train Loss: 0.6899 | Val Loss: 0.6720 | Time: 462.84s
+Train Loss: 0.6891 | Val Loss: 0.6774 | Time: 528.83s
+Train Loss: 0.6880 | Val Loss: 0.6771 | Time: 594.79s
+Train Loss: 0.6876 | Val Loss: 0.6707 | Time: 660.81s
+Train Loss: 0.6870 | Val Loss: 0.6680 | Time: 726.83s
+Train Loss: 0.6917 | Val Loss: 0.6867 | Time: 792.86s
+Train Loss: 0.6863 | Val Loss: 0.7175 | Time: 858.93s
+Train Loss: 0.6875 | Val Loss: 0.7406 | Time: 925.04s
 Early stopping...
 
 Epoch 2/2
-Train Loss: 0.7520 | Val Loss: 0.7454 | Time: 189.80s
+Train Loss: 0.7224 | Val Loss: 0.7482 | Time: 66.06s
 Early stopping...
 
 Running experiment with batch_size=16, learning_rate=5e-05, epochs=3
 
 Epoch 1/3
-Train Loss: 0.7329 | Val Loss: 0.6992 | Time: 203.63s
-Train Loss: 0.7201 | Val Loss: 0.7007 | Time: 407.04s
-Train Loss: 0.7147 | Val Loss: 0.6924 | Time: 609.41s
-Train Loss: 0.7110 | Val Loss: 0.6879 | Time: 811.15s
-Train Loss: 0.7059 | Val Loss: 0.6858 | Time: 1014.81s
-Train Loss: 0.7058 | Val Loss: 0.6830 | Time: 1219.21s
-Train Loss: 0.7079 | Val Loss: 0.6795 | Time: 1422.00s
-Train Loss: 0.7013 | Val Loss: 0.6762 | Time: 1624.91s
-Train Loss: 0.6972 | Val Loss: 0.6750 | Time: 1828.87s
-Train Loss: 0.6961 | Val Loss: 0.6741 | Time: 2033.71s
-Train Loss: 0.7011 | Val Loss: 0.6693 | Time: 2237.62s
-Train Loss: 0.7011 | Val Loss: 0.6675 | Time: 2441.03s
-Train Loss: 0.6996 | Val Loss: 0.6623 | Time: 2641.69s
-Train Loss: 0.7026 | Val Loss: 0.6528 | Time: 2845.93s
-Train Loss: 0.7001 | Val Loss: 0.6516 | Time: 3049.43s
-Train Loss: 0.6993 | Val Loss: 0.6563 | Time: 3251.06s
-Train Loss: 0.6949 | Val Loss: 0.6704 | Time: 3453.46s
-Train Loss: 0.6981 | Val Loss: 0.6718 | Time: 3655.60s
+Train Loss: 0.7043 | Val Loss: 0.6976 | Time: 67.08s
+Train Loss: 0.7069 | Val Loss: 0.6982 | Time: 133.03s
+Train Loss: 0.6981 | Val Loss: 0.6969 | Time: 198.79s
+Train Loss: 0.6972 | Val Loss: 0.6946 | Time: 264.48s
+Train Loss: 0.6914 | Val Loss: 0.6912 | Time: 330.18s
+Train Loss: 0.6929 | Val Loss: 0.6914 | Time: 395.85s
+Train Loss: 0.6907 | Val Loss: 0.7011 | Time: 461.64s
+Train Loss: 0.6921 | Val Loss: 0.6985 | Time: 527.33s
 Early stopping...
 
 Epoch 2/3
-Train Loss: 0.7114 | Val Loss: 0.6649 | Time: 204.51s
+Train Loss: 0.6861 | Val Loss: 0.7014 | Time: 66.43s
 Early stopping...
 
 Epoch 3/3
-Train Loss: 0.6569 | Val Loss: 0.6540 | Time: 202.77s
+Train Loss: 0.7058 | Val Loss: 0.6952 | Time: 66.02s
 Early stopping...
 
 Running experiment with batch_size=16, learning_rate=5e-05, epochs=4
 
 Epoch 1/4
-Train Loss: 0.6814 | Val Loss: 0.7080 | Time: 197.50s
-Train Loss: 0.6895 | Val Loss: 0.7182 | Time: 397.60s
-Train Loss: 0.6737 | Val Loss: 0.7277 | Time: 598.38s
-Train Loss: 0.6659 | Val Loss: 0.7431 | Time: 800.33s
+Train Loss: 0.6678 | Val Loss: 0.7043 | Time: 66.82s
+Train Loss: 0.6727 | Val Loss: 0.7254 | Time: 133.00s
+Train Loss: 0.6985 | Val Loss: 0.7298 | Time: 199.08s
+Train Loss: 0.6950 | Val Loss: 0.7286 | Time: 265.10s
 Early stopping...
 
 Epoch 2/4
-Train Loss: 0.7474 | Val Loss: 0.7331 | Time: 203.19s
+Train Loss: 0.6754 | Val Loss: 0.7297 | Time: 66.41s
 Early stopping...
 
 Epoch 3/4
-Train Loss: 0.6696 | Val Loss: 0.7188 | Time: 202.26s
+Train Loss: 0.6975 | Val Loss: 0.7219 | Time: 66.47s
 Early stopping...
 
 Epoch 4/4
-Train Loss: 0.6254 | Val Loss: 0.7116 | Time: 202.49s
+Train Loss: 0.6657 | Val Loss: 0.7119 | Time: 66.33s
 Early stopping...
 
 Running experiment with batch_size=16, learning_rate=3e-05, epochs=2
 
 Epoch 1/2
-Train Loss: 0.6739 | Val Loss: 0.6880 | Time: 194.99s
-Train Loss: 0.6803 | Val Loss: 0.6875 | Time: 390.73s
-Train Loss: 0.6793 | Val Loss: 0.6956 | Time: 594.94s
-Train Loss: 0.7114 | Val Loss: 0.6915 | Time: 798.80s
-Train Loss: 0.7163 | Val Loss: 0.6854 | Time: 1004.37s
-Train Loss: 0.7157 | Val Loss: 0.6784 | Time: 1207.87s
-Train Loss: 0.7106 | Val Loss: 0.6743 | Time: 1414.34s
-Train Loss: 0.7078 | Val Loss: 0.6732 | Time: 1618.57s
-Train Loss: 0.7034 | Val Loss: 0.6721 | Time: 1823.72s
-Train Loss: 0.6997 | Val Loss: 0.6716 | Time: 2028.12s
-Train Loss: 0.6970 | Val Loss: 0.6727 | Time: 2233.89s
-Train Loss: 0.6950 | Val Loss: 0.6737 | Time: 2438.52s
-Train Loss: 0.6926 | Val Loss: 0.6741 | Time: 2642.97s
+Train Loss: 0.6699 | Val Loss: 0.6925 | Time: 66.87s
+Train Loss: 0.6845 | Val Loss: 0.6941 | Time: 133.13s
+Train Loss: 0.6893 | Val Loss: 0.6946 | Time: 199.22s
+Train Loss: 0.7012 | Val Loss: 0.6909 | Time: 264.96s
+Train Loss: 0.7001 | Val Loss: 0.6878 | Time: 330.78s
+Train Loss: 0.6937 | Val Loss: 0.6862 | Time: 396.73s
+Train Loss: 0.6938 | Val Loss: 0.6839 | Time: 462.59s
+Train Loss: 0.6858 | Val Loss: 0.6823 | Time: 528.46s
+Train Loss: 0.6842 | Val Loss: 0.6820 | Time: 594.24s
+Train Loss: 0.6838 | Val Loss: 0.6867 | Time: 660.19s
+Train Loss: 0.6851 | Val Loss: 0.6937 | Time: 725.94s
+Train Loss: 0.6934 | Val Loss: 0.6895 | Time: 791.70s
 Early stopping...
 
 Epoch 2/2
-Train Loss: 0.6508 | Val Loss: 0.6777 | Time: 204.51s
+Train Loss: 0.6675 | Val Loss: 0.6871 | Time: 66.35s
 Early stopping...
 
 Running experiment with batch_size=16, learning_rate=3e-05, epochs=3
 
 Epoch 1/3
-Train Loss: 0.7321 | Val Loss: 0.7018 | Time: 207.84s
-Train Loss: 0.7220 | Val Loss: 0.7080 | Time: 416.92s
-Train Loss: 0.7094 | Val Loss: 0.7064 | Time: 624.99s
-Train Loss: 0.7203 | Val Loss: 0.7029 | Time: 833.10s
+Train Loss: 0.7069 | Val Loss: 0.6950 | Time: 67.00s
+Train Loss: 0.7080 | Val Loss: 0.6948 | Time: 132.78s
+Train Loss: 0.7024 | Val Loss: 0.6947 | Time: 198.66s
+Train Loss: 0.7076 | Val Loss: 0.6936 | Time: 264.52s
+Train Loss: 0.7062 | Val Loss: 0.6906 | Time: 330.48s
+Train Loss: 0.6980 | Val Loss: 0.6881 | Time: 396.43s
+Train Loss: 0.6928 | Val Loss: 0.6894 | Time: 462.33s
+Train Loss: 0.6862 | Val Loss: 0.6929 | Time: 528.51s
+Train Loss: 0.6935 | Val Loss: 0.6914 | Time: 594.41s
 Early stopping...
 
 Epoch 2/3
-Train Loss: 0.7283 | Val Loss: 0.6949 | Time: 208.79s
-Train Loss: 0.6947 | Val Loss: 0.6901 | Time: 416.10s
-Train Loss: 0.6917 | Val Loss: 0.6878 | Time: 625.38s
-Train Loss: 0.6876 | Val Loss: 0.6851 | Time: 833.17s
-Train Loss: 0.6816 | Val Loss: 0.6830 | Time: 1040.53s
-Train Loss: 0.6867 | Val Loss: 0.6798 | Time: 1249.61s
-Train Loss: 0.6844 | Val Loss: 0.6774 | Time: 1457.38s
-Train Loss: 0.6872 | Val Loss: 0.6744 | Time: 1667.53s
-Train Loss: 0.6867 | Val Loss: 0.6727 | Time: 1876.51s
-Train Loss: 0.6865 | Val Loss: 0.6724 | Time: 2084.95s
-Train Loss: 0.6861 | Val Loss: 0.6726 | Time: 2292.77s
-Train Loss: 0.6879 | Val Loss: 0.6698 | Time: 2500.85s
-Train Loss: 0.6904 | Val Loss: 0.6674 | Time: 2708.34s
-Train Loss: 0.6887 | Val Loss: 0.6639 | Time: 2916.70s
-Train Loss: 0.6869 | Val Loss: 0.6630 | Time: 3125.17s
-Train Loss: 0.6888 | Val Loss: 0.6602 | Time: 3334.03s
-Train Loss: 0.6833 | Val Loss: 0.6599 | Time: 3542.08s
-Train Loss: 0.6819 | Val Loss: 0.6657 | Time: 3749.67s
-Train Loss: 0.6852 | Val Loss: 0.6659 | Time: 3958.47s
-Train Loss: 0.6847 | Val Loss: 0.6643 | Time: 4167.13s
+Train Loss: 0.6998 | Val Loss: 0.6904 | Time: 66.11s
 Early stopping...
 
 Epoch 3/3
-Train Loss: 0.6807 | Val Loss: 0.6589 | Time: 208.45s
-Train Loss: 0.7055 | Val Loss: 0.6522 | Time: 415.73s
-Train Loss: 0.7063 | Val Loss: 0.6441 | Time: 624.27s
-Train Loss: 0.7052 | Val Loss: 0.6388 | Time: 831.86s
-Train Loss: 0.6995 | Val Loss: 0.6383 | Time: 1038.38s
-Train Loss: 0.6932 | Val Loss: 0.6398 | Time: 1246.25s
-Train Loss: 0.6873 | Val Loss: 0.6427 | Time: 1452.90s
-Train Loss: 0.6829 | Val Loss: 0.6430 | Time: 1660.88s
+Train Loss: 0.6993 | Val Loss: 0.6868 | Time: 66.27s
+Train Loss: 0.7343 | Val Loss: 0.6813 | Time: 132.44s
+Train Loss: 0.7247 | Val Loss: 0.6765 | Time: 198.77s
+Train Loss: 0.7143 | Val Loss: 0.6729 | Time: 264.87s
+Train Loss: 0.7119 | Val Loss: 0.6674 | Time: 330.75s
+Train Loss: 0.7111 | Val Loss: 0.6641 | Time: 396.61s
+Train Loss: 0.7138 | Val Loss: 0.6616 | Time: 462.63s
+Train Loss: 0.7131 | Val Loss: 0.6587 | Time: 528.56s
+Train Loss: 0.7075 | Val Loss: 0.6553 | Time: 594.52s
+Train Loss: 0.7014 | Val Loss: 0.6515 | Time: 660.40s
+Train Loss: 0.6994 | Val Loss: 0.6495 | Time: 726.28s
+Train Loss: 0.6961 | Val Loss: 0.6475 | Time: 792.42s
+Train Loss: 0.6937 | Val Loss: 0.6463 | Time: 858.57s
+Train Loss: 0.6890 | Val Loss: 0.6462 | Time: 924.65s
+Train Loss: 0.6882 | Val Loss: 0.6494 | Time: 990.65s
+Train Loss: 0.6817 | Val Loss: 0.6548 | Time: 1056.85s
 Early stopping...
 
 Running experiment with batch_size=16, learning_rate=3e-05, epochs=4
 
 Epoch 1/4
-Train Loss: 0.6879 | Val Loss: 0.6941 | Time: 201.39s
-Train Loss: 0.7025 | Val Loss: 0.6948 | Time: 395.39s
-Train Loss: 0.6977 | Val Loss: 0.6941 | Time: 588.65s
-Train Loss: 0.6861 | Val Loss: 0.6964 | Time: 782.22s
+Train Loss: 0.6976 | Val Loss: 0.6955 | Time: 67.12s
+Train Loss: 0.7010 | Val Loss: 0.6913 | Time: 133.43s
+Train Loss: 0.7210 | Val Loss: 0.6872 | Time: 199.84s
+Train Loss: 0.7188 | Val Loss: 0.6850 | Time: 266.07s
+Train Loss: 0.7127 | Val Loss: 0.6849 | Time: 332.19s
+Train Loss: 0.7093 | Val Loss: 0.6863 | Time: 398.23s
+Train Loss: 0.7062 | Val Loss: 0.6890 | Time: 464.32s
 Early stopping...
 
 Epoch 2/4
-Train Loss: 0.6753 | Val Loss: 0.6982 | Time: 191.34s
+Train Loss: 0.6863 | Val Loss: 0.6916 | Time: 66.23s
 Early stopping...
 
 Epoch 3/4
-Train Loss: 0.6777 | Val Loss: 0.7004 | Time: 192.60s
+Train Loss: 0.6746 | Val Loss: 0.6932 | Time: 66.22s
 Early stopping...
 
 Epoch 4/4
-Train Loss: 0.7984 | Val Loss: 0.6946 | Time: 191.41s
+Train Loss: 0.6237 | Val Loss: 0.7006 | Time: 66.25s
 Early stopping...
 
 Running experiment with batch_size=16, learning_rate=2e-05, epochs=2
 
 Epoch 1/2
-Train Loss: 0.7353 | Val Loss: 0.6907 | Time: 189.91s
-Train Loss: 0.7049 | Val Loss: 0.6891 | Time: 380.83s
-Train Loss: 0.7037 | Val Loss: 0.6879 | Time: 574.64s
-Train Loss: 0.7015 | Val Loss: 0.6858 | Time: 767.48s
-Train Loss: 0.7005 | Val Loss: 0.6842 | Time: 959.92s
-Train Loss: 0.6984 | Val Loss: 0.6828 | Time: 1151.98s
-Train Loss: 0.6977 | Val Loss: 0.6823 | Time: 1345.84s
-Train Loss: 0.6990 | Val Loss: 0.6828 | Time: 1538.11s
-Train Loss: 0.7003 | Val Loss: 0.6819 | Time: 1729.07s
-Train Loss: 0.6999 | Val Loss: 0.6810 | Time: 1921.75s
-Train Loss: 0.7007 | Val Loss: 0.6788 | Time: 2117.48s
-Train Loss: 0.7001 | Val Loss: 0.6765 | Time: 2314.32s
-Train Loss: 0.6978 | Val Loss: 0.6748 | Time: 2509.86s
-Train Loss: 0.6984 | Val Loss: 0.6717 | Time: 2705.43s
-Train Loss: 0.6979 | Val Loss: 0.6692 | Time: 2899.33s
-Train Loss: 0.6958 | Val Loss: 0.6676 | Time: 3093.08s
-Train Loss: 0.6940 | Val Loss: 0.6658 | Time: 3285.09s
-Train Loss: 0.6945 | Val Loss: 0.6640 | Time: 3477.78s
-Train Loss: 0.6939 | Val Loss: 0.6626 | Time: 3672.45s
-Train Loss: 0.6925 | Val Loss: 0.6623 | Time: 3865.67s
-Train Loss: 0.6920 | Val Loss: 0.6618 | Time: 4059.03s
-Train Loss: 0.6896 | Val Loss: 0.6631 | Time: 4251.60s
-Train Loss: 0.6891 | Val Loss: 0.6645 | Time: 4445.97s
-Train Loss: 0.6892 | Val Loss: 0.6642 | Time: 4640.41s
+Train Loss: 0.7016 | Val Loss: 0.6894 | Time: 67.05s
+Train Loss: 0.6882 | Val Loss: 0.6902 | Time: 132.94s
+Train Loss: 0.6828 | Val Loss: 0.6892 | Time: 198.89s
+Train Loss: 0.6862 | Val Loss: 0.6873 | Time: 264.79s
+Train Loss: 0.6898 | Val Loss: 0.6836 | Time: 330.69s
+Train Loss: 0.6925 | Val Loss: 0.6821 | Time: 396.63s
+Train Loss: 0.6878 | Val Loss: 0.6829 | Time: 462.50s
+Train Loss: 0.6819 | Val Loss: 0.6861 | Time: 528.28s
+Train Loss: 0.6775 | Val Loss: 0.6942 | Time: 594.09s
 Early stopping...
 
 Epoch 2/2
-Train Loss: 0.7120 | Val Loss: 0.6630 | Time: 197.09s
+Train Loss: 0.6433 | Val Loss: 0.7039 | Time: 66.00s
 Early stopping...
 
 Running experiment with batch_size=16, learning_rate=2e-05, epochs=3
 
 Epoch 1/3
-Train Loss: 0.7432 | Val Loss: 0.6943 | Time: 193.52s
-Train Loss: 0.7201 | Val Loss: 0.6929 | Time: 389.04s
-Train Loss: 0.7104 | Val Loss: 0.6943 | Time: 584.08s
-Train Loss: 0.7008 | Val Loss: 0.6953 | Time: 779.40s
-Train Loss: 0.7022 | Val Loss: 0.6960 | Time: 974.13s
+Train Loss: 0.7046 | Val Loss: 0.6964 | Time: 66.75s
+Train Loss: 0.7058 | Val Loss: 0.6948 | Time: 132.58s
+Train Loss: 0.6938 | Val Loss: 0.6941 | Time: 198.40s
+Train Loss: 0.6932 | Val Loss: 0.6924 | Time: 264.16s
+Train Loss: 0.7035 | Val Loss: 0.6885 | Time: 329.88s
+Train Loss: 0.7038 | Val Loss: 0.6849 | Time: 395.64s
+Train Loss: 0.7020 | Val Loss: 0.6824 | Time: 461.40s
+Train Loss: 0.6997 | Val Loss: 0.6808 | Time: 527.16s
+Train Loss: 0.7007 | Val Loss: 0.6791 | Time: 593.02s
+Train Loss: 0.6974 | Val Loss: 0.6774 | Time: 658.91s
+Train Loss: 0.6957 | Val Loss: 0.6758 | Time: 725.05s
+Train Loss: 0.6944 | Val Loss: 0.6741 | Time: 791.17s
+Train Loss: 0.6955 | Val Loss: 0.6726 | Time: 856.89s
+Train Loss: 0.6929 | Val Loss: 0.6718 | Time: 922.63s
+Train Loss: 0.6892 | Val Loss: 0.6714 | Time: 988.22s
+Train Loss: 0.6898 | Val Loss: 0.6710 | Time: 1054.02s
+Train Loss: 0.6895 | Val Loss: 0.6706 | Time: 1119.89s
+Train Loss: 0.6910 | Val Loss: 0.6687 | Time: 1185.81s
+Train Loss: 0.6934 | Val Loss: 0.6666 | Time: 1251.78s
+Train Loss: 0.6949 | Val Loss: 0.6646 | Time: 1317.49s
+Train Loss: 0.6958 | Val Loss: 0.6641 | Time: 1383.18s
+Train Loss: 0.6940 | Val Loss: 0.6635 | Time: 1448.98s
+Train Loss: 0.6943 | Val Loss: 0.6628 | Time: 1514.69s
+Train Loss: 0.6937 | Val Loss: 0.6619 | Time: 1580.56s
+Train Loss: 0.6940 | Val Loss: 0.6607 | Time: 1646.56s
+Train Loss: 0.6956 | Val Loss: 0.6590 | Time: 1712.73s
+Train Loss: 0.6950 | Val Loss: 0.6570 | Time: 1778.73s
+Train Loss: 0.6929 | Val Loss: 0.6555 | Time: 1844.44s
+Train Loss: 0.6920 | Val Loss: 0.6542 | Time: 1910.36s
+Train Loss: 0.6910 | Val Loss: 0.6535 | Time: 1976.22s
+Train Loss: 0.6914 | Val Loss: 0.6527 | Time: 2042.00s
+Train Loss: 0.6911 | Val Loss: 0.6517 | Time: 2107.66s
+Train Loss: 0.6906 | Val Loss: 0.6511 | Time: 2173.54s
+Train Loss: 0.6908 | Val Loss: 0.6494 | Time: 2239.46s
+Train Loss: 0.6911 | Val Loss: 0.6469 | Time: 2305.33s
+Train Loss: 0.6915 | Val Loss: 0.6445 | Time: 2371.25s
+Train Loss: 0.6904 | Val Loss: 0.6420 | Time: 2437.06s
+Train Loss: 0.6899 | Val Loss: 0.6398 | Time: 2502.87s
+Train Loss: 0.6888 | Val Loss: 0.6377 | Time: 2568.67s
+Train Loss: 0.6868 | Val Loss: 0.6354 | Time: 2634.46s
+Train Loss: 0.6868 | Val Loss: 0.6345 | Time: 2700.21s
+Train Loss: 0.6855 | Val Loss: 0.6367 | Time: 2766.19s
+Train Loss: 0.6839 | Val Loss: 0.6414 | Time: 2832.05s
+Train Loss: 0.6827 | Val Loss: 0.6489 | Time: 2898.28s
 Early stopping...
 
 Epoch 2/3
-Train Loss: 0.7258 | Val Loss: 0.6972 | Time: 194.36s
+Train Loss: 0.6482 | Val Loss: 0.6536 | Time: 65.88s
 Early stopping...
 
 Epoch 3/3
-Train Loss: 0.6901 | Val Loss: 0.6977 | Time: 194.92s
+Train Loss: 0.6303 | Val Loss: 0.6550 | Time: 65.91s
 Early stopping...
 
 Running experiment with batch_size=16, learning_rate=2e-05, epochs=4
 
 Epoch 1/4
-Train Loss: 0.7034 | Val Loss: 0.6916 | Time: 195.48s
-Train Loss: 0.6959 | Val Loss: 0.6932 | Time: 391.63s
-Train Loss: 0.6766 | Val Loss: 0.6974 | Time: 586.78s
-Train Loss: 0.6757 | Val Loss: 0.7010 | Time: 779.63s
+Train Loss: 0.6953 | Val Loss: 0.6978 | Time: 66.98s
+Train Loss: 0.6878 | Val Loss: 0.6991 | Time: 133.08s
+Train Loss: 0.6879 | Val Loss: 0.6976 | Time: 198.88s
+Train Loss: 0.6949 | Val Loss: 0.6951 | Time: 264.76s
+Train Loss: 0.6997 | Val Loss: 0.6923 | Time: 330.53s
+Train Loss: 0.6965 | Val Loss: 0.6900 | Time: 396.39s
+Train Loss: 0.6905 | Val Loss: 0.6895 | Time: 462.26s
+Train Loss: 0.6902 | Val Loss: 0.6886 | Time: 528.32s
+Train Loss: 0.6927 | Val Loss: 0.6869 | Time: 594.12s
+Train Loss: 0.6916 | Val Loss: 0.6844 | Time: 659.87s
+Train Loss: 0.6915 | Val Loss: 0.6820 | Time: 725.80s
+Train Loss: 0.6916 | Val Loss: 0.6795 | Time: 791.82s
+Train Loss: 0.6929 | Val Loss: 0.6778 | Time: 857.82s
+Train Loss: 0.6931 | Val Loss: 0.6767 | Time: 923.72s
+Train Loss: 0.6917 | Val Loss: 0.6761 | Time: 989.89s
+Train Loss: 0.6911 | Val Loss: 0.6759 | Time: 1056.14s
+Train Loss: 0.6924 | Val Loss: 0.6748 | Time: 1122.41s
+Train Loss: 0.6924 | Val Loss: 0.6745 | Time: 1188.64s
+Train Loss: 0.6936 | Val Loss: 0.6729 | Time: 1254.79s
+Train Loss: 0.6927 | Val Loss: 0.6704 | Time: 1321.00s
+Train Loss: 0.6928 | Val Loss: 0.6683 | Time: 1387.06s
+Train Loss: 0.6913 | Val Loss: 0.6664 | Time: 1452.99s
+Train Loss: 0.6914 | Val Loss: 0.6643 | Time: 1519.07s
+Train Loss: 0.6904 | Val Loss: 0.6623 | Time: 1585.26s
+Train Loss: 0.6883 | Val Loss: 0.6598 | Time: 1651.41s
+Train Loss: 0.6875 | Val Loss: 0.6576 | Time: 1717.55s
+Train Loss: 0.6869 | Val Loss: 0.6552 | Time: 1783.48s
+Train Loss: 0.6878 | Val Loss: 0.6534 | Time: 1849.27s
+Train Loss: 0.6860 | Val Loss: 0.6518 | Time: 1915.07s
+Train Loss: 0.6863 | Val Loss: 0.6496 | Time: 1980.83s
+Train Loss: 0.6860 | Val Loss: 0.6481 | Time: 2046.67s
+Train Loss: 0.6874 | Val Loss: 0.6469 | Time: 2112.44s
+Train Loss: 0.6872 | Val Loss: 0.6455 | Time: 2178.54s
+Train Loss: 0.6870 | Val Loss: 0.6441 | Time: 2244.79s
+Train Loss: 0.6873 | Val Loss: 0.6423 | Time: 2310.60s
+Train Loss: 0.6867 | Val Loss: 0.6408 | Time: 2376.62s
+Train Loss: 0.6865 | Val Loss: 0.6394 | Time: 2442.75s
+Train Loss: 0.6857 | Val Loss: 0.6386 | Time: 2510.11s
+Train Loss: 0.6856 | Val Loss: 0.6375 | Time: 2575.46s
+Train Loss: 0.6855 | Val Loss: 0.6361 | Time: 2640.52s
+Train Loss: 0.6859 | Val Loss: 0.6354 | Time: 2707.00s
+Train Loss: 0.6849 | Val Loss: 0.6364 | Time: 2771.96s
+Train Loss: 0.6840 | Val Loss: 0.6372 | Time: 2836.67s
+Train Loss: 0.6828 | Val Loss: 0.6375 | Time: 2901.32s
 Early stopping...
 
 Epoch 2/4
-Train Loss: 0.7235 | Val Loss: 0.7013 | Time: 192.03s
+Train Loss: 0.6160 | Val Loss: 0.6381 | Time: 64.56s
 Early stopping...
 
 Epoch 3/4
-Train Loss: 0.7080 | Val Loss: 0.7014 | Time: 191.44sAll PyTorch model weights were used when initializing TFBertForSequenceClassification.
-
-Some weights or buffers of the TF 2.0 model TFBertForSequenceClassification were not initialized from the PyTorch model and are newly initialized: ['classifier.weight', 'classifier.bias']
-You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
-All PyTorch model weights were used when initializing TFBertForSequenceClassification.
-
-Some weights or buffers of the TF 2.0 model TFBertForSequenceClassification were not initialized from the PyTorch model and are newly initialized: ['classifier.weight', 'classifier.bias']
-You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
-All PyTorch model weights were used when initializing TFBertForSequenceClassification.
-
-Some weights or buffers of the TF 2.0 model TFBertForSequenceClassification were not initialized from the PyTorch model and are newly initialized: ['classifier.weight', 'classifier.bias']
-You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
-All PyTorch model weights were used when initializing TFBertForSequenceClassification.
-
-Some weights or buffers of the TF 2.0 model TFBertForSequenceClassification were not initialized from the PyTorch model and are newly initialized: ['classifier.weight', 'classifier.bias']
-You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
-All PyTorch model weights were used when initializing TFBertForSequenceClassification.
-
-Some weights or buffers of the TF 2.0 model TFBertForSequenceClassification were not initialized from the PyTorch model and are newly initialized: ['classifier.weight', 'classifier.bias']
-You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
-All PyTorch model weights were used when initializing TFBertForSequenceClassification.
-
-Some weights or buffers of the TF 2.0 model TFBertForSequenceClassification were not initialized from the PyTorch model and are newly initialized: ['classifier.weight', 'classifier.bias']
-You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
-
+Train Loss: 0.6494 | Val Loss: 0.6423 | Time: 66.75s
 Early stopping...
 
 Epoch 4/4
-Train Loss: 0.6853 | Val Loss: 0.7011 | Time: 192.62s
+Train Loss: 0.6862 | Val Loss: 0.6455 | Time: 64.32s
 Early stopping...
 
 Running experiment with batch_size=32, learning_rate=5e-05, epochs=2
 
 Epoch 1/2
-Train Loss: 0.7242 | Val Loss: 0.7026 | Time: 138.65s
-Train Loss: 0.7167 | Val Loss: 0.6994 | Time: 277.55s
-Train Loss: 0.7221 | Val Loss: 0.6882 | Time: 416.40s
-Train Loss: 0.7173 | Val Loss: 0.6813 | Time: 554.10s
-Train Loss: 0.7146 | Val Loss: 0.6786 | Time: 691.33s
-Train Loss: 0.7098 | Val Loss: 0.6800 | Time: 828.63s
-Train Loss: 0.7053 | Val Loss: 0.6839 | Time: 966.84s
-Train Loss: 0.7058 | Val Loss: 0.6832 | Time: 1104.95s
+Train Loss: 0.6910 | Val Loss: 0.7205 | Time: 33.42s
+Train Loss: 0.6879 | Val Loss: 0.7166 | Time: 65.98s
+Train Loss: 0.6691 | Val Loss: 0.7420 | Time: 98.56s
+Train Loss: 0.6781 | Val Loss: 0.7465 | Time: 131.14s
+Train Loss: 0.6795 | Val Loss: 0.7380 | Time: 163.76s
 Early stopping...
 
 Epoch 2/2
-Train Loss: 0.6874 | Val Loss: 0.6776 | Time: 138.93s
-Train Loss: 0.6938 | Val Loss: 0.6682 | Time: 277.67s
-Train Loss: 0.6759 | Val Loss: 0.6640 | Time: 415.61s
-Train Loss: 0.6731 | Val Loss: 0.6606 | Time: 554.47s
-Train Loss: 0.6713 | Val Loss: 0.6563 | Time: 694.72s
-Train Loss: 0.6761 | Val Loss: 0.6539 | Time: 833.88s
-Train Loss: 0.6784 | Val Loss: 0.6490 | Time: 973.30s
-Train Loss: 0.6777 | Val Loss: 0.6439 | Time: 1112.23s
-Train Loss: 0.6756 | Val Loss: 0.6317 | Time: 1251.90s
-Train Loss: 0.6751 | Val Loss: 0.6256 | Time: 1389.74s
-Train Loss: 0.6725 | Val Loss: 0.6204 | Time: 1528.76s
-Train Loss: 0.6679 | Val Loss: 0.6166 | Time: 1666.83s
-Train Loss: 0.6678 | Val Loss: 0.6180 | Time: 1806.53s
-Train Loss: 0.6709 | Val Loss: 0.6123 | Time: 1946.50s
-Train Loss: 0.6654 | Val Loss: 0.6056 | Time: 2085.37s
-Train Loss: 0.6644 | Val Loss: 0.5983 | Time: 2223.86s
-Train Loss: 0.6611 | Val Loss: 0.5944 | Time: 2362.88s
-Train Loss: 0.6619 | Val Loss: 0.5841 | Time: 2504.14s
-Train Loss: 0.6548 | Val Loss: 0.5764 | Time: 2642.48s
-Train Loss: 0.6497 | Val Loss: 0.5646 | Time: 2780.89s
-Train Loss: 0.6486 | Val Loss: 0.5579 | Time: 2918.75s
-Train Loss: 0.6450 | Val Loss: 0.5796 | Time: 3056.57s
-Train Loss: 0.6474 | Val Loss: 0.5976 | Time: 3193.89s
-Train Loss: 0.6443 | Val Loss: 0.5953 | Time: 3331.77s
+Train Loss: 0.7891 | Val Loss: 0.7012 | Time: 32.92s
+Train Loss: 0.7218 | Val Loss: 0.6837 | Time: 65.55s
+Train Loss: 0.7226 | Val Loss: 0.6817 | Time: 98.12s
+Train Loss: 0.7142 | Val Loss: 0.6912 | Time: 130.69s
+Train Loss: 0.7046 | Val Loss: 0.7070 | Time: 163.31s
+Train Loss: 0.7012 | Val Loss: 0.7174 | Time: 195.89s
 Early stopping...
 
 Running experiment with batch_size=32, learning_rate=5e-05, epochs=3
 
 Epoch 1/3
-Train Loss: 0.6776 | Val Loss: 0.6982 | Time: 135.28s
-Train Loss: 0.7064 | Val Loss: 0.6876 | Time: 273.28s
-Train Loss: 0.7067 | Val Loss: 0.6779 | Time: 410.75s
-Train Loss: 0.7046 | Val Loss: 0.6794 | Time: 548.49s
-Train Loss: 0.7001 | Val Loss: 0.6776 | Time: 684.96s
-Train Loss: 0.7000 | Val Loss: 0.6741 | Time: 822.67s
-Train Loss: 0.6984 | Val Loss: 0.6645 | Time: 959.68s
-Train Loss: 0.6957 | Val Loss: 0.6582 | Time: 1098.23s
-Train Loss: 0.6912 | Val Loss: 0.6585 | Time: 1235.73s
-Train Loss: 0.6898 | Val Loss: 0.6597 | Time: 1373.75s
-Train Loss: 0.6904 | Val Loss: 0.6543 | Time: 1511.98s
-Train Loss: 0.6890 | Val Loss: 0.6519 | Time: 1649.52s
-Train Loss: 0.6891 | Val Loss: 0.6382 | Time: 1788.20s
-Train Loss: 0.6888 | Val Loss: 0.6298 | Time: 1924.31s
-Train Loss: 0.6862 | Val Loss: 0.6239 | Time: 2062.13s
-Train Loss: 0.6855 | Val Loss: 0.6157 | Time: 2200.92s
-Train Loss: 0.6830 | Val Loss: 0.6088 | Time: 2339.35s
-Train Loss: 0.6807 | Val Loss: 0.6019 | Time: 2477.99s
-Train Loss: 0.6800 | Val Loss: 0.5962 | Time: 2613.91s
-Train Loss: 0.6831 | Val Loss: 0.5978 | Time: 2750.09s
-Train Loss: 0.6801 | Val Loss: 0.6004 | Time: 2887.87s
-Train Loss: 0.6773 | Val Loss: 0.6048 | Time: 3024.01s
+Train Loss: 0.7070 | Val Loss: 0.7255 | Time: 34.37s
+Train Loss: 0.7028 | Val Loss: 0.7437 | Time: 66.90s
+Train Loss: 0.7113 | Val Loss: 0.7258 | Time: 99.50s
+Train Loss: 0.7137 | Val Loss: 0.6936 | Time: 132.14s
+Train Loss: 0.7037 | Val Loss: 0.6796 | Time: 164.84s
+Train Loss: 0.7075 | Val Loss: 0.6691 | Time: 197.50s
+Train Loss: 0.7036 | Val Loss: 0.6755 | Time: 230.18s
+Train Loss: 0.7007 | Val Loss: 0.6846 | Time: 262.96s
+Train Loss: 0.7012 | Val Loss: 0.6825 | Time: 295.71s
 Early stopping...
 
 Epoch 2/3
-Train Loss: 0.5901 | Val Loss: 0.6038 | Time: 138.16s
+Train Loss: 0.7103 | Val Loss: 0.6745 | Time: 32.93s
 Early stopping...
 
 Epoch 3/3
-Train Loss: 0.6212 | Val Loss: 0.5924 | Time: 138.17s
-Train Loss: 0.6049 | Val Loss: 0.5831 | Time: 277.48s
-Train Loss: 0.6005 | Val Loss: 0.5657 | Time: 415.60s
-Train Loss: 0.6029 | Val Loss: 0.5412 | Time: 552.68s
-Train Loss: 0.6023 | Val Loss: 0.5321 | Time: 691.67s
-Train Loss: 0.5917 | Val Loss: 0.5437 | Time: 829.73s
-Train Loss: 0.5803 | Val Loss: 0.5850 | Time: 968.77s
-Train Loss: 0.5803 | Val Loss: 0.5572 | Time: 1107.21s
+Train Loss: 0.6706 | Val Loss: 0.6672 | Time: 33.01s
+Train Loss: 0.6672 | Val Loss: 0.6588 | Time: 65.75s
+Train Loss: 0.6725 | Val Loss: 0.6545 | Time: 98.51s
+Train Loss: 0.6757 | Val Loss: 0.6594 | Time: 131.28s
+Train Loss: 0.6744 | Val Loss: 0.6662 | Time: 164.08s
+Train Loss: 0.6755 | Val Loss: 0.6678 | Time: 196.82s
 Early stopping...
 
 Running experiment with batch_size=32, learning_rate=5e-05, epochs=4
 
 Epoch 1/4
-Train Loss: 0.6949 | Val Loss: 0.6920 | Time: 141.65s
-Train Loss: 0.6894 | Val Loss: 0.6899 | Time: 282.80s
-Train Loss: 0.6835 | Val Loss: 0.6921 | Time: 423.90s
-Train Loss: 0.6779 | Val Loss: 0.7026 | Time: 565.92s
-Train Loss: 0.6791 | Val Loss: 0.7092 | Time: 708.15s
+Train Loss: 0.7243 | Val Loss: 0.7110 | Time: 33.62s
+Train Loss: 0.7223 | Val Loss: 0.7066 | Time: 68.31s
+Train Loss: 0.7170 | Val Loss: 0.6939 | Time: 101.00s
+Train Loss: 0.7135 | Val Loss: 0.6835 | Time: 133.57s
+Train Loss: 0.7061 | Val Loss: 0.6798 | Time: 166.13s
+Train Loss: 0.7044 | Val Loss: 0.6755 | Time: 198.74s
+Train Loss: 0.6986 | Val Loss: 0.6697 | Time: 231.34s
+Train Loss: 0.6974 | Val Loss: 0.6634 | Time: 263.90s
+Train Loss: 0.6959 | Val Loss: 0.6626 | Time: 296.50s
+Train Loss: 0.6958 | Val Loss: 0.6720 | Time: 329.08s
+Train Loss: 0.6965 | Val Loss: 0.6781 | Time: 361.62s
+Train Loss: 0.6921 | Val Loss: 0.6825 | Time: 394.23s
 Early stopping...
 
 Epoch 2/4
-Train Loss: 0.6693 | Val Loss: 0.7115 | Time: 140.39s
+Train Loss: 0.6602 | Val Loss: 0.6763 | Time: 32.79s
 Early stopping...
 
 Epoch 3/4
-Train Loss: 0.7101 | Val Loss: 0.6986 | Time: 141.29s
+Train Loss: 0.6900 | Val Loss: 0.6595 | Time: 32.79s
+Train Loss: 0.6923 | Val Loss: 0.6493 | Time: 65.38s
+Train Loss: 0.6988 | Val Loss: 0.6370 | Time: 97.95s
+Train Loss: 0.6861 | Val Loss: 0.6264 | Time: 130.52s
+Train Loss: 0.6746 | Val Loss: 0.6178 | Time: 163.12s
+Train Loss: 0.6821 | Val Loss: 0.6127 | Time: 195.68s
+Train Loss: 0.6765 | Val Loss: 0.6066 | Time: 228.24s
+Train Loss: 0.6684 | Val Loss: 0.6029 | Time: 260.76s
+Train Loss: 0.6664 | Val Loss: 0.5968 | Time: 293.25s
+Train Loss: 0.6632 | Val Loss: 0.5901 | Time: 325.83s
+Train Loss: 0.6646 | Val Loss: 0.5817 | Time: 358.38s
+Train Loss: 0.6591 | Val Loss: 0.5757 | Time: 390.92s
+Train Loss: 0.6572 | Val Loss: 0.5674 | Time: 423.49s
+Train Loss: 0.6506 | Val Loss: 0.5620 | Time: 456.07s
+Train Loss: 0.6441 | Val Loss: 0.5592 | Time: 488.61s
+Train Loss: 0.6374 | Val Loss: 0.5522 | Time: 521.14s
+Train Loss: 0.6310 | Val Loss: 0.5539 | Time: 553.72s
+Train Loss: 0.6277 | Val Loss: 0.5564 | Time: 586.19s
+Train Loss: 0.6221 | Val Loss: 0.5555 | Time: 618.65s
 Early stopping...
 
 Epoch 4/4
-Train Loss: 0.6310 | Val Loss: 0.6825 | Time: 141.08s
-Train Loss: 0.6241 | Val Loss: 0.6919 | Time: 281.82s
-Train Loss: 0.6404 | Val Loss: 0.6963 | Time: 421.71s
-Train Loss: 0.6660 | Val Loss: 0.6704 | Time: 562.76s
-Train Loss: 0.6695 | Val Loss: 0.6555 | Time: 703.70s
-Train Loss: 0.6780 | Val Loss: 0.6523 | Time: 844.88s
-Train Loss: 0.6720 | Val Loss: 0.6479 | Time: 984.95s
-Train Loss: 0.6733 | Val Loss: 0.6384 | Time: 1124.67s
-Train Loss: 0.6713 | Val Loss: 0.6282 | Time: 1264.77s
-Train Loss: 0.6729 | Val Loss: 0.6178 | Time: 1403.93s
-Train Loss: 0.6716 | Val Loss: 0.6135 | Time: 1544.31s
-Train Loss: 0.6670 | Val Loss: 0.6249 | Time: 1682.62s
-Train Loss: 0.6657 | Val Loss: 0.6403 | Time: 1822.13s
-Train Loss: 0.6640 | Val Loss: 0.6602 | Time: 1962.57s
+Train Loss: 0.4578 | Val Loss: 0.5688 | Time: 32.94s
 Early stopping...
 
 Running experiment with batch_size=32, learning_rate=3e-05, epochs=2
 
 Epoch 1/2
-Train Loss: 0.7014 | Val Loss: 0.7131 | Time: 139.13s
-Train Loss: 0.6985 | Val Loss: 0.6979 | Time: 277.50s
-Train Loss: 0.6969 | Val Loss: 0.6818 | Time: 415.24s
-Train Loss: 0.6920 | Val Loss: 0.6684 | Time: 553.90s
-Train Loss: 0.7009 | Val Loss: 0.6624 | Time: 690.79s
-Train Loss: 0.6936 | Val Loss: 0.6654 | Time: 827.50s
-Train Loss: 0.6957 | Val Loss: 0.6743 | Time: 966.01s
-Train Loss: 0.6937 | Val Loss: 0.6831 | Time: 1102.43s
+Train Loss: 0.6918 | Val Loss: 0.6933 | Time: 33.35s
+Train Loss: 0.6885 | Val Loss: 0.6936 | Time: 65.88s
+Train Loss: 0.7038 | Val Loss: 0.6903 | Time: 98.44s
+Train Loss: 0.7052 | Val Loss: 0.6872 | Time: 130.94s
+Train Loss: 0.7016 | Val Loss: 0.6858 | Time: 163.41s
+Train Loss: 0.6967 | Val Loss: 0.6850 | Time: 195.88s
+Train Loss: 0.6971 | Val Loss: 0.6843 | Time: 228.32s
+Train Loss: 0.6981 | Val Loss: 0.6835 | Time: 260.82s
+Train Loss: 0.6950 | Val Loss: 0.6832 | Time: 293.28s
+Train Loss: 0.6918 | Val Loss: 0.6839 | Time: 325.81s
+Train Loss: 0.6893 | Val Loss: 0.6818 | Time: 358.25s
+Train Loss: 0.6905 | Val Loss: 0.6775 | Time: 390.75s
+Train Loss: 0.6878 | Val Loss: 0.6737 | Time: 423.23s
+Train Loss: 0.6880 | Val Loss: 0.6727 | Time: 455.74s
+Train Loss: 0.6870 | Val Loss: 0.6748 | Time: 488.19s
+Train Loss: 0.6888 | Val Loss: 0.6741 | Time: 520.65s
+Train Loss: 0.6890 | Val Loss: 0.6737 | Time: 553.13s
 Early stopping...
 
 Epoch 2/2
-Train Loss: 0.6868 | Val Loss: 0.6783 | Time: 136.90s
+Train Loss: 0.6868 | Val Loss: 0.6712 | Time: 32.71s
+Train Loss: 0.6625 | Val Loss: 0.6683 | Time: 65.19s
+Train Loss: 0.6675 | Val Loss: 0.6629 | Time: 97.64s
+Train Loss: 0.6787 | Val Loss: 0.6561 | Time: 129.97s
+Train Loss: 0.6826 | Val Loss: 0.6498 | Time: 162.32s
+Train Loss: 0.6784 | Val Loss: 0.6473 | Time: 194.67s
+Train Loss: 0.6764 | Val Loss: 0.6452 | Time: 227.02s
+Train Loss: 0.6717 | Val Loss: 0.6440 | Time: 259.42s
+Train Loss: 0.6688 | Val Loss: 0.6428 | Time: 291.72s
+Train Loss: 0.6682 | Val Loss: 0.6399 | Time: 324.00s
+Train Loss: 0.6668 | Val Loss: 0.6361 | Time: 356.28s
+Train Loss: 0.6651 | Val Loss: 0.6327 | Time: 388.56s
+Train Loss: 0.6666 | Val Loss: 0.6281 | Time: 420.89s
+Train Loss: 0.6625 | Val Loss: 0.6240 | Time: 453.16s
+Train Loss: 0.6601 | Val Loss: 0.6201 | Time: 485.47s
+Train Loss: 0.6603 | Val Loss: 0.6160 | Time: 517.75s
+Train Loss: 0.6608 | Val Loss: 0.6136 | Time: 550.08s
+Train Loss: 0.6608 | Val Loss: 0.6152 | Time: 582.78s
+Train Loss: 0.6612 | Val Loss: 0.6197 | Time: 615.12s
+Train Loss: 0.6585 | Val Loss: 0.6273 | Time: 647.41s
 Early stopping...
 
 Running experiment with batch_size=32, learning_rate=3e-05, epochs=3
 
 Epoch 1/3
-Train Loss: 0.7063 | Val Loss: 0.6929 | Time: 138.53s
-Train Loss: 0.7002 | Val Loss: 0.6883 | Time: 277.58s
-Train Loss: 0.6986 | Val Loss: 0.6847 | Time: 415.32s
-Train Loss: 0.6993 | Val Loss: 0.6821 | Time: 554.36s
-Train Loss: 0.6957 | Val Loss: 0.6776 | Time: 693.52s
-Train Loss: 0.6914 | Val Loss: 0.6734 | Time: 833.81s
-Train Loss: 0.6889 | Val Loss: 0.6703 | Time: 972.77s
-Train Loss: 0.6856 | Val Loss: 0.6677 | Time: 1112.82s
-Train Loss: 0.6863 | Val Loss: 0.6633 | Time: 1251.11s
-Train Loss: 0.6841 | Val Loss: 0.6612 | Time: 1389.88s
-Train Loss: 0.6822 | Val Loss: 0.6639 | Time: 1528.17s
-Train Loss: 0.6821 | Val Loss: 0.6699 | Time: 1667.22s
-Train Loss: 0.6828 | Val Loss: 0.6765 | Time: 1805.84s
+Train Loss: 0.7411 | Val Loss: 0.6965 | Time: 33.58s
+Train Loss: 0.7210 | Val Loss: 0.6975 | Time: 66.03s
+Train Loss: 0.7036 | Val Loss: 0.6985 | Time: 98.48s
+Train Loss: 0.7082 | Val Loss: 0.6953 | Time: 130.93s
+Train Loss: 0.7056 | Val Loss: 0.6935 | Time: 163.35s
+Train Loss: 0.7003 | Val Loss: 0.6902 | Time: 195.79s
+Train Loss: 0.7022 | Val Loss: 0.6860 | Time: 228.21s
+Train Loss: 0.7024 | Val Loss: 0.6805 | Time: 260.67s
+Train Loss: 0.7015 | Val Loss: 0.6758 | Time: 293.16s
+Train Loss: 0.6987 | Val Loss: 0.6734 | Time: 325.60s
+Train Loss: 0.6979 | Val Loss: 0.6718 | Time: 358.00s
+Train Loss: 0.6982 | Val Loss: 0.6699 | Time: 390.50s
+Train Loss: 0.6978 | Val Loss: 0.6676 | Time: 422.95s
+Train Loss: 0.6962 | Val Loss: 0.6652 | Time: 455.44s
+Train Loss: 0.6947 | Val Loss: 0.6635 | Time: 487.89s
+Train Loss: 0.6948 | Val Loss: 0.6630 | Time: 520.36s
+Train Loss: 0.6947 | Val Loss: 0.6610 | Time: 552.84s
+Train Loss: 0.6923 | Val Loss: 0.6577 | Time: 585.30s
+Train Loss: 0.6911 | Val Loss: 0.6545 | Time: 617.76s
+Train Loss: 0.6890 | Val Loss: 0.6536 | Time: 650.22s
+Train Loss: 0.6879 | Val Loss: 0.6518 | Time: 682.68s
+Train Loss: 0.6888 | Val Loss: 0.6486 | Time: 715.19s
+Train Loss: 0.6902 | Val Loss: 0.6452 | Time: 747.66s
+Train Loss: 0.6895 | Val Loss: 0.6424 | Time: 780.13s
+Train Loss: 0.6855 | Val Loss: 0.6421 | Time: 812.57s
+Train Loss: 0.6863 | Val Loss: 0.6369 | Time: 848.03s
+Train Loss: 0.6855 | Val Loss: 0.6308 | Time: 880.65s
+Train Loss: 0.6840 | Val Loss: 0.6272 | Time: 913.12s
+Train Loss: 0.6820 | Val Loss: 0.6327 | Time: 945.55s
+Train Loss: 0.6828 | Val Loss: 0.6431 | Time: 978.00s
+Train Loss: 0.6809 | Val Loss: 0.6495 | Time: 1010.40s
 Early stopping...
 
 Epoch 2/3
-Train Loss: 0.6848 | Val Loss: 0.6804 | Time: 139.19s
+Train Loss: 0.6134 | Val Loss: 0.6546 | Time: 32.65s
 Early stopping...
 
 Epoch 3/3
-Train Loss: 0.6829 | Val Loss: 0.6820 | Time: 138.79s
+Train Loss: 0.7168 | Val Loss: 0.6380 | Time: 32.58s
 Early stopping...
 
 Running experiment with batch_size=32, learning_rate=3e-05, epochs=4
 
 Epoch 1/4
-Train Loss: 0.6895 | Val Loss: 0.6953 | Time: 138.69s
-Train Loss: 0.6877 | Val Loss: 0.6958 | Time: 276.63s
-Train Loss: 0.6896 | Val Loss: 0.6955 | Time: 416.29s
-Train Loss: 0.6879 | Val Loss: 0.6944 | Time: 555.34s
-Train Loss: 0.6900 | Val Loss: 0.6912 | Time: 694.50s
-Train Loss: 0.6920 | Val Loss: 0.6866 | Time: 830.84s
-Train Loss: 0.6890 | Val Loss: 0.6840 | Time: 967.87s
-Train Loss: 0.6879 | Val Loss: 0.6810 | Time: 1103.98s
-Train Loss: 0.6906 | Val Loss: 0.6772 | Time: 1241.86s
-Train Loss: 0.6905 | Val Loss: 0.6729 | Time: 1379.31s
-Train Loss: 0.6895 | Val Loss: 0.6689 | Time: 1517.89s
-Train Loss: 0.6891 | Val Loss: 0.6666 | Time: 1656.55s
-Train Loss: 0.6888 | Val Loss: 0.6641 | Time: 1793.87s
-Train Loss: 0.6881 | Val Loss: 0.6597 | Time: 1932.61s
-Train Loss: 0.6867 | Val Loss: 0.6544 | Time: 2070.96s
-Train Loss: 0.6872 | Val Loss: 0.6512 | Time: 2208.84s
-Train Loss: 0.6872 | Val Loss: 0.6483 | Time: 2346.40s
-Train Loss: 0.6864 | Val Loss: 0.6468 | Time: 2483.09s
-Train Loss: 0.6857 | Val Loss: 0.6447 | Time: 2620.73s
-Train Loss: 0.6836 | Val Loss: 0.6411 | Time: 2758.06s
-Train Loss: 0.6829 | Val Loss: 0.6448 | Time: 2893.37s
-Train Loss: 0.6820 | Val Loss: 0.6474 | Time: 3029.71s
-Train Loss: 0.6808 | Val Loss: 0.6510 | Time: 3167.64s
+Train Loss: 0.6868 | Val Loss: 0.6926 | Time: 33.19s
+Train Loss: 0.6912 | Val Loss: 0.6950 | Time: 65.54s
+Train Loss: 0.6950 | Val Loss: 0.6950 | Time: 97.96s
+Train Loss: 0.6937 | Val Loss: 0.6955 | Time: 130.35s
 Early stopping...
 
 Epoch 2/4
-Train Loss: 0.6453 | Val Loss: 0.6537 | Time: 138.06s
+Train Loss: 0.7066 | Val Loss: 0.6944 | Time: 32.57s
 Early stopping...
 
 Epoch 3/4
-Train Loss: 0.7003 | Val Loss: 0.6427 | Time: 137.88sAll PyTorch model weights were used when initializing TFBertForSequenceClassification.
-
-Some weights or buffers of the TF 2.0 model TFBertForSequenceClassification were not initialized from the PyTorch model and are newly initialized: ['classifier.weight', 'classifier.bias']
-You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
-All PyTorch model weights were used when initializing TFBertForSequenceClassification.
-
-Some weights or buffers of the TF 2.0 model TFBertForSequenceClassification were not initialized from the PyTorch model and are newly initialized: ['classifier.weight', 'classifier.bias']
-You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
-All PyTorch model weights were used when initializing TFBertForSequenceClassification.
-
-Some weights or buffers of the TF 2.0 model TFBertForSequenceClassification were not initialized from the PyTorch model and are newly initialized: ['classifier.weight', 'classifier.bias']
-You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
-All PyTorch model weights were used when initializing TFBertForSequenceClassification.
-
-Some weights or buffers of the TF 2.0 model TFBertForSequenceClassification were not initialized from the PyTorch model and are newly initialized: ['classifier.weight', 'classifier.bias']
-You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
-
+Train Loss: 0.6956 | Val Loss: 0.6930 | Time: 32.59s
 Early stopping...
 
 Epoch 4/4
-Train Loss: 0.6969 | Val Loss: 0.6268 | Time: 136.94s
-Train Loss: 0.6740 | Val Loss: 0.6156 | Time: 274.22s
-Train Loss: 0.6648 | Val Loss: 0.6062 | Time: 409.48s
-Train Loss: 0.6615 | Val Loss: 0.5975 | Time: 544.24s
-Train Loss: 0.6577 | Val Loss: 0.5935 | Time: 682.13s
-Train Loss: 0.6549 | Val Loss: 0.5952 | Time: 818.60s
-Train Loss: 0.6497 | Val Loss: 0.6001 | Time: 957.01s
-Train Loss: 0.6470 | Val Loss: 0.5974 | Time: 1094.80s
+Train Loss: 0.7076 | Val Loss: 0.6882 | Time: 32.59s
+Train Loss: 0.6905 | Val Loss: 0.6848 | Time: 65.08s
+Train Loss: 0.6935 | Val Loss: 0.6811 | Time: 97.62s
+Train Loss: 0.6916 | Val Loss: 0.6777 | Time: 130.14s
+Train Loss: 0.6848 | Val Loss: 0.6749 | Time: 162.67s
+Train Loss: 0.6833 | Val Loss: 0.6720 | Time: 195.21s
+Train Loss: 0.6804 | Val Loss: 0.6689 | Time: 227.73s
+Train Loss: 0.6802 | Val Loss: 0.6649 | Time: 260.20s
+Train Loss: 0.6784 | Val Loss: 0.6611 | Time: 292.68s
+Train Loss: 0.6784 | Val Loss: 0.6566 | Time: 325.80s
+Train Loss: 0.6796 | Val Loss: 0.6536 | Time: 358.16s
+Train Loss: 0.6771 | Val Loss: 0.6509 | Time: 390.50s
+Train Loss: 0.6771 | Val Loss: 0.6472 | Time: 422.83s
+Train Loss: 0.6785 | Val Loss: 0.6414 | Time: 455.19s
+Train Loss: 0.6772 | Val Loss: 0.6356 | Time: 487.59s
+Train Loss: 0.6762 | Val Loss: 0.6309 | Time: 519.89s
+Train Loss: 0.6756 | Val Loss: 0.6265 | Time: 552.29s
+Train Loss: 0.6748 | Val Loss: 0.6220 | Time: 584.64s
+Train Loss: 0.6739 | Val Loss: 0.6176 | Time: 618.94s
+Train Loss: 0.6724 | Val Loss: 0.6131 | Time: 651.30s
+Train Loss: 0.6708 | Val Loss: 0.6090 | Time: 687.32s
+Train Loss: 0.6708 | Val Loss: 0.6101 | Time: 719.86s
+Train Loss: 0.6692 | Val Loss: 0.6087 | Time: 752.38s
+Train Loss: 0.6681 | Val Loss: 0.6093 | Time: 784.95s
+Train Loss: 0.6674 | Val Loss: 0.6069 | Time: 817.35s
+Train Loss: 0.6656 | Val Loss: 0.6000 | Time: 849.76s
+Train Loss: 0.6652 | Val Loss: 0.5909 | Time: 882.11s
+Train Loss: 0.6649 | Val Loss: 0.5835 | Time: 914.44s
+Train Loss: 0.6644 | Val Loss: 0.5777 | Time: 946.81s
+Train Loss: 0.6644 | Val Loss: 0.5719 | Time: 979.13s
+Train Loss: 0.6614 | Val Loss: 0.5681 | Time: 1011.44s
+Train Loss: 0.6589 | Val Loss: 0.5618 | Time: 1043.89s
+Train Loss: 0.6587 | Val Loss: 0.5555 | Time: 1076.25s
+Train Loss: 0.6578 | Val Loss: 0.5519 | Time: 1108.65s
+Train Loss: 0.6586 | Val Loss: 0.5497 | Time: 1141.16s
+Train Loss: 0.6596 | Val Loss: 0.5550 | Time: 1173.66s
+Train Loss: 0.6545 | Val Loss: 0.5570 | Time: 1206.19s
+Train Loss: 0.6539 | Val Loss: 0.5488 | Time: 1238.59s
+Train Loss: 0.6508 | Val Loss: 0.5440 | Time: 1270.95s
+Train Loss: 0.6483 | Val Loss: 0.5389 | Time: 1303.30s
+Train Loss: 0.6446 | Val Loss: 0.5325 | Time: 1335.67s
+Train Loss: 0.6411 | Val Loss: 0.5300 | Time: 1368.04s
+Train Loss: 0.6374 | Val Loss: 0.5294 | Time: 1400.35s
+Train Loss: 0.6363 | Val Loss: 0.5378 | Time: 1433.76s
+Train Loss: 0.6339 | Val Loss: 0.5645 | Time: 1466.06s
+Train Loss: 0.6325 | Val Loss: 0.5896 | Time: 1498.44s
 Early stopping...
 
 Running experiment with batch_size=32, learning_rate=2e-05, epochs=2
 
 Epoch 1/2
-Train Loss: 0.7221 | Val Loss: 0.6944 | Time: 138.41s
-Train Loss: 0.7126 | Val Loss: 0.6955 | Time: 275.97s
-Train Loss: 0.6995 | Val Loss: 0.6996 | Time: 414.46s
-Train Loss: 0.7037 | Val Loss: 0.6998 | Time: 553.13s
+Train Loss: 0.6944 | Val Loss: 0.6952 | Time: 33.63s
+Train Loss: 0.7028 | Val Loss: 0.6927 | Time: 66.04s
+Train Loss: 0.6998 | Val Loss: 0.6899 | Time: 98.46s
+Train Loss: 0.7033 | Val Loss: 0.6883 | Time: 131.01s
+Train Loss: 0.7087 | Val Loss: 0.6870 | Time: 163.53s
+Train Loss: 0.7075 | Val Loss: 0.6856 | Time: 196.07s
+Train Loss: 0.7047 | Val Loss: 0.6834 | Time: 228.62s
+Train Loss: 0.7028 | Val Loss: 0.6817 | Time: 260.98s
+Train Loss: 0.7023 | Val Loss: 0.6798 | Time: 293.37s
+Train Loss: 0.7018 | Val Loss: 0.6779 | Time: 325.97s
+Train Loss: 0.7006 | Val Loss: 0.6757 | Time: 358.51s
+Train Loss: 0.7013 | Val Loss: 0.6739 | Time: 391.10s
+Train Loss: 0.6993 | Val Loss: 0.6719 | Time: 423.69s
+Train Loss: 0.6987 | Val Loss: 0.6701 | Time: 456.20s
+Train Loss: 0.6974 | Val Loss: 0.6683 | Time: 488.83s
+Train Loss: 0.6958 | Val Loss: 0.6665 | Time: 521.60s
+Train Loss: 0.6946 | Val Loss: 0.6646 | Time: 554.08s
+Train Loss: 0.6945 | Val Loss: 0.6630 | Time: 586.54s
+Train Loss: 0.6936 | Val Loss: 0.6617 | Time: 618.96s
+Train Loss: 0.6929 | Val Loss: 0.6597 | Time: 651.41s
+Train Loss: 0.6914 | Val Loss: 0.6576 | Time: 683.97s
+Train Loss: 0.6902 | Val Loss: 0.6549 | Time: 716.57s
+Train Loss: 0.6882 | Val Loss: 0.6529 | Time: 749.16s
+Train Loss: 0.6886 | Val Loss: 0.6508 | Time: 781.69s
+Train Loss: 0.6864 | Val Loss: 0.6490 | Time: 814.20s
+Train Loss: 0.6855 | Val Loss: 0.6469 | Time: 846.70s
+Train Loss: 0.6850 | Val Loss: 0.6428 | Time: 879.14s
+Train Loss: 0.6829 | Val Loss: 0.6387 | Time: 911.59s
+Train Loss: 0.6840 | Val Loss: 0.6350 | Time: 945.26s
+Train Loss: 0.6823 | Val Loss: 0.6324 | Time: 977.78s
+Train Loss: 0.6815 | Val Loss: 0.6298 | Time: 1010.25s
+Train Loss: 0.6814 | Val Loss: 0.6266 | Time: 1042.89s
+Train Loss: 0.6824 | Val Loss: 0.6235 | Time: 1075.32s
+Train Loss: 0.6809 | Val Loss: 0.6205 | Time: 1107.72s
+Train Loss: 0.6806 | Val Loss: 0.6170 | Time: 1140.08s
+Train Loss: 0.6793 | Val Loss: 0.6134 | Time: 1172.48s
+Train Loss: 0.6782 | Val Loss: 0.6105 | Time: 1204.89s
+Train Loss: 0.6768 | Val Loss: 0.6073 | Time: 1237.39s
+Train Loss: 0.6755 | Val Loss: 0.6039 | Time: 1271.57s
+Train Loss: 0.6752 | Val Loss: 0.6009 | Time: 1304.15s
+Train Loss: 0.6745 | Val Loss: 0.5978 | Time: 1336.72s
+Train Loss: 0.6745 | Val Loss: 0.5946 | Time: 1369.33s
+Train Loss: 0.6737 | Val Loss: 0.5924 | Time: 1401.78s
+Train Loss: 0.6726 | Val Loss: 0.5903 | Time: 1434.23s
+Train Loss: 0.6713 | Val Loss: 0.5880 | Time: 1466.65s
+Train Loss: 0.6712 | Val Loss: 0.5871 | Time: 1499.09s
+Train Loss: 0.6711 | Val Loss: 0.5824 | Time: 1531.51s
+Train Loss: 0.6697 | Val Loss: 0.5787 | Time: 1563.92s
+Train Loss: 0.6690 | Val Loss: 0.5756 | Time: 1596.46s
+Train Loss: 0.6686 | Val Loss: 0.5697 | Time: 1628.82s
+Train Loss: 0.6684 | Val Loss: 0.5698 | Time: 1662.52s
+Train Loss: 0.6671 | Val Loss: 0.5804 | Time: 1695.63s
+Train Loss: 0.6652 | Val Loss: 0.5917 | Time: 1728.39s
 Early stopping...
 
 Epoch 2/2
-Train Loss: 0.6974 | Val Loss: 0.6975 | Time: 137.73s
+Train Loss: 0.6871 | Val Loss: 0.5958 | Time: 32.64s
 Early stopping...
 
 Running experiment with batch_size=32, learning_rate=2e-05, epochs=3
 
 Epoch 1/3
-Train Loss: 0.7339 | Val Loss: 0.6912 | Time: 138.06s
-Train Loss: 0.7134 | Val Loss: 0.6887 | Time: 275.62s
-Train Loss: 0.7031 | Val Loss: 0.6898 | Time: 412.80s
-Train Loss: 0.7078 | Val Loss: 0.6893 | Time: 549.37s
-Train Loss: 0.7053 | Val Loss: 0.6879 | Time: 688.29s
-Train Loss: 0.7073 | Val Loss: 0.6871 | Time: 825.93s
-Train Loss: 0.7065 | Val Loss: 0.6861 | Time: 964.74s
-Train Loss: 0.7039 | Val Loss: 0.6847 | Time: 1101.66s
-Train Loss: 0.7023 | Val Loss: 0.6825 | Time: 1241.05s
-Train Loss: 0.7010 | Val Loss: 0.6804 | Time: 1378.81s
-Train Loss: 0.6979 | Val Loss: 0.6784 | Time: 1518.50s
-Train Loss: 0.6971 | Val Loss: 0.6771 | Time: 1658.53s
-Train Loss: 0.6948 | Val Loss: 0.6763 | Time: 1797.63s
-Train Loss: 0.6946 | Val Loss: 0.6754 | Time: 1935.87s
-Train Loss: 0.6930 | Val Loss: 0.6759 | Time: 2075.28s
-Train Loss: 0.6887 | Val Loss: 0.6774 | Time: 2212.19s
-Train Loss: 0.6904 | Val Loss: 0.6754 | Time: 2348.51s
+Train Loss: 0.6906 | Val Loss: 0.6869 | Time: 33.27s
+Train Loss: 0.6926 | Val Loss: 0.6860 | Time: 65.71s
+Train Loss: 0.6914 | Val Loss: 0.6850 | Time: 98.15s
+Train Loss: 0.6978 | Val Loss: 0.6827 | Time: 130.59s
+Train Loss: 0.6962 | Val Loss: 0.6804 | Time: 163.00s
+Train Loss: 0.6975 | Val Loss: 0.6785 | Time: 195.40s
+Train Loss: 0.6949 | Val Loss: 0.6771 | Time: 227.82s
+Train Loss: 0.6963 | Val Loss: 0.6758 | Time: 260.27s
+Train Loss: 0.6947 | Val Loss: 0.6749 | Time: 292.65s
+Train Loss: 0.6930 | Val Loss: 0.6738 | Time: 325.10s
+Train Loss: 0.6904 | Val Loss: 0.6717 | Time: 357.52s
+Train Loss: 0.6886 | Val Loss: 0.6699 | Time: 389.95s
+Train Loss: 0.6876 | Val Loss: 0.6678 | Time: 422.40s
+Train Loss: 0.6869 | Val Loss: 0.6665 | Time: 454.92s
+Train Loss: 0.6857 | Val Loss: 0.6656 | Time: 487.47s
+Train Loss: 0.6843 | Val Loss: 0.6638 | Time: 519.94s
+Train Loss: 0.6848 | Val Loss: 0.6617 | Time: 552.38s
+Train Loss: 0.6848 | Val Loss: 0.6593 | Time: 584.85s
+Train Loss: 0.6852 | Val Loss: 0.6565 | Time: 617.28s
+Train Loss: 0.6855 | Val Loss: 0.6540 | Time: 649.73s
+Train Loss: 0.6855 | Val Loss: 0.6510 | Time: 682.16s
+Train Loss: 0.6857 | Val Loss: 0.6483 | Time: 714.61s
+Train Loss: 0.6855 | Val Loss: 0.6456 | Time: 747.06s
+Train Loss: 0.6851 | Val Loss: 0.6438 | Time: 779.55s
+Train Loss: 0.6842 | Val Loss: 0.6433 | Time: 811.99s
+Train Loss: 0.6835 | Val Loss: 0.6438 | Time: 844.45s
+Train Loss: 0.6831 | Val Loss: 0.6440 | Time: 876.89s
+Train Loss: 0.6811 | Val Loss: 0.6459 | Time: 909.34s
 Early stopping...
 
 Epoch 2/3
-Train Loss: 0.7136 | Val Loss: 0.6720 | Time: 136.49s
-Train Loss: 0.6767 | Val Loss: 0.6691 | Time: 272.98s
-Train Loss: 0.6805 | Val Loss: 0.6650 | Time: 408.29s
-Train Loss: 0.6768 | Val Loss: 0.6593 | Time: 544.07s
-Train Loss: 0.6772 | Val Loss: 0.6539 | Time: 679.84s
-Train Loss: 0.6753 | Val Loss: 0.6502 | Time: 816.80s
-Train Loss: 0.6769 | Val Loss: 0.6467 | Time: 953.25s
-Train Loss: 0.6783 | Val Loss: 0.6441 | Time: 1089.67s
-Train Loss: 0.6726 | Val Loss: 0.6415 | Time: 1226.75s
-Train Loss: 0.6736 | Val Loss: 0.6392 | Time: 1363.39s
-Train Loss: 0.6724 | Val Loss: 0.6368 | Time: 1499.82s
-Train Loss: 0.6734 | Val Loss: 0.6346 | Time: 1634.90s
-Train Loss: 0.6756 | Val Loss: 0.6313 | Time: 1773.09s
-Train Loss: 0.6720 | Val Loss: 0.6280 | Time: 1910.35s
-Train Loss: 0.6702 | Val Loss: 0.6255 | Time: 2047.37s
-Train Loss: 0.6650 | Val Loss: 0.6232 | Time: 2184.78s
-Train Loss: 0.6646 | Val Loss: 0.6224 | Time: 2320.72s
-Train Loss: 0.6683 | Val Loss: 0.6203 | Time: 2455.94s
-Train Loss: 0.6663 | Val Loss: 0.6177 | Time: 2590.93s
-Train Loss: 0.6655 | Val Loss: 0.6158 | Time: 2725.15s
-Train Loss: 0.6644 | Val Loss: 0.6138 | Time: 2860.95s
-Train Loss: 0.6660 | Val Loss: 0.6106 | Time: 2997.31s
-Train Loss: 0.6640 | Val Loss: 0.6068 | Time: 3133.18s
-Train Loss: 0.6640 | Val Loss: 0.5999 | Time: 3268.79s
-Train Loss: 0.6640 | Val Loss: 0.5923 | Time: 3403.33s
-Train Loss: 0.6659 | Val Loss: 0.5885 | Time: 3538.28s
-Train Loss: 0.6630 | Val Loss: 0.5898 | Time: 3673.09s
-Train Loss: 0.6629 | Val Loss: 0.5954 | Time: 3807.62s
-Train Loss: 0.6618 | Val Loss: 0.6056 | Time: 3943.12s
+Train Loss: 0.6952 | Val Loss: 0.6423 | Time: 32.65s
+Train Loss: 0.6841 | Val Loss: 0.6378 | Time: 65.10s
+Train Loss: 0.6802 | Val Loss: 0.6337 | Time: 97.55s
+Train Loss: 0.6768 | Val Loss: 0.6269 | Time: 130.03s
+Train Loss: 0.6761 | Val Loss: 0.6194 | Time: 162.47s
+Train Loss: 0.6697 | Val Loss: 0.6148 | Time: 194.92s
+Train Loss: 0.6683 | Val Loss: 0.6130 | Time: 227.37s
+Train Loss: 0.6674 | Val Loss: 0.6143 | Time: 259.82s
+Train Loss: 0.6678 | Val Loss: 0.6187 | Time: 292.25s
+Train Loss: 0.6621 | Val Loss: 0.6273 | Time: 324.68s
 Early stopping...
 
 Epoch 3/3
-Train Loss: 0.5850 | Val Loss: 0.6174 | Time: 134.94s
+Train Loss: 0.6926 | Val Loss: 0.6311 | Time: 32.61s
 Early stopping...
 
 Running experiment with batch_size=32, learning_rate=2e-05, epochs=4
 
 Epoch 1/4
-Train Loss: 0.7187 | Val Loss: 0.6987 | Time: 133.79s
-Train Loss: 0.7013 | Val Loss: 0.6942 | Time: 269.34s
-Train Loss: 0.7075 | Val Loss: 0.6922 | Time: 403.90s
-Train Loss: 0.7040 | Val Loss: 0.6908 | Time: 538.02s
-Train Loss: 0.7038 | Val Loss: 0.6886 | Time: 672.17s
-Train Loss: 0.7002 | Val Loss: 0.6866 | Time: 805.95s
-Train Loss: 0.6999 | Val Loss: 0.6846 | Time: 939.78s
-Train Loss: 0.6997 | Val Loss: 0.6836 | Time: 1074.95s
-Train Loss: 0.6976 | Val Loss: 0.6825 | Time: 1210.87s
-Train Loss: 0.6968 | Val Loss: 0.6810 | Time: 1345.72s
-Train Loss: 0.6956 | Val Loss: 0.6796 | Time: 1480.72s
-Train Loss: 0.6949 | Val Loss: 0.6787 | Time: 1616.12s
-Train Loss: 0.6927 | Val Loss: 0.6779 | Time: 1750.66s
-Train Loss: 0.6929 | Val Loss: 0.6772 | Time: 1885.40s
-Train Loss: 0.6928 | Val Loss: 0.6768 | Time: 2021.69s
-Train Loss: 0.6925 | Val Loss: 0.6766 | Time: 2155.87s
-Train Loss: 0.6937 | Val Loss: 0.6754 | Time: 2290.33s
-Train Loss: 0.6912 | Val Loss: 0.6750 | Time: 2425.31s
-Train Loss: 0.6914 | Val Loss: 0.6734 | Time: 2559.14s
-Train Loss: 0.6904 | Val Loss: 0.6718 | Time: 2694.56s
-Train Loss: 0.6898 | Val Loss: 0.6696 | Time: 2830.19s
-Train Loss: 0.6889 | Val Loss: 0.6670 | Time: 2966.32s
-Train Loss: 0.6903 | Val Loss: 0.6611 | Time: 3101.35s
-Train Loss: 0.6898 | Val Loss: 0.6555 | Time: 3236.40s
-Train Loss: 0.6899 | Val Loss: 0.6505 | Time: 3371.81s
-Train Loss: 0.6892 | Val Loss: 0.6470 | Time: 3505.61s
-Train Loss: 0.6883 | Val Loss: 0.6420 | Time: 3638.99s
-Train Loss: 0.6879 | Val Loss: 0.6382 | Time: 3773.75s
-Train Loss: 0.6872 | Val Loss: 0.6351 | Time: 3907.76s
-Train Loss: 0.6865 | Val Loss: 0.6325 | Time: 4042.40s
-Train Loss: 0.6861 | Val Loss: 0.6307 | Time: 4177.55s
-Train Loss: 0.6858 | Val Loss: 0.6284 | Time: 4311.13s
-Train Loss: 0.6850 | Val Loss: 0.6267 | Time: 4445.73s
-Train Loss: 0.6845 | Val Loss: 0.6262 | Time: 4579.36s
-Train Loss: 0.6844 | Val Loss: 0.6254 | Time: 4713.66s
-Train Loss: 0.6834 | Val Loss: 0.6235 | Time: 4847.36s
-Train Loss: 0.6826 | Val Loss: 0.6205 | Time: 4983.18s
-Train Loss: 0.6823 | Val Loss: 0.6163 | Time: 5118.77s
-Train Loss: 0.6812 | Val Loss: 0.6125 | Time: 5254.45s
-Train Loss: 0.6804 | Val Loss: 0.6090 | Time: 5390.96s
-Train Loss: 0.6799 | Val Loss: 0.6059 | Time: 5526.77s
-Train Loss: 0.6789 | Val Loss: 0.6035 | Time: 5661.74s
-Train Loss: 0.6776 | Val Loss: 0.6007 | Time: 5797.30s
-Train Loss: 0.6756 | Val Loss: 0.6001 | Time: 5933.51s
-Train Loss: 0.6745 | Val Loss: 0.5966 | Time: 6070.88s
-Train Loss: 0.6735 | Val Loss: 0.5920 | Time: 6204.72s
-Train Loss: 0.6725 | Val Loss: 0.5873 | Time: 6339.00s
-Train Loss: 0.6714 | Val Loss: 0.5800 | Time: 6474.41s
-Train Loss: 0.6694 | Val Loss: 0.5742 | Time: 6608.84s
-Train Loss: 0.6683 | Val Loss: 0.5689 | Time: 6744.10s
-Train Loss: 0.6667 | Val Loss: 0.5671 | Time: 6879.22s
-Train Loss: 0.6655 | Val Loss: 0.5683 | Time: 7016.08s
-Train Loss: 0.6651 | Val Loss: 0.5658 | Time: 7150.82s
-Train Loss: 0.6657 | Val Loss: 0.5640 | Time: 7286.84s
-Train Loss: 0.6648 | Val Loss: 0.5591 | Time: 7423.33s
-Train Loss: 0.6615 | Val Loss: 0.5499 | Time: 7560.44s
-Train Loss: 0.6603 | Val Loss: 0.5397 | Time: 7698.43s
-Train Loss: 0.6592 | Val Loss: 0.5331 | Time: 7834.92s
-Train Loss: 0.6580 | Val Loss: 0.5325 | Time: 7970.65s
-Train Loss: 0.6575 | Val Loss: 0.5329 | Time: 8105.60s
-Train Loss: 0.6563 | Val Loss: 0.5304 | Time: 8240.46s
-Train Loss: 0.6557 | Val Loss: 0.5233 | Time: 8377.20s
-Train Loss: 0.6534 | Val Loss: 0.5187 | Time: 8512.29s
-Train Loss: 0.6526 | Val Loss: 0.5191 | Time: 8647.25s
-Train Loss: 0.6515 | Val Loss: 0.5250 | Time: 8783.50s
-Train Loss: 0.6520 | Val Loss: 0.5343 | Time: 8919.47s
+Train Loss: 0.7137 | Val Loss: 0.6898 | Time: 33.61s
+Train Loss: 0.7116 | Val Loss: 0.6884 | Time: 66.07s
+Train Loss: 0.7023 | Val Loss: 0.6873 | Time: 98.69s
+Train Loss: 0.7070 | Val Loss: 0.6865 | Time: 131.28s
+Train Loss: 0.7063 | Val Loss: 0.6854 | Time: 163.82s
+Train Loss: 0.7044 | Val Loss: 0.6844 | Time: 196.37s
+Train Loss: 0.7032 | Val Loss: 0.6827 | Time: 228.88s
+Train Loss: 0.7017 | Val Loss: 0.6815 | Time: 261.32s
+Train Loss: 0.7012 | Val Loss: 0.6802 | Time: 293.74s
+Train Loss: 0.6997 | Val Loss: 0.6793 | Time: 326.20s
+Train Loss: 0.6970 | Val Loss: 0.6787 | Time: 359.47s
+Train Loss: 0.6977 | Val Loss: 0.6780 | Time: 391.98s
+Train Loss: 0.6978 | Val Loss: 0.6768 | Time: 424.51s
+Train Loss: 0.6969 | Val Loss: 0.6761 | Time: 457.03s
+Train Loss: 0.6980 | Val Loss: 0.6749 | Time: 489.49s
+Train Loss: 0.6977 | Val Loss: 0.6734 | Time: 521.98s
+Train Loss: 0.6971 | Val Loss: 0.6722 | Time: 554.46s
+Train Loss: 0.6963 | Val Loss: 0.6711 | Time: 587.02s
+Train Loss: 0.6955 | Val Loss: 0.6701 | Time: 621.79s
+Train Loss: 0.6952 | Val Loss: 0.6690 | Time: 654.22s
+Train Loss: 0.6941 | Val Loss: 0.6676 | Time: 686.62s
+Train Loss: 0.6923 | Val Loss: 0.6659 | Time: 719.05s
+Train Loss: 0.6918 | Val Loss: 0.6641 | Time: 751.46s
+Train Loss: 0.6914 | Val Loss: 0.6621 | Time: 783.88s
+Train Loss: 0.6914 | Val Loss: 0.6601 | Time: 816.25s
+Train Loss: 0.6909 | Val Loss: 0.6579 | Time: 848.76s
+Train Loss: 0.6909 | Val Loss: 0.6556 | Time: 881.23s
+Train Loss: 0.6908 | Val Loss: 0.6531 | Time: 913.73s
+Train Loss: 0.6900 | Val Loss: 0.6506 | Time: 948.38s
+Train Loss: 0.6898 | Val Loss: 0.6482 | Time: 980.98s
+Train Loss: 0.6889 | Val Loss: 0.6461 | Time: 1013.60s
+Train Loss: 0.6880 | Val Loss: 0.6441 | Time: 1046.18s
+Train Loss: 0.6879 | Val Loss: 0.6426 | Time: 1080.70s
+Train Loss: 0.6869 | Val Loss: 0.6415 | Time: 1113.28s
+Train Loss: 0.6866 | Val Loss: 0.6403 | Time: 1145.82s
+Train Loss: 0.6854 | Val Loss: 0.6373 | Time: 1178.40s
+Train Loss: 0.6842 | Val Loss: 0.6322 | Time: 1210.95s
+Train Loss: 0.6836 | Val Loss: 0.6287 | Time: 1243.58s
+Train Loss: 0.6840 | Val Loss: 0.6230 | Time: 1276.18s
+Train Loss: 0.6827 | Val Loss: 0.6186 | Time: 1308.77s
+Train Loss: 0.6825 | Val Loss: 0.6149 | Time: 1341.36s
+Train Loss: 0.6814 | Val Loss: 0.6122 | Time: 1373.97s
+Train Loss: 0.6808 | Val Loss: 0.6100 | Time: 1406.55s
+Train Loss: 0.6795 | Val Loss: 0.6079 | Time: 1438.98s
+Train Loss: 0.6786 | Val Loss: 0.6056 | Time: 1471.41s
+Train Loss: 0.6783 | Val Loss: 0.6037 | Time: 1503.81s
+Train Loss: 0.6766 | Val Loss: 0.6007 | Time: 1536.25s
+Train Loss: 0.6763 | Val Loss: 0.5962 | Time: 1568.64s
+Train Loss: 0.6773 | Val Loss: 0.5920 | Time: 1601.07s
+Train Loss: 0.6771 | Val Loss: 0.5887 | Time: 1633.49s
+Train Loss: 0.6764 | Val Loss: 0.5857 | Time: 1665.91s
+Train Loss: 0.6750 | Val Loss: 0.5829 | Time: 1698.35s
+Train Loss: 0.6749 | Val Loss: 0.5811 | Time: 1730.83s
+Train Loss: 0.6742 | Val Loss: 0.5782 | Time: 1763.38s
+Train Loss: 0.6733 | Val Loss: 0.5760 | Time: 1795.97s
+Train Loss: 0.6721 | Val Loss: 0.5747 | Time: 1828.57s
+Train Loss: 0.6703 | Val Loss: 0.5737 | Time: 1861.13s
+Train Loss: 0.6696 | Val Loss: 0.5706 | Time: 1893.70s
+Train Loss: 0.6685 | Val Loss: 0.5666 | Time: 1926.23s
+Train Loss: 0.6663 | Val Loss: 0.5607 | Time: 1958.88s
+Train Loss: 0.6645 | Val Loss: 0.5565 | Time: 1991.44s
+Train Loss: 0.6638 | Val Loss: 0.5526 | Time: 2024.04s
+Train Loss: 0.6623 | Val Loss: 0.5507 | Time: 2056.64s
+Train Loss: 0.6595 | Val Loss: 0.5497 | Time: 2089.22s
+Train Loss: 0.6573 | Val Loss: 0.5496 | Time: 2121.83s
+Train Loss: 0.6553 | Val Loss: 0.5487 | Time: 2154.40s
+Train Loss: 0.6531 | Val Loss: 0.5489 | Time: 2186.96s
+Train Loss: 0.6514 | Val Loss: 0.5479 | Time: 2219.55s
+Train Loss: 0.6498 | Val Loss: 0.5481 | Time: 2252.12s
+Train Loss: 0.6469 | Val Loss: 0.5460 | Time: 2284.73s
+Train Loss: 0.6449 | Val Loss: 0.5458 | Time: 2317.33s
+Train Loss: 0.6455 | Val Loss: 0.5451 | Time: 2349.91s
+Train Loss: 0.6444 | Val Loss: 0.5430 | Time: 2382.46s
+Train Loss: 0.6423 | Val Loss: 0.5406 | Time: 2415.07s
+Train Loss: 0.6392 | Val Loss: 0.5403 | Time: 2447.62s
+Train Loss: 0.6382 | Val Loss: 0.5424 | Time: 2480.21s
+Train Loss: 0.6357 | Val Loss: 0.5500 | Time: 2512.80s
+Train Loss: 0.6333 | Val Loss: 0.5567 | Time: 2545.42s
 Early stopping...
 
 Epoch 2/4
-Train Loss: 0.5668 | Val Loss: 0.5397 | Time: 135.22s
+Train Loss: 0.3939 | Val Loss: 0.5582 | Time: 32.80s
 Early stopping...
 
 Epoch 3/4
-Train Loss: 0.4069 | Val Loss: 0.5464 | Time: 136.79s
+Train Loss: 0.3822 | Val Loss: 0.5613 | Time: 32.84s
 Early stopping...
 
 Epoch 4/4
-Train Loss: 0.5533 | Val Loss: 0.5550 | Time: 134.67s
+Train Loss: 0.7711 | Val Loss: 0.5581 | Time: 32.79s
 Early stopping...
 
-Best Params: batch=32, lr=2e-05, epochs=4
+Best Params: batch=32, lr=3e-05, epochs=4
 
 Epoch 1/4
-Train Loss: 0.4375 | Val Loss: 0.3758
+Train Loss: 0.4491 | Val Loss: 0.4091
 
 Epoch 2/4
-Train Loss: 0.3715 | Val Loss: 0.3719
+Train Loss: 0.3807 | Val Loss: 0.4035
 
 Epoch 3/4
-Train Loss: 0.3511 | Val Loss: 0.3752
+Train Loss: 0.3536 | Val Loss: 0.4136
 
 Epoch 4/4
-Train Loss: 0.3377 | Val Loss: 0.3719
+Train Loss: 0.3389 | Val Loss: 0.4258
 
 Final Evaluation
-Accuracy: 0.8271 | Precision: 0.9250 | Recall: 0.7119
-F1 Score: 0.8046
+Accuracy: 0.8278 | Precision: 0.8915 | Recall: 0.7463
+F1 Score: 0.8125
 Confusion Matrix:
-[[1583   97]
- [ 484 1196]]
+[[1553  155]
+ [ 433 1274]]
