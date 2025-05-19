@@ -30,10 +30,6 @@ Data yang digunakan adalah tweet berbahasa Inggris yang diterjemahkan ke dalam B
 - **TweetEval** – Hate & Offensive (oleh CardiffNLP)  
 - **Emoji-Based Hate Speech** – oleh Sushil Dalavi et al.
 
-Tiap dataset diuji dalam dua kondisi:
-- Teks asli dengan emoji
-- Teks dengan emoji yang diubah menjadi deskripsi via `emoji.demojize()`
-
 ---
 
 ## ⚙️ Teknologi yang Digunakan
